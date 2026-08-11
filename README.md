@@ -23,43 +23,47 @@ Use `Niri` session at login to use it. I have fixed most quirks and issues, and 
 ![Niri + DMS](niri-dms-01.png)
 ![Niri + DMS - Overview Mode](niri-dms-02.png)
 
-## The layout of this profile
+## Layout
+
+A dotdrift profile. Presence is management: every `modules/<id>/module.toml`
+is selected automatically — nothing is enabled or disabled by hand.
 
 ```
-dotdrift.toml            # minimal profile root
-modules/<app>/           # one module per pimp app (89 user + 19 system scope)
-  module.toml
-  home/...               # dotfile sources (verbatim copies)
-modules/system-setup/    # post-hooks: idempotent system setup scripts
-modules/user-setup/      # post-hooks: idempotent user setup scripts
-modules/mountpoints/     # empty base module; per-host overlays below
-hosts/<host>/modules/mountpoints/  # rendered systemd mount units + enable hooks
-scripts/                 # legacy scripts
+dotdrift.toml          # stub — modules are auto-selected, no hand config here
+mise.toml              # tool versions (dotdrift, mise) + PARU env used by hooks
+modules/<id>/          # 116 modules (95 user, 21 system-scope)
+  module.toml          #   [packages] [dotfiles] (+optional [hooks], +scope="system")
+  home/ · usr/ · etc/  #   dotfile sources referenced by [dotfiles]
+mise-tasks/            # shell setup tasks (system/ user/ network/) invoked by hooks
+mountpoints/           # mount declarations (mounts*.yaml) + systemd unit templates;
+                       # rendered units live in modules/mountpoints + hosts/<host>/...
+hosts/<host>/          # per-host layer (cri-laptop, cri-pc)
+  modules/<id>/        #   host overlays (per-host generated mount units)
+users/<user>/          # per-user layer, highest precedence (currently empty)
 ```
 
-App activation hooks: an optional `apps/<app>/post-hooks` file (one shell
-command per line; `#` comments and blank lines ignored) is emitted as that
-app module's `[hooks] post` — attached to the system module when the app
-has one, else the user module. System-scope hooks carry their own `sudo`
-(e.g. `system-logind` restarts `systemd-logind` after its drop-in lands).
+Hooks: a module's optional `[hooks].post` runs shell commands (as mise tasks,
+from the profile root) after its dotfiles land. System-scope modules carry
+inline `sudo` — e.g. `system-logind` restarts `systemd-logind`, `mountpoints`
+enables its generated `.mount`/`.timer` units, and `system-setup`/`user-setup`
+fan out to the `mise-tasks/` scripts. Skip them with `dotdrift apply --no-hooks`.
 
 ## Install
 
 This profile is self-contained: [mise](https://mise.jdx.dev) bootstraps both
-itself and dotdrift (both listed in `mise.toml`) — no Go toolchain, no separate
-dotdrift checkout.
+itself and dotdrift (both listed in `mise.toml`).
 
 ```sh
 sudo pacman -Sy mise
 # or
-curl https://mise.run | sh     # install mise → ~/.local/bin
+curl https://mise.run | sh   # install mise → ~/.local/bin
 ```
 
 ```sh
 cd ~/dotfiles
-mise up                   # installs dotdrift (+ latest mise) from mise.toml
-exec $SHELL                    # reload shell so mise shims are on PATH
-dotdrift detect                # sanity check: prints host/user/os facts
+mise up                      # installs dotdrift (+ latest mise) from mise.toml
+exec $SHELL                  # reload shell so mise shims are on PATH
+dotdrift detect              # sanity check: prints host/user/os facts
 ```
 
 ## Apply
