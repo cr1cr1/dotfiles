@@ -1,0 +1,8 @@
+[packages]
+present = [
+  "rsync", # A fast and versatile file copying tool for remote and local files
+]
+
+[dotfiles]
+"~/.config/rsyncd.conf" = { source = "home/.config/rsyncd.conf", mode = "symlink" }
+"~/.config/rsyncd.sh" = { source = "home/.config/rsyncd.sh", mode = "symlink" }

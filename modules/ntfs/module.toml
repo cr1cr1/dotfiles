@@ -1,0 +1,10 @@
+[when]
+kernel = ">= 7.2"
+
+[packages]
+present = [
+    "ntfsprogs-plus"
+]
+absent = [
+    "ntfs-3g"
+]

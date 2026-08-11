@@ -1,0 +1,7 @@
+[packages]
+present = [
+  "zellij",
+]
+
+[dotfiles]
+"~/.config/zellij" = { source = "home/.config/zellij", mode = "symlink-each" }

@@ -1,0 +1,2 @@
+[dotfiles]
+"~/Pictures" = { source = "home/Pictures", mode = "symlink-each" }

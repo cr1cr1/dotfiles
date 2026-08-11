@@ -1,0 +1,7 @@
+[packages]
+present = [
+  "aur/sesh-bin", # Smart session manager for the terminal
+]
+
+[dotfiles]
+"~/.config/sesh" = { source = "home/.config/sesh", mode = "symlink-each" }

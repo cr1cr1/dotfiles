@@ -1,0 +1,7 @@
+[packages]
+present = [
+  "kew", # A terminal music player
+]
+
+[dotfiles]
+"~/.config/kew" = { source = "home/.config/kew", mode = "symlink-each" }

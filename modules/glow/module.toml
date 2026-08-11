@@ -1,0 +1,7 @@
+[packages]
+present = [
+  "glow", # Command-line markdown renderer
+]
+
+[dotfiles]
+"~/.config/glow" = { source = "home/.config/glow", mode = "symlink-each" }

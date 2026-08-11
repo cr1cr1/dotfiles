@@ -1,0 +1,6 @@
+[env]
+PARU = 'paru -S --noconfirm --needed --cleanafter'
+
+[tools]
+"aqua:jdx/mise" = "latest"
+"github:thedataflows/dotdrift" = "latest"

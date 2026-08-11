@@ -1,0 +1,7 @@
+[packages]
+present = [
+  "aur/bookokrat-bin", # Terminal-based EPUB and PDF reader with rich TUI
+]
+
+[dotfiles]
+"~/.config/bookokrat" = { source = "home/.config/bookokrat", mode = "symlink-each" }

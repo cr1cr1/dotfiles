@@ -1,0 +1,7 @@
+[packages]
+present = [
+  "signal-desktop", # Signal Private Messenger for Linux
+]
+
+[dotfiles]
+"~/.config/signal-desktop-flags.conf" = { source = "home/.config/signal-desktop-flags.conf", mode = "symlink" }

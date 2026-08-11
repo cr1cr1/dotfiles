@@ -1,0 +1,9 @@
+scope = "system"
+
+[packages]
+present = [
+  "libvirt",
+]
+
+[dotfiles]
+"/etc/libvirt/hooks/qemu" = { source = "home/etc/libvirt/hooks/qemu", mode = "copy" }

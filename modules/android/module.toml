@@ -1,0 +1,6 @@
+[packages]
+present = [
+  "scrcpy", # Display and control your Android device
+  "android-tools", # Android platform tools
+  "aur/go-mtpfs-git", # Simple tool for viewing MTP devices as FUSE filesystems
+]

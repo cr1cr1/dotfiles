@@ -1,0 +1,4 @@
+scope = "system"
+
+[dotfiles]
+"/etc/nsswitch.conf" = { source = "home/etc/nsswitch.conf", mode = "copy" }

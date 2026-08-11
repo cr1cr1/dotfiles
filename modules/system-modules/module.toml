@@ -1,0 +1,5 @@
+scope = "system"
+
+[dotfiles]
+"/etc/modules-load.d/00-kvmfr.conf" = { source = "home/etc/modules-load.d/00-kvmfr.conf", mode = "copy" }
+"/etc/modules-load.d/10-hwmon.conf" = { source = "home/etc/modules-load.d/10-hwmon.conf", mode = "copy" }

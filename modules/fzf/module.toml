@@ -1,0 +1,8 @@
+[packages]
+present = [
+  "fzf", # Command-line fuzzy finder
+  "aur/fzf-tab-completion-git", # Tab completion using fzf in zsh, bash, GNU readline apps (e.g. python, php -a etc.)
+]
+
+[dotfiles]
+"~/.fzf" = { source = "home/.fzf", mode = "symlink" }

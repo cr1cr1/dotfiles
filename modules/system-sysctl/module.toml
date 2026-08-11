@@ -1,0 +1,4 @@
+scope = "system"
+
+[dotfiles]
+"/etc/sysctl.d/99-kernel.conf" = { source = "home/etc/sysctl.d/99-kernel.conf", mode = "copy" }

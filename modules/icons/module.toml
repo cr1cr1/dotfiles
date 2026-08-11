@@ -1,0 +1,2 @@
+[dotfiles]
+"~/.local/share/icons" = { source = "home/.local/share/icons", mode = "symlink-each" }

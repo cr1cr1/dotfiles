@@ -1,0 +1,9 @@
+[packages]
+present = [
+  "ttf-jetbrains-mono-nerd", # Patched font JetBrains Mono from nerd fonts library
+  "ttf-nerd-fonts-symbols", # High number of extra glyphs from popular 'iconic fonts'
+  "noto-fonts-emoji", # Google Noto emoji fonts
+  "ttf-quicksand-variable", # A sans serif typeface designed by Andrew Paglinawan using geometric shapes (variable)
+  "inter-font", # A typeface specially designed for user interfaces
+  "ttf-roboto", # Google's signature family of fonts
+]

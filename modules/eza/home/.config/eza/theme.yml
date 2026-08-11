@@ -1,0 +1,16 @@
+colourful: true
+
+git:
+  new: {foreground: "#A6E3A1"}
+  modified: {foreground: "#F9E2AF"}
+  deleted: {foreground: "#F38BA8"}
+  renamed: {foreground: "#94E2D5"}
+  typechange: {foreground: "#F5C2E7"}
+  ignored: {foreground: "#7F849C"}
+  conflicted: {foreground: "#EBA0AC"}
+
+git_repo:
+  branch_main: {foreground: "#CDD6F4"}
+  branch_other: {foreground: "#CBA6F7"}
+  git_clean: {foreground: "#A6E3A1"}
+  git_dirty: {foreground: "#F38BA8"}

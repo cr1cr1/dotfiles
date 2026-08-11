@@ -1,0 +1,7 @@
+[packages]
+present = [
+  "plasma-systemmonitor", # An interface for monitoring system sensors, process information and other system resources
+]
+
+[dotfiles]
+"~/.local/share/plasma-systemmonitor" = { source = "home/.local/share/plasma-systemmonitor", mode = "symlink-each" }

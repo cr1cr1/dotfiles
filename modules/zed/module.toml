@@ -1,0 +1,7 @@
+[packages]
+present = [
+  "zed", # A high-performance, multiplayer code editor from the creators of Atom and Tree-sitter
+]
+
+[dotfiles]
+"~/.config/zed" = { source = "home/.config/zed", mode = "symlink-each" }

@@ -1,0 +1,31 @@
+[packages]
+present = [
+  "fd", # Simple, fast and user-friendly alternative to find
+  "skim", # Fuzzy Finder in Rust!
+  "aur/rnr-bin", # A CLI tool to rename files and directories that supports regex. Compiled binary
+  "chafa", # Image-to-text converter supporting a wide range of symbols and palettes, transparency, animations, etc.
+  "gdu", # Fast disk usage analyzer
+  "duf", # Disk Usage/Free Utility
+  "dust", # A more intuitive version of du in rust
+  "lsof", # Lists open files for running Unix processes
+  "tree", # A directory listing program displaying a depth indented list of files
+  "lnav", # A curses-based tool for viewing and analyzing log files
+  "xorriso", # frontend for libraries libburn and libisofs
+  "zip", # Compressor/archiver for creating and modifying zipfiles
+  "aur/fswatch", # A cross-platform file change monitor with multiple backends
+  "p7zip", # Command-line file archiver with high compression ratio
+  "pigz", # Parallel implementation of the gzip file compressor
+  "sshfs", # FUSE client based on the SSH File Transfer Protocol
+  "caligula", # A user-friendly, lightweight TUI for disk imaging
+  "libunrar", # Library and header file for applications that use libunrar
+  "xarchiver", # GTK+ frontend to various command line archivers
+  "qdirstat-bin", # Qt-based directory statistics (KDirStat/K4DirStat without any KDE - from the original KDirStat author)
+  "dolphin-plugins", # Extra Dolphin plugins
+  "kio-admin", # Manage files as administrator using the admin:// KIO protocol
+  "filelight", # View disk usage information
+  "bcompare", # Beyond Compare 5: Compare, sync, and merge files and folders
+  "bcompare-kde6", # KDE Plasma 6 service menus for Beyond Compare 5
+  "binwalk", # Tool for searching a given binary image for embedded files
+  "hexyl", # Colored command-line hex viewe
+  "ouch", # A command line utility for easily compressing and decompressing files and directories
+]

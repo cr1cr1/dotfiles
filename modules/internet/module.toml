@@ -1,0 +1,5 @@
+[packages]
+present = [
+  "zen-browser-bin", # Performance oriented Firefox-based web browser
+  "aur/trgui-ng-bin", # Remote GUI for Transmission torrent daemon
+]

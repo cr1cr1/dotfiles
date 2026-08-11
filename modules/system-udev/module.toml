@@ -1,0 +1,4 @@
+scope = "system"
+
+[dotfiles]
+"/etc/udev/rules.d/99-kvmfr.rules" = { source = "home/etc/udev/rules.d/99-kvmfr.rules", mode = "copy" }

@@ -1,0 +1,4 @@
+scope = "system"
+
+[dotfiles]
+"/etc/security/limits.d/01-relaxed.conf" = { source = "etc/security/limits.d/01-relaxed.conf", mode = "copy" }

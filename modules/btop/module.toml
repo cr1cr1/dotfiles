@@ -1,0 +1,7 @@
+[packages]
+present = [
+  "btop", # A monitor of system resources, bpytop ported to C++
+]
+
+[dotfiles]
+"~/.config/btop" = { source = "home/.config/btop", mode = "symlink-each" }

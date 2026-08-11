@@ -1,0 +1,2 @@
+[dotfiles]
+"~/iommu-viewer.sh" = { source = "home/iommu-viewer.sh", mode = "symlink" }

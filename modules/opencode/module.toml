@@ -1,0 +1,7 @@
+[packages]
+present = [
+  "opencode", # The AI coding agent built for the terminal
+]
+
+[dotfiles]
+"~/.config/opencode" = { source = "home/.config/opencode", mode = "symlink-each" }

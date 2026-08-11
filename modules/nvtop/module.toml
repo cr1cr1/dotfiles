@@ -1,0 +1,7 @@
+[packages]
+present = [
+  "nvtop", # GPUs process monitoring for AMD, Intel and NVIDIA
+]
+
+[dotfiles]
+"~/.config/nvtop" = { source = "home/.config/nvtop", mode = "symlink-each" }

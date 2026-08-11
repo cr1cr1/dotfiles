@@ -1,0 +1,7 @@
+[packages]
+present = [
+  "kitty", # A modern, hackable, featureful, OpenGL-based terminal emulator
+]
+
+[dotfiles]
+"~/.config/kitty" = { source = "home/.config/kitty", mode = "symlink-each" }

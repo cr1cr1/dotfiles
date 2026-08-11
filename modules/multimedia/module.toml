@@ -1,0 +1,11 @@
+[packages]
+present = [
+  "gst-plugin-spotify", # Multimedia graph framework - spotify plugin
+  "vlc-plugin-x265", # Multi-platform MPEG, VCD/DVD, and DivX player - H265/HEVC encoding
+  "vlc-plugin-ffmpeg", # Multi-platform MPEG, VCD/DVD, and DivX player - FFMPEG plugins
+  "vlc-plugins-extra", # Free and open source cross-platform multimedia player and framework - extra plugins
+  "obs-studio", # Free, open source software for live streaming and recording
+  "ocenaudio-bin", # Cross-platform, easy to use, fast and functional audio editor
+  "libva-utils", # Intel VA-API Media Applications and Scripts for libva
+  "wiremix", # A simple TUI audio mixer for PipeWire
+]

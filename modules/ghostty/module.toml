@@ -1,0 +1,7 @@
+[packages]
+present = [
+  "ghostty", # Fast, native, feature-rich terminal emulator pushing modern features
+]
+
+[dotfiles]
+"~/.config/ghostty" = { source = "home/.config/ghostty", mode = "symlink-each" }

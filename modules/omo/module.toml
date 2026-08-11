@@ -1,0 +1,9 @@
+[dotfiles]
+"~/.omo/omo.jsonc" = { source = "home/.omo/omo.jsonc", mode = "symlink" }
+
+[[hooks.pre]]
+command = "bunx oh-my-openagent install --no-tui --claude=no --openai=no --gemini=no --copilot=no --platform=opencode --opencode-zen=no --zai-coding-plan=yes --kimi-for-coding=yes"
+optional = true
+
+[tools]
+"bun" = "latest"

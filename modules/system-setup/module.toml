@@ -1,0 +1,21 @@
+# Idempotent system setup tasks from pimp-my-cachyos
+# mise-tasks/, invoked as profile mise tasks in the
+# original all.sh order. $PARU comes from the generated
+# profile-root mise.toml [env]; non-sudo tasks elevate
+# internally.
+scope = "system"
+
+[hooks]
+post = [
+  "env MISE_TRUSTED_CONFIG_PATHS=\"$PWD\" mise run network:firewall",
+  "env MISE_TRUSTED_CONFIG_PATHS=\"$PWD\" mise run network:sshd",
+  "env MISE_TRUSTED_CONFIG_PATHS=\"$PWD\" mise run system:limine",
+  "sudo env MISE_TRUSTED_CONFIG_PATHS=\"$PWD\" mise run system:snapper",
+  "sudo env MISE_TRUSTED_CONFIG_PATHS=\"$PWD\" mise run system:services",
+  "sudo env MISE_TRUSTED_CONFIG_PATHS=\"$PWD\" mise run system:video-drivers",
+  "sudo env MISE_TRUSTED_CONFIG_PATHS=\"$PWD\" mise run system:faillock",
+  "sudo env MISE_TRUSTED_CONFIG_PATHS=\"$PWD\" mise run system:locale",
+  "sudo env MISE_TRUSTED_CONFIG_PATHS=\"$PWD\" mise run system:smb",
+  "env MISE_TRUSTED_CONFIG_PATHS=\"$PWD\" mise run system:edk2-ovmf-downgrade",
+  "sudo env MISE_TRUSTED_CONFIG_PATHS=\"$PWD\" mise run system:virtualization",
+]

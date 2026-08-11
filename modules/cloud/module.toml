@@ -1,0 +1,9 @@
+[packages]
+present = [
+  "krew", # Find and install kubectl plugins
+  "stern", # Multi pod and container log tailing for Kubernetes
+  "fluxcd", # Open and extensible continuous delivery solution for Kubernetes
+  "k9s", # TUI for managing Kubernetes clusters and pods
+  "pack-cli", # CLI for building apps using Cloud Native Buildpacks
+  "aur/freelens-bin", # Free Open Source Kubernetes IDE
+]

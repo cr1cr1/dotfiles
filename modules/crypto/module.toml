@@ -1,0 +1,6 @@
+[packages]
+present = [
+  "age", # A simple, modern and secure file encryption tool
+  "sops", # Editor of encrypted files that supports YAML, JSON, ENV, INI and BINARY formats
+  "aur/sac-core", # Thales/Gemalto SafeNet Authentication Client for eToken 5110/5300 & IDPrime (core PKCS#11 modules)
+]

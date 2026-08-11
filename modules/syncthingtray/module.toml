@@ -1,0 +1,7 @@
+[packages]
+present = [
+  "aur/syncthingtray-qt6", # Tray application for Syncthing (using Qt 6)
+]
+
+[dotfiles]
+"~/.config/autostart/syncthingtray-qt6.desktop" = { source = "home/.config/autostart/syncthingtray-qt6.desktop", mode = "symlink" }

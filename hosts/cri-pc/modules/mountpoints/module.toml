@@ -1,0 +1,38 @@
+scope = "system"
+
+[dotfiles]
+"/usr/local/lib/systemd/system/mnt-win-c.mount" = { source = "usr/local/lib/systemd/system/mnt-win-c.mount", mode = "copy" }
+"/usr/local/lib/systemd/system/mnt-linux1.mount" = { source = "usr/local/lib/systemd/system/mnt-linux1.mount", mode = "copy" }
+"/usr/local/lib/systemd/system/mnt-linux2.mount" = { source = "usr/local/lib/systemd/system/mnt-linux2.mount", mode = "copy" }
+"/usr/local/lib/systemd/system/mnt-linux3.mount" = { source = "usr/local/lib/systemd/system/mnt-linux3.mount", mode = "copy" }
+"/usr/local/lib/systemd/system/mnt-linux4.mount" = { source = "usr/local/lib/systemd/system/mnt-linux4.mount", mode = "copy" }
+"/usr/local/lib/systemd/system/mnt-ventoy.mount" = { source = "usr/local/lib/systemd/system/mnt-ventoy.mount", mode = "copy" }
+
+[hooks]
+post = [
+  "sudo systemctl daemon-reload",
+
+  "sudo mkdir -p /mnt/win/c",
+  "sudo systemctl enable mnt-win-c.mount",
+  "sudo systemctl restart mnt-win-c.mount",
+
+  "sudo mkdir -p /mnt/linux1",
+  "sudo systemctl enable mnt-linux1.mount",
+  "sudo systemctl restart mnt-linux1.mount",
+
+  "sudo mkdir -p /mnt/linux2",
+  "sudo systemctl enable mnt-linux2.mount",
+  "sudo systemctl restart mnt-linux2.mount",
+
+  "sudo mkdir -p /mnt/linux3",
+  "sudo systemctl enable mnt-linux3.mount",
+  "sudo systemctl restart mnt-linux3.mount",
+
+  "sudo mkdir -p /mnt/linux4",
+  "sudo systemctl enable mnt-linux4.mount",
+  "sudo systemctl restart mnt-linux4.mount",
+
+  "sudo mkdir -p /mnt/ventoy",
+  "sudo systemctl enable mnt-ventoy.mount",
+  "sudo systemctl restart mnt-ventoy.mount",
+]

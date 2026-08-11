@@ -1,0 +1,7 @@
+[packages]
+present = [
+  "mpv",
+]
+
+[dotfiles]
+"~/.config/mpv" = { source = "home/.config/mpv", mode = "symlink-each" }

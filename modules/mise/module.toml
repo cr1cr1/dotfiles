@@ -1,0 +1,7 @@
+[packages]
+present = [
+  "mise", # The front-end to your dev env
+]
+
+[dotfiles]
+"~/.config/mise" = { source = "home/.config/mise", mode = "symlink-each" }

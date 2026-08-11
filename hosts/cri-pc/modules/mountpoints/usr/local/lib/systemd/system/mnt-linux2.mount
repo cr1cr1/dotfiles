@@ -1,0 +1,14 @@
+[Unit]
+Description=Local mount unit for linux2
+
+ConditionPathExists=/mnt/linux2
+ConditionPathIsMountPoint=!/mnt/linux2
+
+[Mount]
+What=UUID=486939e7-ffce-b9bf-bd36-e0caeb62d497
+Where=/mnt/linux2
+Type=btrfs
+Options=auto,rw,relatime
+
+[Install]
+WantedBy=multi-user.target

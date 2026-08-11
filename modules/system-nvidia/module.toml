@@ -1,0 +1,4 @@
+scope = "system"
+
+[dotfiles]
+"/etc/nvidia/nvidia-application-profiles-rc.d/50-limit-free-buffer-pool-in-wayland-compositors.json" = { source = "home/etc/nvidia/nvidia-application-profiles-rc.d/50-limit-free-buffer-pool-in-wayland-compositors.json", mode = "copy" }

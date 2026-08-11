@@ -1,0 +1,8 @@
+[packages]
+present = [
+  "git", # the fast distributed version control system
+  "git-delta", # Syntax-highlighting pager for git and diff output
+]
+
+[dotfiles]
+"~/.gitconfig" = { source = "home/.gitconfig", mode = "symlink" }

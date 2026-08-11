@@ -1,0 +1,9 @@
+[packages]
+present = [
+  "aur/thorium-browser-updated-bin", # Chromium fork focused on high performance and security
+]
+
+[dotfiles]
+"~/.config/autostart/thorium-browser.desktop" = { source = "home/.config/autostart/thorium-browser.desktop", mode = "symlink" }
+"~/.config/autostart/thorium-hnpfjngllnobngcgfapefoaidbinmjnm-Default.desktop" = { source = "home/.config/autostart/thorium-hnpfjngllnobngcgfapefoaidbinmjnm-Default.desktop", mode = "symlink" }
+"~/.config/environment.d/thorium-flags.conf" = { source = "home/.config/environment.d/thorium-flags.conf", mode = "symlink" }

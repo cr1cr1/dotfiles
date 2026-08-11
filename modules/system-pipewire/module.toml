@@ -1,0 +1,4 @@
+scope = "system"
+
+[dotfiles]
+"/etc/pipewire/pipewire.conf.d/rates.conf" = { source = "home/etc/pipewire/pipewire.conf.d/rates.conf", mode = "copy" }

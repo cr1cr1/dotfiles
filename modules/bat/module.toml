@@ -1,0 +1,7 @@
+[packages]
+present = [
+  "bat", # Cat clone with syntax highlighting and git integration
+]
+
+[dotfiles]
+"~/.config/bat" = { source = "home/.config/bat", mode = "symlink-each" }

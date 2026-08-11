@@ -1,0 +1,14 @@
+[Unit]
+Description=Service to manage mnt-synology-shared.mount
+After=network-online.target
+Requires=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/systemctl start mnt-synology-shared.mount
+ExecStop=/usr/bin/systemctl stop mnt-synology-shared.mount
+RemainAfterExit=yes
+TimeoutStartSec=3
+
+[Install]
+WantedBy=multi-user.target

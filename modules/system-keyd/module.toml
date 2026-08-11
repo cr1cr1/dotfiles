@@ -1,0 +1,9 @@
+scope = "system"
+
+[packages]
+present = [
+  "keyd", # A key remapping daemon for linux
+]
+
+[dotfiles]
+"/etc/keyd/default.conf" = { source = "home/etc/keyd/default.conf", mode = "copy" }

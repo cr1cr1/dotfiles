@@ -1,0 +1,8 @@
+[packages]
+present = [
+  "okular", # Document Viewer
+]
+
+[dotfiles]
+"~/.config/okularpartrc" = { source = "home/.config/okularpartrc", mode = "symlink" }
+"~/.local/share/kxmlgui5/okular" = { source = "home/.local/share/kxmlgui5/okular", mode = "symlink-each" }

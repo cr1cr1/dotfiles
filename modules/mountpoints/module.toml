@@ -1,0 +1,29 @@
+scope = "system"
+
+[dotfiles]
+"/usr/local/lib/systemd/system/mnt-synology-syn01.mount" = { source = "usr/local/lib/systemd/system/mnt-synology-syn01.mount", mode = "copy" }
+"/usr/local/lib/systemd/system/mnt-synology-syn01.service" = { source = "usr/local/lib/systemd/system/mnt-synology-syn01.service", mode = "copy" }
+"/usr/local/lib/systemd/system/mnt-synology-syn01.timer" = { source = "usr/local/lib/systemd/system/mnt-synology-syn01.timer", mode = "copy" }
+"/usr/local/lib/systemd/system/mnt-synology-syn02.mount" = { source = "usr/local/lib/systemd/system/mnt-synology-syn02.mount", mode = "copy" }
+"/usr/local/lib/systemd/system/mnt-synology-syn02.service" = { source = "usr/local/lib/systemd/system/mnt-synology-syn02.service", mode = "copy" }
+"/usr/local/lib/systemd/system/mnt-synology-syn02.timer" = { source = "usr/local/lib/systemd/system/mnt-synology-syn02.timer", mode = "copy" }
+"/usr/local/lib/systemd/system/mnt-synology-shared.mount" = { source = "usr/local/lib/systemd/system/mnt-synology-shared.mount", mode = "copy" }
+"/usr/local/lib/systemd/system/mnt-synology-shared.service" = { source = "usr/local/lib/systemd/system/mnt-synology-shared.service", mode = "copy" }
+"/usr/local/lib/systemd/system/mnt-synology-shared.timer" = { source = "usr/local/lib/systemd/system/mnt-synology-shared.timer", mode = "copy" }
+
+[hooks]
+post = [
+  "sudo systemctl daemon-reload",
+
+  "sudo mkdir -p /mnt/synology/syn01",
+  "sudo systemctl enable mnt-synology-syn01.mount",
+  "sudo systemctl enable mnt-synology-syn01.timer",
+
+  "sudo mkdir -p /mnt/synology/syn02",
+  "sudo systemctl enable mnt-synology-syn02.mount",
+  "sudo systemctl enable mnt-synology-syn02.timer",
+
+  "sudo mkdir -p /mnt/synology/shared",
+  "sudo systemctl enable mnt-synology-shared.mount",
+  "sudo systemctl enable mnt-synology-shared.timer",
+]

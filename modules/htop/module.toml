@@ -1,0 +1,7 @@
+[packages]
+present = [
+  "htop", # Interactive process viewer
+]
+
+[dotfiles]
+"~/.config/htop" = { source = "home/.config/htop", mode = "symlink-each" }

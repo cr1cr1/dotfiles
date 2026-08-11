@@ -1,0 +1,7 @@
+[packages]
+present = [
+  "vlc", # Multi-platform MPEG, VCD/DVD, and DivX player
+]
+
+[dotfiles]
+"~/.config/vlc" = { source = "home/.config/vlc", mode = "symlink-each" }

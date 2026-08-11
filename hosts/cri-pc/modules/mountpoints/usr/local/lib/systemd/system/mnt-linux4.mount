@@ -1,0 +1,14 @@
+[Unit]
+Description=Local mount unit for linux4
+
+ConditionPathExists=/mnt/linux4
+ConditionPathIsMountPoint=!/mnt/linux4
+
+[Mount]
+What=UUID=9d589834-49a2-41a4-b23e-03625643e533
+Where=/mnt/linux4
+Type=btrfs
+Options=auto,rw,relatime
+
+[Install]
+WantedBy=multi-user.target

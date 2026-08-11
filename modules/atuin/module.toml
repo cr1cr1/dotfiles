@@ -1,0 +1,7 @@
+[packages]
+present = [
+  "atuin", # Magical shell history
+]
+
+[dotfiles]
+"~/.config/atuin" = { source = "home/.config/atuin", mode = "symlink-each" }

@@ -1,0 +1,9 @@
+scope = "system"
+
+[dotfiles]
+"/etc/systemd/logind.conf.d/90-lid-ignore.conf" = { source = "home/etc/systemd/logind.conf.d/90-lid-ignore.conf", mode = "copy" }
+
+[hooks]
+post = [
+  "sudo systemctl restart systemd-logind",
+]

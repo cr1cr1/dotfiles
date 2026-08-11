@@ -1,0 +1,7 @@
+[when]
+kernel = "< 7.2"
+
+[packages]
+present = [
+    "ntfs-3g"
+]

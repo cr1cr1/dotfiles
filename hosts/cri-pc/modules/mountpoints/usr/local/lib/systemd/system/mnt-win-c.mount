@@ -1,0 +1,15 @@
+[Unit]
+Description=Local mount unit for win_c
+
+ConditionPathExists=/mnt/win/c
+ConditionPathIsMountPoint=!/mnt/win/c
+
+[Mount]
+What=UUID=01D97D07D7C008F0
+Where=/mnt/win/c
+Type=ntfs
+#Options=auto,rw,uid=1000,gid=1000,umask=027,dev,exec,noatime,iocharset=utf8,windows_names,suid,nocase,preallocated_size=131072,symlink=native
+Options=auto,rw,uid=1000,gid=1000,umask=027,dev,exec,noatime,iocharset=utf8,windows_names,suid,nocase,native_symlink=rel
+
+[Install]
+WantedBy=multi-user.target

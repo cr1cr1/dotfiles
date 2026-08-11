@@ -1,0 +1,7 @@
+[packages]
+present = [
+  "baloo",
+]
+
+[dotfiles]
+"~/.config/baloofilerc" = { source = "home/.config/baloofilerc", mode = "symlink" }

@@ -1,0 +1,7 @@
+[packages]
+present = [
+  "lazygit", # Simple terminal UI for git commands
+]
+
+[dotfiles]
+"~/.config/lazygit" = { source = "home/.config/lazygit", mode = "symlink-each" }

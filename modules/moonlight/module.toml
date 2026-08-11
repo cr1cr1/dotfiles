@@ -1,0 +1,9 @@
+scope = "system"
+
+[packages]
+present = [
+  "moonlight-qt", # GameStream client for PCs
+]
+
+[dotfiles]
+"/etc/udev/rules.d/99-moonlight-uinput.rules" = { source = "home/etc/udev/rules.d/99-moonlight-uinput.rules", mode = "copy" }

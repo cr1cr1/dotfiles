@@ -1,0 +1,7 @@
+[packages]
+present = [
+  "tmux", # Terminal multiplexer
+]
+
+[dotfiles]
+"~/.config/tmux" = { source = "home/.config/tmux", mode = "symlink-each" }

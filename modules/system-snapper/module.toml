@@ -1,0 +1,10 @@
+scope = "system"
+
+[packages]
+present = [
+  "snapper",
+]
+
+[dotfiles]
+"/etc/snapper/configs/home" = { source = "home/etc/snapper/configs/home", mode = "copy" }
+"/etc/snapper/configs/root" = { source = "home/etc/snapper/configs/root", mode = "copy" }

@@ -1,0 +1,7 @@
+[packages]
+present = [
+  "aur/nwg-look",
+]
+
+[dotfiles]
+"~/.config/nwg-look" = { source = "home/.config/nwg-look", mode = "symlink-each" }

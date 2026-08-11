@@ -1,0 +1,6 @@
+[packages]
+present = [
+  "aur/lmstudio-bin", # Discover, download, and run local LLMs
+  "aur/paseo-bin", # One interface for all your Claude Code, Codex and OpenCode agents (Electron desktop app)
+  "aur/ast-grep-bin", # A fast and easy tool for code searching, linting, rewriting at large scale
+]

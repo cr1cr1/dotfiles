@@ -1,0 +1,48 @@
+[packages]
+present = [
+  # "sddm-kcm", # KDE Config Module for SDDM
+  "plasma-login-manager", # Plasma Login Manager
+  "plasma-desktop", # KDE Plasma Desktop
+  "kwayland-integration", # Provides integration plugins for various KDE frameworks for the wayland windowing system
+  "kde-gtk-config", # Syncs KDE settings to GTK applications
+  "kdeplasma-addons", # All kind of addons to improve your Plasma
+  "aur/plasma6-applets-panel-colorizer", # Latte-Dock and WM status bar customization features for the default Plasma panels
+  "gnome-settings-daemon", # GNOME Settings Daemon
+  "gsettings-qt", # Qml bindings for GSettings
+  "krfb", # Desktop Sharing
+  "qogir-icon-theme", # A colorful design icon theme for linux desktops
+  "kaccounts-providers", # Online account providers for the KAccounts system
+  "plasma5-integration", # Qt5 Platform Theme integration plugins for the Plasma workspaces
+  "plasma-wayland-protocols", # Plasma Specific Protocols for Wayland
+  "krdc", # Remote Desktop Client
+  "aur/catppuccin-plasma-colorscheme-mocha", # Soothing pastel theme for KDE Plasma
+]
+
+[dotfiles]
+"~/.config/Trolltech.conf" = { source = "home/.config/Trolltech.conf", mode = "symlink" }
+"~/.config/breezerc" = { source = "home/.config/breezerc", mode = "symlink" }
+"~/.config/filetypesrc" = { source = "home/.config/filetypesrc", mode = "symlink" }
+"~/.config/kcminputrc" = { source = "home/.config/kcminputrc", mode = "symlink" }
+"~/.config/kdeglobals" = { source = "home/.config/kdeglobals", mode = "symlink" }
+"~/.config/kglobalshortcutsrc" = { source = "home/.config/kglobalshortcutsrc", mode = "symlink" }
+"~/.config/kiorc" = { source = "home/.config/kiorc", mode = "symlink" }
+"~/.config/kmenueditrc" = { source = "home/.config/kmenueditrc", mode = "symlink" }
+"~/.config/krunnerrc" = { source = "home/.config/krunnerrc", mode = "symlink" }
+"~/.config/kscreenlockerrc" = { source = "home/.config/kscreenlockerrc", mode = "symlink" }
+"~/.config/kservicemenurc" = { source = "home/.config/kservicemenurc", mode = "symlink" }
+"~/.config/ksplashrc" = { source = "home/.config/ksplashrc", mode = "symlink" }
+"~/.config/ktimezonedrc" = { source = "home/.config/ktimezonedrc", mode = "symlink" }
+"~/.config/ktrashrc" = { source = "home/.config/ktrashrc", mode = "symlink" }
+"~/.config/kwalletrc" = { source = "home/.config/kwalletrc", mode = "symlink" }
+"~/.config/kwinrc" = { source = "home/.config/kwinrc", mode = "symlink" }
+"~/.config/kwinrulesrc" = { source = "home/.config/kwinrulesrc", mode = "symlink" }
+"~/.config/kxkbrc" = { source = "home/.config/kxkbrc", mode = "symlink" }
+"~/.config/mimeapps.list" = { source = "home/.config/mimeapps.list", mode = "symlink" }
+"~/.config/plasma-localerc" = { source = "home/.config/plasma-localerc", mode = "symlink" }
+"~/.config/plasma-org.kde.plasma.desktop-appletsrc" = { source = "home/.config/plasma-org.kde.plasma.desktop-appletsrc", mode = "symlink" }
+"~/.config/plasmanotifyrc" = { source = "home/.config/plasmanotifyrc", mode = "symlink" }
+"~/.config/plasmarc" = { source = "home/.config/plasmarc", mode = "symlink" }
+"~/.config/plasmashellrc" = { source = "home/.config/plasmashellrc", mode = "symlink" }
+"~/.config/powerdevilrc" = { source = "home/.config/powerdevilrc", mode = "symlink" }
+"~/.config/powermanagementprofilesrc" = { source = "home/.config/powermanagementprofilesrc", mode = "symlink" }
+"~/.config/systemmonitorrc" = { source = "home/.config/systemmonitorrc", mode = "symlink" }

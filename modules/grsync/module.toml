@@ -1,0 +1,7 @@
+[packages]
+present = [
+  "grsync", # GTK+ GUI for rsync to synchronize folders, files and make backups
+]
+
+[dotfiles]
+"~/.config/grsync" = { source = "home/.config/grsync", mode = "symlink-each" }

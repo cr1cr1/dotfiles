@@ -1,0 +1,61 @@
+
+
+[[mgr.prepend_keymap]]
+on = ["c", "m"]
+run = "plugin chmod"
+desc = "Chmod on selected files"
+
+[[mgr.prepend_keymap]]
+on = "T"
+run = "plugin toggle-pane max-preview"
+desc = "Maximize or restore the preview pane"
+
+[[mgr.prepend_keymap]]
+on = "o"
+run = "plugin open-with-cmd --args=block"
+desc = "Open with command in the terminal"
+
+[[mgr.prepend_keymap]]
+on = "O"
+run = "plugin open-with-cmd"
+desc = "Open with command"
+
+[[mgr.prepend_keymap]]
+on   = "A"
+run  = "plugin fr rga"
+desc = "Search file by content (rga)"
+
+[[mgr.prepend_keymap]]
+on = [ "F","f" ]
+run = "plugin smart-filter"
+desc = "Smart filter"
+
+[[mgr.prepend_keymap]]
+on   = "s"
+run  = "search --via=fd --args='--hidden --no-ignore'"
+desc = "find file with fd"
+
+[[mgr.prepend_keymap]]
+on = "H"
+run = "plugin duckdb -1"
+desc = "Scroll one column to the left"
+
+[[mgr.prepend_keymap]]
+on = "L"
+run = "plugin duckdb +1"
+desc = "Scroll one column to the right"
+
+[[mgr.prepend_keymap]]
+on = ["g", "o"]
+run = "plugin duckdb -open"
+desc = "open with duckdb"
+
+[[mgr.prepend_keymap]]
+on = ["g", "u"]
+run = "plugin duckdb -ui"
+desc = "open with duckdb ui"
+
+[[mgr.prepend_keymap]]
+on = ["C"]
+run = "plugin ouch"
+desc = "Compress with ouch"

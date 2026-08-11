@@ -1,0 +1,7 @@
+[packages]
+present = [
+  "remmina", # remote desktop client written in GTK+
+  "freerdp", # Free implementation of the Remote Desktop Protocol (RDP)
+  "aur/rustdesk-bin", # Yet another remote desktop software, written in Rust. Works out of the box, no configuration required.
+  "sunshine", # A self-hosted game stream host for Moonlight
+]

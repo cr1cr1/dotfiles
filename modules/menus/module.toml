@@ -1,0 +1,2 @@
+[dotfiles]
+"~/.config/menus" = { source = "home/.config/menus", mode = "symlink-each" }

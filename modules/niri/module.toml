@@ -1,0 +1,17 @@
+[packages]
+present = [
+  "aur/qt5ct-kde", # Qt 5 Configuration Utility, patched to work correctly with KDE applications
+  "aur/qt6ct-kde", # Qt 6 Configuration Utility, patched to work correctly with KDE applications
+  "cliphist", # Wayland clipboard history manager
+  "niri", # A scrollable-tiling Wayland compositor
+  "playerctl", # mpris media player controller and lib for spotify, vlc, audacious, bmp, xmms2, and others.
+  "polkit-kde-agent", # KDE polkit authentication agent for privilege escalation
+  "qt6-wayland", # Qt6 Wayland platform plugin (required by DMS)
+  "satty", # Modern screenshot annotation tool, inspired by Swappy and Flameshot
+  "wayland-protocols", # Specifications of extended Wayland protocols
+  "wl-clipboard", # Command-line copy/paste utilities for Wayland
+  "xwayland-satellite", # Xwayland outside your Wayland
+]
+
+[dotfiles]
+"~/.config/niri" = { source = "home/.config/niri", mode = "symlink-each" }

@@ -1,0 +1,7 @@
+[packages]
+present = [
+  "aur/panel-colorizer",
+]
+
+[dotfiles]
+"~/.config/panel-colorizer" = { source = "home/.config/panel-colorizer", mode = "symlink-each" }

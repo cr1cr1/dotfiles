@@ -1,0 +1,7 @@
+[packages]
+present = [
+  "gnupg",
+]
+
+[dotfiles]
+"~/.gnupg" = { source = "home/.gnupg", mode = "symlink-each" }

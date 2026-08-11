@@ -1,0 +1,57 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "plugin": [
+    "oh-my-openagent@latest"
+  ],
+  "mcp": {
+    "web-search-prime": {
+      "type": "remote",
+      "url": "https://api.z.ai/api/mcp/web_search_prime/mcp",
+      "headers": {
+        "Authorization": "Bearer {env:ZAI_API_KEY}",
+      },
+    },
+    "zread": {
+      "type": "remote",
+      "url": "https://api.z.ai/api/mcp/zread/mcp",
+      "headers": {
+        "Authorization": "Bearer {env:ZAI_API_KEY}",
+      },
+    },
+    "web-reader": {
+      "type": "remote",
+      "url": "https://api.z.ai/api/mcp/web_reader/mcp",
+      "headers": {
+        "Authorization": "Bearer {env:ZAI_API_KEY}",
+      },
+    },
+    "chrome-devtools": {
+        "type": "local",
+    	"command": [
+        "npx",
+    		"-y",
+    		"chrome-devtools-mcp@latest",
+    		"--browser-url=http://127.0.0.1:9222",
+    	]
+    },
+  },
+  "provider": {
+    "dgx-local": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "DGX Local",
+      "options": {
+        "baseURL": "http://10.3.67.61:8080/v1",
+        "apiKey": "apikeydummy"
+      },
+      "models": {
+        "qwen3.6-27b": {
+          "name": "Qwen 3.6 27B",
+          "reasoning": true,
+          "tool_call": true,
+        }
+      }
+    }
+  },
+  "lsp": true,
+  "model": "kimi-for-coding/k3"
+}

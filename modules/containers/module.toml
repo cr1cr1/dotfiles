@@ -1,0 +1,10 @@
+[packages]
+present = [
+  "docker", # Pack, ship and run any application as a lightweight container
+  "docker-buildx", # Docker CLI plugin for extended build capabilities with BuildKit
+  "docker-compose", # Fast, isolated development environments using Docker
+  "lazydocker", # A simple terminal UI for docker and docker-compose, written in Go with the gocui library
+  "skopeo", # A command line utility for various operations on container images and image repositories.
+  "podman", # Tool and library for running OCI-based containers in pods
+  "aur/podman-tui-bin", # Podman Terminal UI
+]

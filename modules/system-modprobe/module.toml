@@ -1,0 +1,7 @@
+scope = "system"
+
+[dotfiles]
+"/etc/modprobe.d/blacklist-nintendo.conf" = { source = "home/etc/modprobe.d/blacklist-nintendo.conf", mode = "copy" }
+"/etc/modprobe.d/hid_apple.conf" = { source = "home/etc/modprobe.d/hid_apple.conf", mode = "copy" }
+"/etc/modprobe.d/kvm.conf" = { source = "home/etc/modprobe.d/kvm.conf", mode = "copy" }
+"/etc/modprobe.d/kvmfr.conf" = { source = "home/etc/modprobe.d/kvmfr.conf", mode = "copy" }

@@ -1,0 +1,7 @@
+[packages]
+present = [
+  "spectacle",
+]
+
+[dotfiles]
+"~/.config/spectaclerc" = { source = "home/.config/spectaclerc", mode = "symlink" }

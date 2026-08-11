@@ -1,0 +1,13 @@
+[packages]
+present = [
+  "worktrunk", # CLI for Git worktree management, designed for parallel AI agent workflows
+  "difftastic", # An experimental diff tool that compares files based on their syntax
+  "go", # Core compiler tools for the Go programming language
+  "python-pip", # The PyPA recommended tool for installing Python packages
+  "kondo", # Save disk space by cleaning non-essential files from software projects
+  "sq-bin", # sq data wrangler
+  "dbeaver", # Free universal SQL Client for developers and database administrators (community edition)
+  "uv", # An extremely fast Python package installer and resolver written in Rust
+  "duckdb", # An analytical in-process SQL database management system
+  "html2markdown-bin", # Convert HTML to Markdown. Even works with entire websites and can be extended through rules.
+]

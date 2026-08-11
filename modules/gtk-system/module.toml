@@ -1,0 +1,6 @@
+# Mirrors the user's ~/.gtkrc-2.0 to /root (from
+# apps/gtk/config/.gtkrc-2.0 in pimp-my-cachyos).
+scope = "system"
+
+[dotfiles]
+"/root/.gtkrc-2.0" = { source = "home/.gtkrc-2.0", mode = "copy" }

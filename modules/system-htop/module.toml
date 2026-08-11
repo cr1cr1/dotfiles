@@ -1,0 +1,9 @@
+scope = "system"
+
+[packages]
+present = [
+  "htop", # Interactive process viewer
+]
+
+[dotfiles]
+"/etc/htoprc" = { source = "home/etc/htoprc", mode = "copy" }

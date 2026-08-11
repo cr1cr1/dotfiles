@@ -1,0 +1,13 @@
+[packages]
+present = [
+  "bibata-cursor-theme-bin", # Material Based Cursor Theme
+  "dconf-editor", # GSettings editor for GNOME
+  "aur/menulibre", # An advanced menu editor that provides modern features in a clean, easy-to-use interface
+  "webkit2gtk-4.1", # Web content engine for GTK
+  "wl-clipboard", # Command-line copy/paste utilities for Wayland
+  "cachyos-wallpapers", # Wallpapers for CachyOS
+]
+
+[dotfiles]
+"~/.config/electron-flags.conf" = { source = "home/.config/electron-flags.conf", mode = "symlink" }
+"~/.config/spotify-flags.conf" = { source = "home/.config/spotify-flags.conf", mode = "symlink" }

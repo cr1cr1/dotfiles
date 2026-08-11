@@ -1,0 +1,13 @@
+[packages]
+present = [
+  "dms-shell-niri", # DankMaterialShell - A feature-rich desktop shell built with Quickshell and Go (stable release)
+  "quickshell", # The core framework for DMS (required)
+  "dgop", # Stateless system and process monitoring tool with TUI, CLI, and REST API
+  "aur/dsearch-bin", # Extremely fast indexed filesystem search service
+  "accountsservice", # D-Bus interface for user account query and manipulation (for DMS user profiles)
+  "i2c-tools", # Tools for accessing I2C devices (for DMS monitor backlight control)
+  "kdeconnect", # Adds communication between KDE and your smartphone
+]
+
+[dotfiles]
+"~/.config/DankMaterialShell" = { source = "home/.config/DankMaterialShell", mode = "symlink-each" }

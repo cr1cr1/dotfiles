@@ -1,0 +1,7 @@
+[packages]
+present = [
+  "yazi", # Blazing fast terminal file manager written in Rust, based on async I/O
+]
+
+[dotfiles]
+"~/.config/yazi" = { source = "home/.config/yazi", mode = "symlink-each" }

@@ -1,0 +1,8 @@
+{
+  "theme": "catppuccin-mocha.json",
+  "active_keybinding_map": "vscode",
+  "file_explorer": {
+    "show_hidden": true,
+    "show_gitignored": true
+  }
+}

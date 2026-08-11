@@ -1,0 +1,13 @@
+[packages]
+present = [
+  "limine", # Modern, advanced, portable, multiprotocol bootloader
+  "limine-mkinitcpio-hook", # mkinitcpio hook for Limine bootloader
+  "limine-snapper-sync", # Generate Limine boot entries from snapper snapshots
+]
+absent = [
+  "grub", # GNU GRand Unified Bootloader
+  "grub-btrfs", # Include btrfs snapshots in GRUB boot options
+  "grub-customizer", # A graphical grub2 settings manager
+  "grub-hook", # Pacman hooks for GRUB
+  "catppuccin-mocha-grub-theme-git", # Soothing pastel theme for GRUB2 -- Mocha colorscheme
+]

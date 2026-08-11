@@ -1,0 +1,7 @@
+[packages]
+present = [
+  "mc", # A file manager that emulates Norton Commander
+]
+
+[dotfiles]
+"~/.config/mc" = { source = "home/.config/mc", mode = "symlink-each" }

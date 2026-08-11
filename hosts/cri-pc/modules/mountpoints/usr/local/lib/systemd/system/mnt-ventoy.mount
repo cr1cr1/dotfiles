@@ -1,0 +1,14 @@
+[Unit]
+Description=Local mount unit for ventoy
+
+ConditionPathExists=/mnt/ventoy
+ConditionPathIsMountPoint=!/mnt/ventoy
+
+[Mount]
+What=UUID=7FFD-B6CF
+Where=/mnt/ventoy
+Type=exfat
+Options=auto,rw,uid=cri,gid=cri,noatime
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,71 @@
+// OMO configuration
+{
+  "[opencode]": {
+    "$schema": "https://raw.githubusercontent.com/code-yeongyu/oh-my-openagent/dev/assets/omo.schema.json",
+    "team_mode": { "enabled": true },
+    "agents": {
+      "sisyphus": {
+        "model": "kimi-for-coding/k3",
+      },
+      "oracle": {
+        "model": "zai-coding-plan/glm-5.2"
+      },
+      "explore": {
+        "model": "zai-coding-plan/glm-5.2"
+      },
+      "multimodal-looker": {
+        "model": "zai-coding-plan/glm-4.6v"
+      },
+      "prometheus": {
+        "model": "kimi-for-coding/k3"
+      },
+      "metis": {
+        "model": "kimi-for-coding/k3"
+      },
+      "momus": {
+        "model": "zai-coding-plan/glm-5.2"
+      },
+      "atlas": {
+        "model": "zai-coding-plan/glm-5.2"
+      },
+      "sisyphus-junior": {
+        "model": "zai-coding-plan/glm-5.2"
+      }
+    },
+    "categories": {
+      "visual-engineering": {
+        "models": [
+          "kimi-for-coding/k3",
+          {
+            "model": "zai-coding-plan/glm-5.2",
+            "reasoning": "high"
+          }
+        ]
+      },
+      "ultrabrain": {
+        "model": "zai-coding-plan/glm-5.2"
+      },
+      "deep": {
+        "model": "zai-coding-plan/glm-5.2"
+      },
+      "artistry": {
+        "model": "kimi-for-coding/k3"
+      },
+      "quick": {
+        "model": "kimi-for-coding/kimi-for-coding-highspeed"
+      },
+      "unspecified-low": {
+        "model": "zai-coding-plan/glm-5.2"
+      },
+      "unspecified-high": {
+        "model": "zai-coding-plan/glm-5.2"
+      },
+      "writing": {
+        "model": "kimi-for-coding/k3"
+      }
+    }
+  },
+  "_migrations": [
+    "2026-08-reasoning-unification"
+  ]
+}

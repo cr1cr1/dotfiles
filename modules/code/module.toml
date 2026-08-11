@@ -1,0 +1,8 @@
+[packages]
+present = [
+  "aur/visual-studio-code-bin", # Visual Studio Code (vscode)
+]
+
+[dotfiles]
+"~/.config/Code" = { source = "home/.config/Code", mode = "symlink-each" }
+"~/.config/code-flags.conf" = { source = "home/.config/code-flags.conf", mode = "symlink" }

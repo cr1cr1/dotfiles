@@ -1,0 +1,7 @@
+[packages]
+present = [
+  "strawberry", # A music player aimed at audio enthusiasts and music collectors
+]
+
+[dotfiles]
+"~/.config/strawberry" = { source = "home/.config/strawberry", mode = "symlink-each" }

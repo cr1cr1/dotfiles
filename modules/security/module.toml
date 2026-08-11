@@ -1,0 +1,9 @@
+[packages]
+present = [
+  "x11-ssh-askpass", # Lightweight passphrase dialog for SSH
+  "gcr", # A library for bits of crypto UI and parsing
+  "pinentry", # Collection of simple PIN or passphrase entry dialogs which utilize the Assuan protocol
+  "kleopatra", # Certificate Manager and Unified Crypto GUI
+  "ksshaskpass", # ssh-add helper that uses kwallet and kpassworddialog
+  "kwalletmanager", # Wallet management tool
+]

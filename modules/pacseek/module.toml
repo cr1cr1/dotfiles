@@ -1,0 +1,7 @@
+[packages]
+present = [
+  "pacseek",
+]
+
+[dotfiles]
+"~/.config/pacseek" = { source = "home/.config/pacseek", mode = "symlink-each" }

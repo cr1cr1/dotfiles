@@ -1,0 +1,9 @@
+scope = "system"
+
+[packages]
+present = [
+  "tmux", # Terminal multiplexer
+]
+
+[dotfiles]
+"/etc/tmux.conf" = { source = "home/etc/tmux.conf", mode = "copy" }

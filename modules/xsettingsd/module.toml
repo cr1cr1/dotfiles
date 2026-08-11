@@ -1,0 +1,7 @@
+[packages]
+present = [
+  "xsettingsd",
+]
+
+[dotfiles]
+"~/.config/xsettingsd" = { source = "home/.config/xsettingsd", mode = "symlink-each" }

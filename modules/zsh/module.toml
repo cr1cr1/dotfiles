@@ -1,0 +1,10 @@
+[packages]
+present = [
+  "zsh", # A very advanced and programmable command interpreter (shell) for UNIX
+  "aur/zsh-antidote", # the cure to slow zsh plugin management
+]
+
+[dotfiles]
+"~/.profile" = { source = "home/.profile", mode = "symlink" }
+"~/.zsh_plugins.txt" = { source = "home/.zsh_plugins.txt", mode = "symlink" }
+"~/.zshrc" = { source = "home/.zshrc", mode = "symlink" }

@@ -1,0 +1,18 @@
+scope = "system"
+
+[dotfiles]
+"/usr/local/lib/systemd/system/mnt-win-c.mount" = { source = "usr/local/lib/systemd/system/mnt-win-c.mount", mode = "copy" }
+"/usr/local/lib/systemd/system/mnt-linux2.mount" = { source = "usr/local/lib/systemd/system/mnt-linux2.mount", mode = "copy" }
+
+[hooks]
+post = [
+  "sudo systemctl daemon-reload",
+
+  "sudo mkdir -p /mnt/win/c",
+  "sudo systemctl enable mnt-win-c.mount",
+  "sudo systemctl restart mnt-win-c.mount",
+
+  "sudo mkdir -p /mnt/linux2",
+  "sudo systemctl enable mnt-linux2.mount",
+  "sudo systemctl restart mnt-linux2.mount",
+]

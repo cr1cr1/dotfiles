@@ -1,0 +1,2 @@
+[dotfiles]
+"~/.config/viddy.toml" = { source = "home/.config/viddy.toml", mode = "symlink" }

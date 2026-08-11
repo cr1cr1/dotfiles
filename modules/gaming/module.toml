@@ -1,0 +1,15 @@
+[packages]
+present = [
+  "bottles", # Easily manage wine and proton prefix
+  "gamescope", # SteamOS session compositing window manager
+  "aur/gamescope-nvidia", # SteamOS session compositing window manager (NVIDIA patch)
+  "gamemode", # A daemon/lib combo that allows games to request a set of optimisations be temporarily applied to the host OS
+  "lib32-gamemode", # A daemon/lib combo that allows games to request a set of optimisations be temporarily applied to the host OS
+  "steam", # Valve's digital software delivery system
+  "vkd3d", # Direct3D 12 to Vulkan translation library By WineHQ
+  "protonup-qt", # Install and manage Proton-GE and Luxtorpeda for Steam and Wine-GE for Lutris
+  "aur/joystickwake", # A joystick-aware screen waker
+  "xone-dongle-firmware", # Xbox Wireless Controller Adapter firmware
+  "obs-vkcapture", # OBS Linux Vulkan/OpenGL game capture
+  "lib32-obs-vkcapture", # OBS Linux Vulkan/OpenGL game capture (32-bit)
+]

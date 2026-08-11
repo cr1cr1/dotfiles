@@ -1,0 +1,62 @@
+[[plugin.deps]]
+use = "yazi-rs/plugins:chmod"
+rev = "39aaf6d"
+hash = "f0c8c378184d5f8abd1b095a443d336d"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:jump-to-char"
+rev = "39aaf6d"
+hash = "7a4b4237223aaa94e589d1c01a23542a"
+
+[[plugin.deps]]
+use = "Ape/open-with-cmd"
+rev = "eba191d"
+hash = "722a60eca1b338c9c24bb508d2d48578"
+
+[[plugin.deps]]
+use = "orhnk/system-clipboard"
+rev = "75a5330"
+hash = "2eca70f99d25c661e0a92000843d001e"
+
+[[plugin.deps]]
+use = "lpnh/fr"
+rev = "aa88cd4"
+hash = "8b0e87c3176e0d44f79a8656f79f0fa"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:smart-filter"
+rev = "39aaf6d"
+hash = "c887903a63a2ff520081b6d90a4b3392"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:full-border"
+rev = "39aaf6d"
+hash = "7b625412411be411153886894d9acaf"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:git"
+rev = "39aaf6d"
+hash = "88e56a64b7ce7c4314427452343fef17"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:toggle-pane"
+rev = "39aaf6d"
+hash = "15e5b67a241172cbb86b8fbf9e63692"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:piper"
+rev = "39aaf6d"
+hash = "12126fca34f9f1802bb57b88292f57af"
+
+[[plugin.deps]]
+use = "wylie102/duckdb"
+rev = "3f8c863"
+hash = "87b9233a74325e95011670ed20bbd0d4"
+
+[[plugin.deps]]
+use = "ndtoan96/ouch"
+rev = "406ce6c"
+hash = "f5afc904d5106ee368c8aa2ded43bd74"
+
+[flavor]
+deps = []

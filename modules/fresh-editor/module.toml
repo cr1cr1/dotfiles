@@ -1,0 +1,8 @@
+[packages]
+present = [
+    "aur/fresh-editor-bin"
+]
+
+[dotfiles]
+"~/.config/fresh/config.json" = { source = "home/.config/fresh/config.json", mode = "symlink" }
+"~/.config/fresh/themes/catppuccin-mocha.json" = { source = "home/.config/fresh/themes/catppuccin-mocha.json", mode = "symlink" }

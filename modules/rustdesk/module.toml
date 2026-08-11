@@ -1,0 +1,7 @@
+[packages]
+present = [
+  "rustdesk",
+]
+
+[dotfiles]
+"~/.config/rustdesk" = { source = "home/.config/rustdesk", mode = "symlink-each" }

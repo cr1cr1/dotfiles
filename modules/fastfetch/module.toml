@@ -1,0 +1,7 @@
+[packages]
+present = [
+  "fastfetch", # A feature-rich and performance oriented neofetch like system information tool
+]
+
+[dotfiles]
+"~/.config/fastfetch" = { source = "home/.config/fastfetch", mode = "symlink-each" }

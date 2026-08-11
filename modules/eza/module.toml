@@ -1,0 +1,7 @@
+[packages]
+present = [
+  "eza", # A modern replacement for ls (community fork of exa)
+]
+
+[dotfiles]
+"~/.config/eza/theme.yml" = { source = "home/.config/eza/theme.yml", mode = "symlink" }

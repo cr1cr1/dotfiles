@@ -1,0 +1,7 @@
+[packages]
+present = [
+  "aur/oh-my-posh-bin", # A prompt theme engine for any shell.
+]
+
+[dotfiles]
+"~/.config/oh-my-posh" = { source = "home/.config/oh-my-posh", mode = "symlink-each" }

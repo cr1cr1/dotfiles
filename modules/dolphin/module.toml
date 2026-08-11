@@ -1,0 +1,8 @@
+[packages]
+present = [
+  "dolphin",
+]
+
+[dotfiles]
+"~/.config/dolphinrc" = { source = "home/.config/dolphinrc", mode = "symlink" }
+"~/.local/share/kxmlgui5/dolphin" = { source = "home/.local/share/kxmlgui5/dolphin", mode = "symlink-each" }

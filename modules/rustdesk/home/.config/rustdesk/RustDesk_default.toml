@@ -1,0 +1,9 @@
+[options]
+image_quality = 'custom'
+view_style = 'adaptive'
+custom_image_quality = '50.0'
+show_remote_cursor = 'Y'
+use_all_my_displays_for_the_remote_session = 'Y'
+show_monitors_toolbar = 'Y'
+codec-preference = 'h265'
+custom-fps = '120.0'

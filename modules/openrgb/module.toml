@@ -1,0 +1,8 @@
+[packages]
+present = [
+  "openrgb", # Open source RGB lighting control that doesn't depend on manufacturer software
+]
+
+[dotfiles]
+"~/.config/OpenRGB" = { source = "home/.config/OpenRGB", mode = "symlink-each" }
+"~/.config/autostart/OpenRGB.desktop" = { source = "home/.config/autostart/OpenRGB.desktop", mode = "symlink" }

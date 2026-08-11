@@ -1,0 +1,37 @@
+[packages]
+present = [
+  "aur/networkmanager-iwd-overlay", # Configure NetworkManager to use iwd instead of wpa_supplicant
+  "xh", # Friendly and fast tool for sending HTTP requests
+  "pv", # A terminal-based tool for monitoring the progress of data through a pipeline
+  "unarchiver", # unar and lsar
+  "openssh", # SSH protocol implementation for remote login, command execution and file transfer
+  "wget", # Network utility to retrieve files from the Web
+  "curl", # command line tool and library for transferring data with URLs
+  "inetutils", # A collection of common network programs
+  "net-tools", # Configuration tools for Linux networking
+  "dnsutils", # A complete, highly portable implementation of the DNS protocol
+  "mtr", # Combines the functionality of traceroute and ping into one tool (CLI version)
+  "trippy", # A network diagnostic tool
+  "gping", # Ping, but with a graph
+  "ssh-tools", # A collection of tools making SSH more convenient
+  "nmap", # Utility for network discovery and security auditing
+  "tcpdump", # Powerful command-line packet analyzer
+  "termshark", # Terminal UI for tshark, inspired by Wireshark
+  "openbsd-netcat", # TCP/IP swiss army knife. OpenBSD variant.
+  "wireguard-tools", # next generation secure network tunnel - tools for configuration
+  "networkmanager-openvpn", # NetworkManager VPN plugin for OpenVPN
+  "iptraf-ng", # Console-based network monitoring utility
+  "socat", # Multipurpose relay
+  "doggo", # Command-line DNS client for humans
+  "aur/neoss", # Unix tool with terminal UI for visualizing socket statistics
+  "aur/wuzz-bin", # Interactive CLI tool for HTTP inspection
+  "aria2", # Download utility that supports HTTP(S), FTP, BitTorrent, and Metalink
+  "aur/wush", # lets you easily transfer files and open shells over a peer-to-peer WireGuard connection
+  "sshs", # Terminal user interface for SSH (Binary)
+  "dog", # Command-line DNS client like dig
+  "aur/ssh-ggh-bin", # Recall your SSH sessions (also search your SSH config file)
+  "nm-connection-editor", # NetworkManager GUI connection editor and widgets
+  "ttyd", # Share your terminal over the web
+  "impala", # TUI for managing wifi
+  "aur/wlctl-bin", # TUI for managing WiFi using NetworkManager (a fork of impala)
+]

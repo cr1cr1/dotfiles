@@ -1,0 +1,9 @@
+[packages]
+present = [
+  "aur/kopia-bin", # A cross-platform backup-tool with encryption, deduplication, compression and cloud support.
+  "aur/kopia-ui-bin", # A cross-platform backup-tool with encryption, deduplication, compression and cloud support.
+]
+
+[dotfiles]
+"~/.config/autostart/kopia-ui.desktop" = { source = "home/.config/autostart/kopia-ui.desktop", mode = "symlink" }
+"~/.config/kopia" = { source = "home/.config/kopia", mode = "symlink-each" }

@@ -1,0 +1,7 @@
+[packages]
+present = [
+  "calibre", # Ebook management application
+  "aur/onlyoffice-bin", # An office suite that combines text, spreadsheet and presentation editors
+  "jrnl", # Collect your thoughts and notes without leaving the command line
+  "kate", # Advanced Text Editor
+]

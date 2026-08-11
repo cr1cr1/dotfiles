@@ -1,0 +1,17 @@
+paths:
+  cam:
+    runOnInit: >
+      ffmpeg
+      -f v4l2
+      -input_format mjpeg
+      -video_size 1920x1080
+      -framerate 30
+      -i /dev/video0
+      -c:v libx264
+      -preset veryfast
+      -tune zerolatency
+      -crf 18
+      -pix_fmt yuv420p
+      -f rtsp
+      rtsp://0.0.0.0:$RTSP_PORT/$MTX_PATH
+    runOnInitRestart: yes

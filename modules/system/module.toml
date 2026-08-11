@@ -1,0 +1,42 @@
+[packages]
+present = [
+  "zenith", # Terminal system monitor with histograms
+  "atop", # A system and process level monitor
+  "iotop", # View I/O usage of processes
+  "sysstat", # a collection of performance monitoring tools (iostat,isag,mpstat,pidstat,sadf,sar)
+  "ctop", # Top-like interface for container metrics
+  "strace", # A diagnostic, debugging and instructional userspace tracer
+  "watchexec", # Executes commands in response to file modifications
+  "procs", # A modern replacement for ps written in Rust
+  "aur/mprocs-bin", # Run multiple commands in parallel
+  "systemctl-tui", # A fast, simple TUI for interacting with systemd services and their logs
+  "dmidecode", # Desktop Management Interface table related utilities
+  "lm_sensors", # Collection of user space tools for general SMBus access and hardware monitoring
+  "hwinfo", # Hardware detection tool from openSUSE
+  "hddtemp", # Gives you the temperature of your hard drive by reading S.M.A.R.T. information
+  "expac", # alpm data (pacman database) extraction utility
+  "power-profiles-daemon", # Makes power profiles handling available over D-Bus
+  "btrfs-assistant", # An application for managing BTRFS subvolumes and Snapper snapshots
+  "aur/eget-bin", # Easily install prebuilt binaries from GitHub
+  "aur/pacseek-bin", # A terminal user interface for searching and installing Arch Linux packages (binary version)
+  "aur/parui", # Simple TUI frontend for paru or yay
+  "ventoy-bin", # A new bootable USB solution
+  "aur/viddy-bin", # A modern watch command, binary version
+  "aur/sysz", # fzf terminal UI for systemctl
+  "gptfdisk", # A text-mode partitioning tool that works on GUID Partition Table (GPT) disks
+  "dysk", # Get information on your mounted filesystems
+  "gparted", # A Partition Magic clone, frontend to GNU Parted
+  "gsmartcontrol", # A graphical user interface for the smartctl hard disk drive health inspection tool.
+  "wmctrl", # Control your EWMH compliant window manager from command line
+  "systemd-ui", # Graphical front-end for systemd
+  "mission-center", # Monitor your CPU, Memory, Disk, Network and GPU usage
+  "solaar", # Linux device manager for a wide range of Logitech devices
+  "ksystemlog", # System log viewer tool
+  "plasma-pa", # Plasma applet for audio volume management using PulseAudio
+  "plasma-nm", # Plasma applet written in QML for managing network connections
+  "plasma-disks", # Monitors S.M.A.R.T. capable devices for imminent failure
+  "switcheroo-control", # D-Bus service to check the availability of dual-GPU
+  "partitionmanager", # A KDE utility that allows you to manage disks, partitions, and file systems
+  "calf", # LV2 plug-in suite
+  "inotify-tools", # inotify-tools is a C library and a set of command-line programs for Linux providing a simple interface to inotify.
+]

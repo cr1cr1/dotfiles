@@ -1,0 +1,7 @@
+[packages]
+present = [
+  "micro",
+]
+
+[dotfiles]
+"~/.config/micro" = { source = "home/.config/micro", mode = "symlink-each" }

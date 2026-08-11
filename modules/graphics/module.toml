@@ -1,0 +1,9 @@
+[packages]
+present = [
+  "libheif", # An HEIF and AVIF file format decoder and encoder
+  "rnote", # A simple drawing application to create handwritten notes
+  "hugin", # Panorama photo stitcher
+  "loupe", # A simple image viewer for GNOM
+  "gwenview", # A fast and easy to use image viewer
+  "kimageformats", # Image format plugins for Qt 6
+]

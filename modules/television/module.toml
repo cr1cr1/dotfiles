@@ -1,0 +1,7 @@
+[packages]
+present = [
+  "television", # A general purpose fuzzy finder for your terminal
+]
+
+[dotfiles]
+"~/.config/television" = { source = "home/.config/television", mode = "symlink-each" }

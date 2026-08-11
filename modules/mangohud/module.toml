@@ -1,0 +1,7 @@
+[packages]
+present = [
+  "mangohud", # A Vulkan overlay layer for monitoring FPS, temperatures, CPU/GPU load and more
+]
+
+[dotfiles]
+"~/.config/MangoHud" = { source = "home/.config/MangoHud", mode = "symlink-each" }

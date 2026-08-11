@@ -1,0 +1,4 @@
+scope = "system"
+
+[dotfiles]
+"/etc/plasmalogin.conf" = { source = "home/etc/plasmalogin.conf", mode = "copy" }

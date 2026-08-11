@@ -1,0 +1,8 @@
+[packages]
+present = [
+  "keepassxc", # Cross-platform community-driven port of Keepass password manager
+]
+
+[dotfiles]
+"~/.config/autostart/org.keepassxc.KeePassXC.desktop" = { source = "home/.config/autostart/org.keepassxc.KeePassXC.desktop", mode = "symlink" }
+"~/.config/keepassxc/keepassxc.ini" = { source = "home/.config/keepassxc/keepassxc.ini", mode = "copy" }

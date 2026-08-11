@@ -1,0 +1,4 @@
+scope = "system"
+
+[dotfiles]
+"/usr/local/share/dbus-1/services/org.freedesktop.secrets.service" = { source = "home/usr/local/share/dbus-1/services/org.freedesktop.secrets.service", mode = "copy" }

@@ -1,0 +1,8 @@
+[packages]
+present = [
+  "easyeffects", # Audio Effects for Pipewire applications
+]
+
+[dotfiles]
+"~/.config/autostart/easyeffects-service.desktop" = { source = "home/.config/autostart/easyeffects-service.desktop", mode = "symlink" }
+"~/.config/easyeffects" = { source = "home/.config/easyeffects", mode = "symlink-each" }

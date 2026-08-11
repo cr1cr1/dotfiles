@@ -1,0 +1,9 @@
+scope = "system"
+
+[packages]
+present = [
+  "samba",
+]
+
+[dotfiles]
+"/etc/samba/smb.conf" = { source = "home/etc/samba/smb.conf", mode = "copy" }

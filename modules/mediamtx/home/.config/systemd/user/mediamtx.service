@@ -1,0 +1,13 @@
+[Unit]
+Description=MediaMTX Webcam Stream
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/mediamtx %h/.config/mediamtx.yml
+Restart=always
+RestartSec=2
+
+[Install]
+WantedBy=default.target
