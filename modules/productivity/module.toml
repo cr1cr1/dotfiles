@@ -1,3 +1,4 @@
+description = "Productivity apps for ebooks, office documents, command-line notes and text editing"
 [packages]
 present = [
   "calibre", # Ebook management application

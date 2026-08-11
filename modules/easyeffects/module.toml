@@ -1,3 +1,4 @@
+description = "PipeWire audio effects with autostart service and preset configuration"
 [packages]
 present = [
   "easyeffects", # Audio Effects for Pipewire applications

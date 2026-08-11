@@ -1,3 +1,4 @@
+description = "System-wide idempotent setup tasks run as post-hooks (firewall, bootloader, drivers, services, virtualization)"
 # Idempotent system setup tasks from pimp-my-cachyos
 # mise-tasks/, invoked as profile mise tasks in the
 # original all.sh order. $PARU comes from the generated

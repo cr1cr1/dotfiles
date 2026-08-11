@@ -1,3 +1,4 @@
+description = "Command-line markdown renderer with its configuration"
 [packages]
 present = [
   "glow", # Command-line markdown renderer

@@ -1,3 +1,4 @@
+description = "Git version control with git-delta syntax-highlighting pager and global config"
 [packages]
 present = [
   "git", # the fast distributed version control system

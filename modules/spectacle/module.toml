@@ -1,3 +1,4 @@
+description = "KDE screen capture utility for screenshots and screen recordings"
 [packages]
 present = [
   "spectacle",

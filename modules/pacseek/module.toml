@@ -1,3 +1,4 @@
+description = "Terminal UI for searching Arch Linux repositories and the AUR"
 [packages]
 present = [
   "pacseek",

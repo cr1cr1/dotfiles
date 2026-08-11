@@ -1,3 +1,4 @@
+description = "Terminal-based EPUB and PDF reader with a rich TUI"
 [packages]
 present = [
   "aur/bookokrat-bin", # Terminal-based EPUB and PDF reader with rich TUI

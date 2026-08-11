@@ -1,3 +1,4 @@
+description = "libvirt with a QEMU hook installed system-wide"
 scope = "system"
 
 [packages]

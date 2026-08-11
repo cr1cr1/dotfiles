@@ -1,3 +1,4 @@
+description = "Web browser (Zen) and remote Transmission torrent client GUI"
 [packages]
 present = [
   "zen-browser-bin", # Performance oriented Firefox-based web browser

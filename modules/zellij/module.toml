@@ -1,3 +1,4 @@
+description = "Zellij terminal multiplexer with configuration"
 [packages]
 present = [
   "zellij",

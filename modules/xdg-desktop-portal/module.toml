@@ -1,3 +1,4 @@
+description = "XDG desktop portal backends for Wayland with portal configuration"
 [packages]
 present = [
   "xdg-desktop-portal-wlr", # xdg-desktop-portal backend for wlroots

@@ -1,3 +1,4 @@
+description = "Terminal file manager emulating Norton Commander"
 [packages]
 present = [
   "mc", # A file manager that emulates Norton Commander

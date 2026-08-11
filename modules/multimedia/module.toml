@@ -1,3 +1,4 @@
+description = "Multimedia playback, streaming, and audio mixing tools (VLC, OBS Studio, ocenaudio, Wiremix)"
 [packages]
 present = [
   "gst-plugin-spotify", # Multimedia graph framework - spotify plugin

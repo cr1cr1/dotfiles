@@ -1,3 +1,4 @@
+description = "A fine-tuned fork of Mozilla Thunderbird mail client"
 [packages]
 present = [
   "betterbird-bin", # Betterbird is a fine-tuned version of Mozilla Thunderbird, Thunderbird on steroids, if you will.

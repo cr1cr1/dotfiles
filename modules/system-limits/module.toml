@@ -1,3 +1,4 @@
+description = "System-wide relaxed resource limits via security/limits.d (raised open file cap)"
 scope = "system"
 
 [dotfiles]

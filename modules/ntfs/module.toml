@@ -1,3 +1,4 @@
+description = "NTFS support via ntfsprogs-plus on kernel 7.2 and newer, replacing ntfs-3g"
 [when]
 kernel = ">= 7.2"
 

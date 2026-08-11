@@ -1,2 +1,3 @@
+description = "User systemd unit configuration"
 [dotfiles]
 "~/.config/systemd" = { source = "home/.config/systemd", mode = "symlink-each" }

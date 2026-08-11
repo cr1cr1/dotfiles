@@ -1,3 +1,4 @@
+description = "Thorium Chromium browser with autostart entries and environment flags"
 [packages]
 present = [
   "aur/thorium-browser-updated-bin", # Chromium fork focused on high performance and security

@@ -1,3 +1,4 @@
+description = "Okular document viewer with configuration and KDE GUI customization"
 [packages]
 present = [
   "okular", # Document Viewer

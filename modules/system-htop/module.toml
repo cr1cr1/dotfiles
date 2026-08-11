@@ -1,3 +1,4 @@
+description = "System-wide htop interactive process viewer with shared /etc/htoprc"
 scope = "system"
 
 [packages]

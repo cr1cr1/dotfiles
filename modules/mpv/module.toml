@@ -1,3 +1,4 @@
+description = "mpv media player configuration"
 [packages]
 present = [
   "mpv",

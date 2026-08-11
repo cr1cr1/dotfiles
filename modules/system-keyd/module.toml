@@ -1,3 +1,4 @@
+description = "System-wide keyd key remapping daemon configuration"
 scope = "system"
 
 [packages]

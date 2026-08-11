@@ -1,2 +1,3 @@
+description = "User configuration for viddy, a modern watch replacement with command history navigation"
 [dotfiles]
 "~/.config/viddy.toml" = { source = "home/.config/viddy.toml", mode = "symlink" }

@@ -1,3 +1,4 @@
+description = "Real-time media server run as a systemd user service, bundled with FFmpeg"
 [packages]
 present = [
   "ffmpeg", # Complete solution to record, convert and stream audio and video

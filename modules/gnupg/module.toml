@@ -1,3 +1,4 @@
+description = "GnuPG keyring and configuration setup"
 [packages]
 present = [
   "gnupg",

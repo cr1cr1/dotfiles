@@ -1,3 +1,4 @@
+description = "GameStream client with udev rules for input device access"
 scope = "system"
 
 [packages]

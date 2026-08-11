@@ -1,3 +1,4 @@
+description = "XSETTINGS daemon that propagates X11 application settings"
 [packages]
 present = [
   "xsettingsd",

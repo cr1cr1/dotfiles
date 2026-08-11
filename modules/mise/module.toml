@@ -1,3 +1,4 @@
+description = "Polyglot dev-environment runtime version manager with config"
 [packages]
 present = [
   "mise", # The front-end to your dev env

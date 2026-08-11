@@ -1,3 +1,4 @@
+description = "System-wide sysctl drop-in disabling kernel split-lock mitigation"
 scope = "system"
 
 [dotfiles]

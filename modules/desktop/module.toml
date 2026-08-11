@@ -1,3 +1,4 @@
+description = "Desktop theming and integration (cursor theme, menu editor, wallpapers, and Wayland clipboard) plus Electron/Spotify flags"
 [packages]
 present = [
   "bibata-cursor-theme-bin", # Material Based Cursor Theme

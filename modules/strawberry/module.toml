@@ -1,3 +1,4 @@
+description = "Strawberry music player for audio enthusiasts with its configuration"
 [packages]
 present = [
   "strawberry", # A music player aimed at audio enthusiasts and music collectors

@@ -1,3 +1,4 @@
+description = "A modern replacement for ls (community fork of exa) with theme support"
 [packages]
 present = [
   "eza", # A modern replacement for ls (community fork of exa)

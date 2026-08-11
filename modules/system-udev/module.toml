@@ -1,3 +1,4 @@
+description = "System-wide udev rule for KVMFR"
 scope = "system"
 
 [dotfiles]

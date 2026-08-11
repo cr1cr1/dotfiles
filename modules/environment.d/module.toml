@@ -1,3 +1,4 @@
+description = "environment.d drop-ins for GPU, HDR, gaming and toolkit variables"
 [dotfiles]
 "~/.config/environment.d/default-gpu.conf" = { source = "home/.config/environment.d/default-gpu.conf", mode = "symlink" }
 "~/.config/environment.d/fsr4.conf.disabled" = { source = "home/.config/environment.d/fsr4.conf.disabled", mode = "symlink" }

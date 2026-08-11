@@ -1,3 +1,4 @@
+description = "System-wide Name Service Switch configuration"
 scope = "system"
 
 [dotfiles]

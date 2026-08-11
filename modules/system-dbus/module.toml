@@ -1,3 +1,4 @@
+description = "System-wide D-Bus service file forwarding org.freedesktop.secrets"
 scope = "system"
 
 [dotfiles]

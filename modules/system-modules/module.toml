@@ -1,3 +1,4 @@
+description = "System-wide kernel module load rules for KVMFR and hwmon"
 scope = "system"
 
 [dotfiles]

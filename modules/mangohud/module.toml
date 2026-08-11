@@ -1,3 +1,4 @@
+description = "Vulkan overlay layer for monitoring FPS, temperatures and CPU/GPU load"
 [packages]
 present = [
   "mangohud", # A Vulkan overlay layer for monitoring FPS, temperatures, CPU/GPU load and more

@@ -1,3 +1,4 @@
+description = "System-wide Btrfs snapshot management with snapper configs for root and home"
 scope = "system"
 
 [packages]

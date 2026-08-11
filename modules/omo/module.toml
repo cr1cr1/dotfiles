@@ -1,3 +1,4 @@
+description = "Installs oh-my-openagent AI coding agents for OpenCode, ZAI, and Kimi"
 [dotfiles]
 "~/.omo/omo.jsonc" = { source = "home/.omo/omo.jsonc", mode = "symlink" }
 

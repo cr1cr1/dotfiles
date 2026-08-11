@@ -1,3 +1,4 @@
+description = "Fast file copying tool with daemon configuration"
 [packages]
 present = [
   "rsync", # A fast and versatile file copying tool for remote and local files

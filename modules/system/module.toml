@@ -1,3 +1,4 @@
+description = "System monitoring, hardware diagnostics, disk partitioning, and package management utilities"
 [packages]
 present = [
   "zenith", # Terminal system monitor with histograms

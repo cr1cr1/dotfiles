@@ -1,3 +1,4 @@
+description = "Visual Studio Code editor with user configuration and launch flags"
 [packages]
 present = [
   "aur/visual-studio-code-bin", # Visual Studio Code (vscode)

@@ -1,3 +1,4 @@
+description = "Interactive process viewer"
 [packages]
 present = [
   "htop", # Interactive process viewer

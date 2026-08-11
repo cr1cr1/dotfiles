@@ -1,3 +1,4 @@
+description = "RustDesk remote desktop client with configuration"
 [packages]
 present = [
   "rustdesk",

@@ -1,3 +1,4 @@
+description = "NTFS filesystem driver for kernels before 7.2"
 [when]
 kernel = "< 7.2"
 

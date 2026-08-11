@@ -1,3 +1,4 @@
+description = "General-purpose terminal fuzzy finder with config"
 [packages]
 present = [
   "television", # A general purpose fuzzy finder for your terminal

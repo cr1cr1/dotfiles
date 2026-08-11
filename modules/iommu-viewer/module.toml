@@ -1,2 +1,3 @@
+description = "Shell script that lists PCI devices grouped by IOMMU group"
 [dotfiles]
 "~/iommu-viewer.sh" = { source = "home/iommu-viewer.sh", mode = "symlink" }

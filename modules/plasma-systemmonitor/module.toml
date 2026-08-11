@@ -1,3 +1,4 @@
+description = "Plasma system monitor with saved sensor layouts"
 [packages]
 present = [
   "plasma-systemmonitor", # An interface for monitoring system sensors, process information and other system resources

@@ -1,2 +1,3 @@
+description = "Additional icon themes installed to the user icon directory"
 [dotfiles]
 "~/.local/share/icons" = { source = "home/.local/share/icons", mode = "symlink-each" }

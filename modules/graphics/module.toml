@@ -1,3 +1,4 @@
+description = "Image viewing, editing, and format support tools (viewers, notes, panorama, HEIF/AVIF)"
 [packages]
 present = [
   "libheif", # An HEIF and AVIF file format decoder and encoder

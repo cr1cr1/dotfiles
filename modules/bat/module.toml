@@ -1,3 +1,4 @@
+description = "Cat clone with syntax highlighting and git integration"
 [packages]
 present = [
   "bat", # Cat clone with syntax highlighting and git integration

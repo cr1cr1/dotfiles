@@ -1,3 +1,4 @@
+description = "KDE Plasma desktop with theming, remote desktop, and full application configuration"
 [packages]
 present = [
   # "sddm-kcm", # KDE Config Module for SDDM

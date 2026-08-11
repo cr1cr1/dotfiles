@@ -1,3 +1,4 @@
+description = "Panel Colorizer GNOME Shell extension and its configuration"
 [packages]
 present = [
   "aur/panel-colorizer",

@@ -1,3 +1,4 @@
+description = "Kopia encrypted, deduplicated backup client with autostart entry and configuration"
 [packages]
 present = [
   "aur/kopia-bin", # A cross-platform backup-tool with encryption, deduplication, compression and cloud support.

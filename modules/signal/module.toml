@@ -1,3 +1,4 @@
+description = "Signal private messenger desktop client with launch flags"
 [packages]
 present = [
   "signal-desktop", # Signal Private Messenger for Linux

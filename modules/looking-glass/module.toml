@@ -1,3 +1,4 @@
+description = "Looking Glass VM display client with the IVSHMEM kernel module"
 [packages]
 present = [
   "looking-glass", # A client application for accessing the LookingGlass IVSHMEM device of a VM

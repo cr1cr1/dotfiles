@@ -1,3 +1,4 @@
+description = "Container engines and tooling (Docker, Podman, Compose, BuildKit, Skopeo and TUIs)"
 [packages]
 present = [
   "docker", # Pack, ship and run any application as a lightweight container

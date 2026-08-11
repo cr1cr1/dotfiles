@@ -1,3 +1,4 @@
+description = "System-wide NVIDIA application profile drop-in that limits the free buffer pool in Wayland compositors"
 scope = "system"
 
 [dotfiles]

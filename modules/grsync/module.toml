@@ -1,3 +1,4 @@
+description = "GTK frontend for rsync to synchronize and back up folders"
 [packages]
 present = [
   "grsync", # GTK+ GUI for rsync to synchronize folders, files and make backups

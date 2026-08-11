@@ -1,3 +1,4 @@
+description = "Backup and sync tooling (rclone, syncthing) plus pacman btrfs snapshots via snap-pac"
 [packages]
 present = [
   "rclone", # Sync files to and from Google Drive, S3, Swift, Cloudfiles, Dropbox and Google Cloud Storage

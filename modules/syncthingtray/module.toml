@@ -1,3 +1,4 @@
+description = "System tray application for Syncthing (Qt 6) with autostart"
 [packages]
 present = [
   "aur/syncthingtray-qt6", # Tray application for Syncthing (using Qt 6)

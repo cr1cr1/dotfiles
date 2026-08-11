@@ -1,3 +1,4 @@
+description = "Terminal-based text editor (micro) with configuration"
 [packages]
 present = [
   "micro",

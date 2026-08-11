@@ -1,3 +1,4 @@
+description = "Feature-rich neofetch-style system information tool for the terminal with config"
 [packages]
 present = [
   "fastfetch", # A feature-rich and performance oriented neofetch like system information tool

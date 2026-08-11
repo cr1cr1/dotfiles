@@ -1,3 +1,4 @@
+description = "System-wide PipeWire configuration for audio sample rates"
 scope = "system"
 
 [dotfiles]

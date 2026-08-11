@@ -1,3 +1,4 @@
+description = "System-wide tmux terminal multiplexer with a shared /etc/tmux.conf"
 scope = "system"
 
 [packages]

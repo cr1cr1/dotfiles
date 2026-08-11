@@ -1,3 +1,4 @@
+description = "Simple terminal UI for git commands"
 [packages]
 present = [
   "lazygit", # Simple terminal UI for git commands

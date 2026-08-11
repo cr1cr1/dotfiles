@@ -1,3 +1,4 @@
+description = "Systemd mount units, services and timers for Synology NAS shares (syn01, syn02, shared) with enable hooks"
 scope = "system"
 
 [dotfiles]

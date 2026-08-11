@@ -1,3 +1,4 @@
+description = "Local LLM runner, agent desktop client, and AST code search tooling"
 [packages]
 present = [
   "aur/lmstudio-bin", # Discover, download, and run local LLMs

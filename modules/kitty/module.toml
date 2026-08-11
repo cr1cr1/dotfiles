@@ -1,3 +1,4 @@
+description = "OpenGL-based terminal emulator with user configuration"
 [packages]
 present = [
   "kitty", # A modern, hackable, featureful, OpenGL-based terminal emulator

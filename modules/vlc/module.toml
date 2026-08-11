@@ -1,3 +1,4 @@
+description = "Multi-platform media player for video and audio"
 [packages]
 present = [
   "vlc", # Multi-platform MPEG, VCD/DVD, and DivX player

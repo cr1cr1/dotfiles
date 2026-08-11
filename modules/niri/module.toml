@@ -1,3 +1,4 @@
+description = "Scrollable-tiling Wayland compositor with companion tooling (clipboard, polkit, Qt theming, screenshots, Xwayland)"
 [packages]
 present = [
   "aur/qt5ct-kde", # Qt 5 Configuration Utility, patched to work correctly with KDE applications

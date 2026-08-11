@@ -1,3 +1,4 @@
+description = "Terminal music player with config"
 [packages]
 present = [
   "kew", # A terminal music player

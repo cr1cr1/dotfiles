@@ -1,3 +1,4 @@
+description = "Terminal multiplexer configuration"
 [packages]
 present = [
   "tmux", # Terminal multiplexer

@@ -1,3 +1,4 @@
+description = "System-wide Samba file sharing server configuration"
 scope = "system"
 
 [packages]

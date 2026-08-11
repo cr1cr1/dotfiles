@@ -1,3 +1,4 @@
+description = "C++ system resource monitor with its configuration"
 [packages]
 present = [
   "btop", # A monitor of system resources, bpytop ported to C++

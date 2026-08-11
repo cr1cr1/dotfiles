@@ -1,3 +1,4 @@
+description = "SSH passphrase prompts, GPG key management (Kleopatra), and KWallet credential store"
 [packages]
 present = [
   "x11-ssh-askpass", # Lightweight passphrase dialog for SSH

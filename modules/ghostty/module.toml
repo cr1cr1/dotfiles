@@ -1,3 +1,4 @@
+description = "Fast native GPU-accelerated terminal emulator"
 [packages]
 present = [
   "ghostty", # Fast, native, feature-rich terminal emulator pushing modern features

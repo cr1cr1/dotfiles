@@ -1,3 +1,4 @@
+description = "Wayland screen locker with its configuration"
 [packages]
 present = [
   "swaylock",

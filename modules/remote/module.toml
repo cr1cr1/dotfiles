@@ -1,3 +1,4 @@
+description = "Remote desktop clients and self-hosted game streaming (RDP, RustDesk, Moonlight)"
 [packages]
 present = [
   "remmina", # remote desktop client written in GTK+

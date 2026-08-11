@@ -1,3 +1,4 @@
+description = "KDE Baloo file indexing service configuration"
 [packages]
 present = [
   "baloo",

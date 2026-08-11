@@ -1,3 +1,4 @@
+description = "Developer toolchains and runtimes (Go, Python, SQL clients, diff and project cleanup tools)"
 [packages]
 present = [
   "worktrunk", # CLI for Git worktree management, designed for parallel AI agent workflows

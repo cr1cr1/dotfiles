@@ -1,3 +1,4 @@
+description = "File encryption and secrets tooling (age, sops) plus SafeNet PKCS#11 smart-card modules"
 [packages]
 present = [
   "age", # A simple, modern and secure file encryption tool

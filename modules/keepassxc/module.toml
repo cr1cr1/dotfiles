@@ -1,3 +1,4 @@
+description = "KeePassXC password manager with autostart and configuration"
 [packages]
 present = [
   "keepassxc", # Cross-platform community-driven port of Keepass password manager

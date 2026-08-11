@@ -1,3 +1,4 @@
+description = "Synced, searchable shell history stored in a SQLite database"
 [packages]
 present = [
   "atuin", # Magical shell history

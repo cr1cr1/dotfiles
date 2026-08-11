@@ -1,3 +1,4 @@
+description = "Fresh text editor with Catppuccin Mocha theme"
 [packages]
 present = [
     "aur/fresh-editor-bin"

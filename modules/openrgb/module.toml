@@ -1,3 +1,4 @@
+description = "Open-source RGB lighting control with autostart entry and saved profiles"
 [packages]
 present = [
   "openrgb", # Open source RGB lighting control that doesn't depend on manufacturer software

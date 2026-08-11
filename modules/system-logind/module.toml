@@ -1,3 +1,4 @@
+description = "systemd-logind drop-in that ignores the laptop lid switch"
 scope = "system"
 
 [dotfiles]

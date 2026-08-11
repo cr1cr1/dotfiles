@@ -1,3 +1,4 @@
+description = "Command-line fuzzy finder with tab completion"
 [packages]
 present = [
   "fzf", # Command-line fuzzy finder

@@ -1,3 +1,4 @@
+description = "System-wide KDE Plasma login configuration via /etc/plasmalogin.conf"
 scope = "system"
 
 [dotfiles]

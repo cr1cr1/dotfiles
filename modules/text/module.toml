@@ -1,3 +1,4 @@
+description = "Text, document and data processing tools (JSON, HTML, XML, CSV, image and large-text utilities)"
 [packages]
 present = [
   "jq", # Command-line JSON processor

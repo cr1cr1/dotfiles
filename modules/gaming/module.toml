@@ -1,3 +1,4 @@
+description = "Gaming stack with Steam, Proton, Gamescope, GameMode and OBS Vulkan capture"
 [packages]
 present = [
   "bottles", # Easily manage wine and proton prefix

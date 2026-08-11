@@ -1,3 +1,4 @@
+description = "File management utilities (finders, disk usage analyzers, archivers, compressors and compare tools)"
 [packages]
 present = [
   "fd", # Simple, fast and user-friendly alternative to find

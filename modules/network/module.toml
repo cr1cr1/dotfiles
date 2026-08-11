@@ -1,3 +1,4 @@
+description = "Network tooling for diagnostics, transfers, DNS, packet capture, VPNs and NetworkManager"
 [packages]
 present = [
   "aur/networkmanager-iwd-overlay", # Configure NetworkManager to use iwd instead of wpa_supplicant

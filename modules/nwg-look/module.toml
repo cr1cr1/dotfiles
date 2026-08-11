@@ -1,3 +1,4 @@
+description = "GTK appearance picker with saved theme config"
 [packages]
 present = [
   "aur/nwg-look",

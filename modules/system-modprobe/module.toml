@@ -1,3 +1,4 @@
+description = "System-wide modprobe.d configuration (KVM, KVMFR, Apple keyboard, and a Nintendo driver blacklist)"
 scope = "system"
 
 [dotfiles]

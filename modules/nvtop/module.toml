@@ -1,3 +1,4 @@
+description = "GPU process monitor for AMD, Intel and NVIDIA"
 [packages]
 present = [
   "nvtop", # GPUs process monitoring for AMD, Intel and NVIDIA

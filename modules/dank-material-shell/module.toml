@@ -1,3 +1,4 @@
+description = "DankMaterialShell desktop shell built on Quickshell with search, monitoring, and KDE Connect integration"
 [packages]
 present = [
   "dms-shell-niri", # DankMaterialShell - A feature-rich desktop shell built with Quickshell and Go (stable release)

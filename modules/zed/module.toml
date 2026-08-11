@@ -1,3 +1,4 @@
+description = "High-performance multiplayer code editor with user configuration"
 [packages]
 present = [
   "zed", # A high-performance, multiplayer code editor from the creators of Atom and Tree-sitter

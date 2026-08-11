@@ -1,3 +1,4 @@
+description = "KDE graphical file manager"
 [packages]
 present = [
   "dolphin",
