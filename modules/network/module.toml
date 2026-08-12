@@ -36,3 +36,9 @@ present = [
   "impala", # TUI for managing wifi
   "aur/wlctl-bin", # TUI for managing WiFi using NetworkManager (a fork of impala)
 ]
+
+[hooks]
+post = [
+  "sudo systemctl enable sshd",
+  "sudo systemctl restart sshd",
+]

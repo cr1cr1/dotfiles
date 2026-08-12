@@ -1,4 +1,6 @@
 description = "Replaces GRUB with the Limine bootloader (mkinitcpio hook and snapper boot entries)"
+scope = "system"
+
 [packages]
 present = [
   "limine", # Modern, advanced, portable, multiprotocol bootloader
@@ -11,4 +13,18 @@ absent = [
   "grub-customizer", # A graphical grub2 settings manager
   "grub-hook", # Pacman hooks for GRUB
   "catppuccin-mocha-grub-theme-git", # Soothing pastel theme for GRUB2 -- Mocha colorscheme
+]
+
+[dotfiles]
+"/etc/boot/hooks/post.d/91-catppuccin-mocha-theme" = { source = "etc/boot/hooks/post.d/91-catppuccin-mocha-theme", mode = "copy" }
+"/etc/default/limine/esp-path" = { line = 'ESP_PATH="/boot"' }
+
+[hooks]
+post = [
+  "sudo chmod +x /etc/boot/hooks/post.d/91-catppuccin-mocha-theme",
+  "sudo /etc/boot/hooks/post.d/91-catppuccin-mocha-theme",
+  "sudo limine-install",
+  "sudo limine-mkinitcpio",
+  "sudo systemctl enable --now limine-snapper-sync.service",
+  "sudo limine-snapper-sync",
 ]

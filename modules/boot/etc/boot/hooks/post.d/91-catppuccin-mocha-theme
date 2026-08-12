@@ -1,0 +1,25 @@
+#!/bin/bash
+set -e
+
+ESP_PATH=$(bootctl --print-esp-path 2>/dev/null || echo "/boot")
+LIMINE_CONF="${ESP_PATH}/limine.conf"
+
+[[ -f "$LIMINE_CONF" ]] || exit 0
+
+# Inject Catppuccin Mocha theme if not present
+if ! grep -q "^term_palette:" "$LIMINE_CONF"; then
+  sed -i '1i\
+term_palette: 1e1e2e;f38ba8;a6e3a1;f9e2af;89b4fa;f5c2e7;94e2d5;cdd6f4\
+term_palette_bright: 585b70;f38ba8;a6e3a1;f9e2af;89b4fa;f5c2e7;94e2d5;cdd6f4\
+term_background: 1e1e2e\
+term_foreground: cdd6f4\
+term_background_bright: 585b70\
+term_foreground_bright: cdd6f4\
+interface_branding:\
+' "$LIMINE_CONF"
+fi
+
+# Ensure //Snapshots marker exists for limine-snapper-sync
+if ! grep -q "//Snapshots" "$LIMINE_CONF"; then
+  echo "//Snapshots" >> "$LIMINE_CONF"
+fi

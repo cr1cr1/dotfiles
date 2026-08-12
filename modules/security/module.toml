@@ -1,4 +1,6 @@
 description = "SSH passphrase prompts, GPG key management (Kleopatra), and KWallet credential store"
+scope = "system"
+
 [packages]
 present = [
   "x11-ssh-askpass", # Lightweight passphrase dialog for SSH
@@ -8,3 +10,7 @@ present = [
   "ksshaskpass", # ssh-add helper that uses kwallet and kpassworddialog
   "kwalletmanager", # Wallet management tool
 ]
+
+[dotfiles]
+"/etc/security/faillock.conf/deny" = { line = "deny = 10" }
+"/etc/security/faillock.conf/unlock_time" = { line = "unlock_time = 300" }

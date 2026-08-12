@@ -1,6 +1,16 @@
 description = "Looking Glass VM display client with the IVSHMEM kernel module"
+scope = "system"
+
 [packages]
 present = [
   "looking-glass", # A client application for accessing the LookingGlass IVSHMEM device of a VM
   "looking-glass-module-dkms", # A kernel module that implements a basic interface to the IVSHMEM device for when using LookingGlass in VM->VM mode
+]
+
+[dotfiles]
+"/etc/pacman.conf/edk2-ovmf-ignore" = { block = "IgnorePkg = edk2-ovmf" }
+
+[hooks]
+post = [
+  { command = "paru -Q 'edk2-ovmf=202208-3' >/dev/null 2>&1 || paru -U --noconfirm --needed https://archive.archlinux.org/packages/e/edk2-ovmf/edk2-ovmf-202208-3-any.pkg.tar.zst", optional = true },
 ]

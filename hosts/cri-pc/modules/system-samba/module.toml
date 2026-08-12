@@ -1,0 +1,22 @@
+[smb.shares.linux1]
+path = "/mnt/linux1"
+writable = true
+
+[smb.shares.linux2]
+path = "/mnt/linux2"
+writable = true
+
+[smb.shares.linux3]
+path = "/mnt/linux3"
+writable = true
+
+[smb.shares.linux4]
+path = "/mnt/linux4"
+writable = true
+
+[smb.shares.ventoy]
+path = "/mnt/ventoy"
+writable = true
+
+[dotfiles]
+"/etc/samba/smb.conf.d/shares.conf" = { source = "shares.conf", mode = "copy" }

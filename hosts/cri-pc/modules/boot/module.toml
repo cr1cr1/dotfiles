@@ -1,0 +1,2 @@
+[dotfiles]
+"/etc/default/limine/iommu" = { line = 'KERNEL_CMDLINE[default]+="intel_iommu=on"' }

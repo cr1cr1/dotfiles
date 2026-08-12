@@ -1,11 +1,6 @@
-description = "User-level idempotent setup tasks run as post-hooks (shell, environment reload, cleanup)"
-# Idempotent user setup tasks from pimp-my-cachyos
-# mise-tasks/ (containerd excluded: disabled upstream),
-# invoked as profile mise tasks in all.sh order.
+description = "Removes stale per-user app data (fish, kate) left over from older setups"
 
 [hooks]
 post = [
-  "env MISE_TRUSTED_CONFIG_PATHS=\"$PWD\" mise run user:shell",
-  "env MISE_TRUSTED_CONFIG_PATHS=\"$PWD\" mise run env-reload",
-  "env MISE_TRUSTED_CONFIG_PATHS=\"$PWD\" mise run user:cleanup",
+  "rm -rf ~/.config/fish ~/.local/share/fish ~/.config/kate ~/.local/share/kate",
 ]

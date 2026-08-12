@@ -4,7 +4,22 @@ scope = "system"
 [packages]
 present = [
   "libvirt",
+  "virt-manager",
+  "qemu-desktop",
 ]
 
 [dotfiles]
 "/etc/libvirt/hooks/qemu" = { source = "home/etc/libvirt/hooks/qemu", mode = "copy" }
+
+[hooks]
+post = [
+  "sudo systemctl enable --now libvirtd",
+  "sudo systemctl enable --now virtqemud",
+  "sudo systemctl enable --now virtnetworkd",
+  "sudo systemctl enable --now virtstoraged",
+  "sudo systemctl enable --now virtnodedevd",
+  "id -Gn | tr ' ' '\\n' | grep -qx libvirt || sudo usermod -aG libvirt \"$(id -un)\"",
+  "id -Gn | tr ' ' '\\n' | grep -qx libvirt-qemu || sudo usermod -aG libvirt-qemu \"$(id -un)\"",
+  "sudo virsh net-info default | grep -qE '^Autostart:\\s+yes' || sudo virsh net-autostart default",
+  "sudo virsh net-info default | grep -qE '^Active:\\s+yes' || sudo virsh net-start default",
+]

@@ -4,7 +4,14 @@ scope = "system"
 [packages]
 present = [
   "samba",
+  "avahi",
 ]
 
 [dotfiles]
 "/etc/samba/smb.conf" = { source = "home/etc/samba/smb.conf", mode = "copy" }
+"/etc/samba/smb.conf.d/shares.conf" = { source = "home/etc/samba/smb.conf.d/shares.conf", mode = "copy" }
+
+[smb]
+group = "smb"
+users = ["cri"]
+avahi = true

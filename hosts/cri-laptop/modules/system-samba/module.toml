@@ -1,0 +1,6 @@
+[smb.shares.linux2]
+path = "/mnt/linux2"
+writable = true
+
+[dotfiles]
+"/etc/samba/smb.conf.d/shares.conf" = { source = "shares.conf", mode = "copy" }

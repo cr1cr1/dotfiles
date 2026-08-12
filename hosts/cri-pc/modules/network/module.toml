@@ -1,0 +1,5 @@
+[packages]
+present = ["ufw"]
+
+[hooks]
+post = ["sudo ufw disable"]

@@ -10,3 +10,8 @@ description = "environment.d drop-ins for GPU, HDR, gaming and toolkit variables
 "~/.config/environment.d/steam-hidpi.conf" = { source = "home/.config/environment.d/steam-hidpi.conf", mode = "symlink" }
 "~/.config/environment.d/webkit.conf" = { source = "home/.config/environment.d/webkit.conf", mode = "symlink" }
 "~/.config/environment.d/xcursor.conf" = { source = "home/.config/environment.d/xcursor.conf", mode = "symlink" }
+
+[hooks]
+post = [
+  '''set -a; for f in "$HOME"/.config/environment.d/*.conf; do . "$f"; done; set +a; systemctl --user import-environment; dbus-update-activation-environment --all; if command -v niri >/dev/null 2>&1; then niri msg action load-config-file || true; fi''',
+]

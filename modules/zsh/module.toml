@@ -9,3 +9,6 @@ present = [
 "~/.profile" = { source = "home/.profile", mode = "symlink" }
 "~/.zsh_plugins.txt" = { source = "home/.zsh_plugins.txt", mode = "symlink" }
 "~/.zshrc" = { source = "home/.zshrc", mode = "symlink" }
+
+[hooks]
+post = ["sudo usermod --shell /bin/zsh \"$(id -un)\""]
