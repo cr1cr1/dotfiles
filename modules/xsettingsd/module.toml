@@ -5,4 +5,4 @@ present = [
 ]
 
 [dotfiles]
-"~/.config/xsettingsd" = { source = "home/.config/xsettingsd", mode = "symlink-each" }
+"~/.config/xsettingsd/xsettingsd.conf" = { source = "home/.config/xsettingsd/xsettingsd.conf", mode = "copy" }

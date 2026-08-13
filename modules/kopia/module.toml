@@ -7,4 +7,4 @@ present = [
 
 [dotfiles]
 "~/.config/autostart/kopia-ui.desktop" = { source = "home/.config/autostart/kopia-ui.desktop", mode = "symlink" }
-"~/.config/kopia" = { source = "home/.config/kopia", mode = "symlink-each" }
+"~/.config/kopia/ui-preferences.json" = { source = "home/.config/kopia/ui-preferences.json", mode = "copy" }
