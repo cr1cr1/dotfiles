@@ -16,10 +16,16 @@ Use `Niri` session at login to use it. I have fixed most quirks and issues, and 
 
 - Text seems sharper compared to KDE Plasma!
 - Scrollable-tiling layout as default, fast and buttery smooth.
-- DMS provides: top widget panel and bottom docking panel, application launcher (Super+Space), clipboard manager (Super+V), task manager/dgop (Super+Shift+Esc), notification center (Super+N), etc. Ctrl+Shift+/ show a list of the main shortcuts. For all my keybindings, see [binds.kdl](modules/niri/home/.config/niri/dms/binds.kdl)
+- DMS provides: top widget panel and bottom docking panel
+  - Application launcher <kbd>Super+Space</kbd>
+  - Power menu <kbd>Ctrl+Alt+Del</kbd>
+  - Task manager/dgop <kbd>Super+Esc</kbd>/<kbd>Super+Shift+Esc</kbd>
+  - Clipboard manager <kbd>Super+V</kbd>
+  - Notification center <kbd>Super+N</kbd>
+  - Super+Shift+/</kbd> shows a list of the main shortcuts. For all my keybindings, see [binds.kdl](modules/niri/home/.config/niri/dms/binds.kdl)
 - Catppuccin Mocha theme throughout
 - Uses existing KeePassXC for secrets (no kwallet)
-- Using KDE portal for integration, using the same KDE file dialogs, etc. Also uses KDE polkit agent for step-up authentication dialogs.
+- Using KDE portal for integration, using the same KDE file dialogs and Gnome portal for screen sharing. Also uses KDE polkit agent for step-up authentication dialogs.
 - Fully integratable with dsearch (filesystem search) and dgop (system monitoring) - I don't use them though, prefer DMS/KDE Launchers and `btop`.
 
 ![Niri + DMS](niri-dms-01.png)
