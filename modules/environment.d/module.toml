@@ -4,7 +4,7 @@ description = "environment.d drop-ins for GPU, HDR, gaming and toolkit variables
 "~/.config/environment.d/fsr4.conf.disabled" = { source = "home/.config/environment.d/fsr4.conf.disabled", mode = "symlink" }
 "~/.config/environment.d/hdr.conf" = { source = "home/.config/environment.d/hdr.conf", mode = "symlink" }
 "~/.config/environment.d/proton-cachyos.conf" = { source = "home/.config/environment.d/proton-cachyos.conf", mode = "symlink" }
-"~/.config/environment.d/puppeteer.conf" = { source = "home/.config/environment.d/puppeteer.conf", mode = "symlink" }
+"~/.config/environment.d/chrome.conf" = { source = "home/.config/environment.d/chrome.conf", mode = "symlink" }
 "~/.config/environment.d/qt.conf" = { source = "home/.config/environment.d/qt.conf", mode = "symlink" }
 "~/.config/environment.d/radeon.conf.disabled" = { source = "home/.config/environment.d/radeon.conf.disabled", mode = "symlink" }
 "~/.config/environment.d/steam-hidpi.conf" = { source = "home/.config/environment.d/steam-hidpi.conf", mode = "symlink" }
