@@ -1,6 +1,7 @@
 description = "File management utilities (finders, disk usage analyzers, archivers, compressors and compare tools)"
 [packages]
 present = [
+  "ark", # Archiving Tool
   "fd", # Simple, fast and user-friendly alternative to find
   "skim", # Fuzzy Finder in Rust!
   "aur/rnr-bin", # A CLI tool to rename files and directories that supports regex. Compiled binary
