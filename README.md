@@ -22,7 +22,7 @@ Use `Niri` session at login to use it. I have fixed most quirks and issues, and 
   - Task manager/dgop <kbd>Super+Esc</kbd>/<kbd>Super+Shift+Esc</kbd>
   - Clipboard manager <kbd>Super+V</kbd>
   - Notification center <kbd>Super+N</kbd>
-  - Super+Shift+/</kbd> shows a list of the main shortcuts. For all my keybindings, see [binds.kdl](modules/niri/home/.config/niri/dms/binds.kdl)
+  - <kbd>Super+Shift+/</kbd> shows a list of the main shortcuts. For all my keybindings, see [binds.kdl](modules/niri/home/.config/niri/dms/binds.kdl)
 - Catppuccin Mocha theme throughout
 - Uses existing KeePassXC for secrets (no kwallet)
 - Using KDE portal for integration, using the same KDE file dialogs and Gnome portal for screen sharing. Also uses KDE polkit agent for step-up authentication dialogs.
