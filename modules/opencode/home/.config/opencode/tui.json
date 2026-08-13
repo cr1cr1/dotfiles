@@ -6,12 +6,13 @@
     "sections": {
       "global": {
         "variant.cycle": "ctrl+t",
-        "variant.list": "alt+t",
+        "variant.list": "alt+t"
       },
-      "session": {
-      },
-      "input": {
-      }
+      "session": {},
+      "input": {}
     }
-  }
+  },
+  "plugin": [
+    "oh-my-openagent@latest"
+  ]
 }
