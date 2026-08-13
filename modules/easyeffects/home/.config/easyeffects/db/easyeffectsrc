@@ -2,7 +2,7 @@
 lastLoadedInputPreset=Custom
 
 [StreamInputs]
-inputDevice=alsa_input.pci-0000_64_00.6.HiFi__Mic1__source
+inputDevice=alsa_input.usb-Actions_Insta360_Mic_Air_RX_0123456789AB-01.analog-stereo
 mostUsedPresets=Custom,Noise+Reverb,Noise Suppression
 plugins=rnnoise#0,speex#0,deesser#0,pitch#0
 usedPresets=Noise Suppression:1,Noise+Reverb:1,Custom:1
