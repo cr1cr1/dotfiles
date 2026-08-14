@@ -1,0 +1,95 @@
+[
+  {
+    "plugin_id": "persiyanov.reviewr",
+    "name": "reviewr",
+    "version": "0.30.4",
+    "min_herdr_version": "0.7.5",
+    "description": "Review agent-written diffs beside the chat and add line comments to the agent input.",
+    "manifest_path": "/home/cri/.config/herdr/plugins/github/persiyanov.reviewr-e87b654a74f8/herdr-plugin.toml",
+    "plugin_root": "/home/cri/.config/herdr/plugins/github/persiyanov.reviewr-e87b654a74f8",
+    "enabled": true,
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "build": [
+      {
+        "command": [
+          "bash",
+          "herdr/install.sh"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "close",
+        "title": "reviewr: close pane",
+        "contexts": [
+          "pane",
+          "workspace"
+        ],
+        "command": [
+          "bash",
+          "herdr/pane.sh",
+          "close"
+        ]
+      },
+      {
+        "id": "open",
+        "title": "reviewr: open pane",
+        "contexts": [
+          "pane",
+          "workspace"
+        ],
+        "command": [
+          "bash",
+          "herdr/pane.sh",
+          "open"
+        ]
+      },
+      {
+        "id": "toggle",
+        "title": "reviewr: toggle pane",
+        "contexts": [
+          "pane",
+          "workspace"
+        ],
+        "command": [
+          "bash",
+          "herdr/pane.sh",
+          "toggle"
+        ]
+      }
+    ],
+    "events": [
+      {
+        "on": "worktree.created",
+        "command": [
+          "bash",
+          "herdr/pane.sh",
+          "auto-open"
+        ]
+      }
+    ],
+    "panes": [
+      {
+        "id": "pane",
+        "title": "reviewr",
+        "placement": "split",
+        "command": [
+          "sh",
+          "-c",
+          "exec \"$HERDR_PLUGIN_ROOT/bin/herdr-reviewr\""
+        ]
+      }
+    ],
+    "source": {
+      "kind": "github",
+      "owner": "persiyanov",
+      "repo": "herdr-reviewr",
+      "resolved_commit": "8db4c8e4a0a287a63b8265aea7da4bfe7a8d0f3a",
+      "managed_path": "/home/cri/.config/herdr/plugins/github/persiyanov.reviewr-e87b654a74f8",
+      "installed_unix_ms": 1786741789879
+    }
+  }
+]

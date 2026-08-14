@@ -1,0 +1,7 @@
+[tools]
+## https://github.com/herdrdev/herdr/releases
+herdr = "latest"
+
+[dotfiles]
+"~/.config/herdr/plugins.json" = { source = "home/.config/herdr/plugins.json", mode = "symlink" }
+"~/.config/herdr/session.json" = { source = "home/.config/herdr/session.json", mode = "symlink" }
