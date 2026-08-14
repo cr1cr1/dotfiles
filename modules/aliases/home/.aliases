@@ -10,6 +10,7 @@ alias lt="eza --long --all --git --modified --time-style long-iso --no-permissio
 alias lsblk="lsblk -o +MODEL,SERIAL,WWN"
 alias m="mise"
 alias mr="mise run"
+alias mup="env MISE_PREFER_OFFLINE=false mise up --minimum-release-age=0s"
 alias mc="mc --nosubshell"
 alias mcedit="mc -e --nosubshell"
 alias o="opencode --hostname 0.0.0.0 --port 8181"
