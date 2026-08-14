@@ -8,7 +8,7 @@ present = [
 ]
 
 [dotfiles]
-"/etc/pacman.conf/edk2-ovmf-ignore" = { block = "IgnorePkg = edk2-ovmf" }
+"/etc/pacman.conf/edk2-ovmf-ignore" = { line = "IgnorePkg = edk2-ovmf" }
 
 [hooks]
 post = [

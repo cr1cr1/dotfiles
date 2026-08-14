@@ -13,4 +13,5 @@ present = [
   "xone-dongle-firmware", # Xbox Wireless Controller Adapter firmware
   "obs-vkcapture", # OBS Linux Vulkan/OpenGL game capture
   "lib32-obs-vkcapture", # OBS Linux Vulkan/OpenGL game capture (32-bit)
+  "lact", # Linux GPU Configuration Tool
 ]

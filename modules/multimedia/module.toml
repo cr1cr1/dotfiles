@@ -6,6 +6,8 @@ present = [
   "vlc-plugin-ffmpeg", # Multi-platform MPEG, VCD/DVD, and DivX player - FFMPEG plugins
   "vlc-plugins-extra", # Free and open source cross-platform multimedia player and framework - extra plugins
   "obs-studio", # Free, open source software for live streaming and recording
+  "gpu-screen-recorder", # A shadowplay-like screen recorder for Linux. The fastest screen recorder for Linux
+  "gpu-screen-recorder-notification", # Notification in the style of ShadowPlay
   "ocenaudio-bin", # Cross-platform, easy to use, fast and functional audio editor
   "libva-utils", # Intel VA-API Media Applications and Scripts for libva
   "wiremix", # A simple TUI audio mixer for PipeWire
