@@ -47,3 +47,6 @@ usage = "latest"
 
 ## https://github.com/pranshuparmar/witr/releases
 "github:pranshuparmar/witr" = "latest"
+
+## https://github.com/herdrdev/herdr/releases
+"herdr" = "latest"
