@@ -53,5 +53,5 @@
     }
   },
   "lsp": true,
-  "model": "kimi-for-coding/k3"
+  "model": "zai-coding-plan/glm-5.3"
 }
