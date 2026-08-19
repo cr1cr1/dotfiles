@@ -5,7 +5,7 @@
     "team_mode": { "enabled": true },
     "agents": {
       "sisyphus": {
-        "model": "kimi-for-coding/k3",
+        "model": "kimi-for-coding/glm-5.3",
       },
       "oracle": {
         "model": "zai-coding-plan/glm-5.3"
@@ -17,10 +17,10 @@
         "model": "zai-coding-plan/glm-4.6v"
       },
       "prometheus": {
-        "model": "kimi-for-coding/k3"
+        "model": "kimi-for-coding/glm-5.3"
       },
       "metis": {
-        "model": "kimi-for-coding/k3"
+        "model": "kimi-for-coding/glm-5.3"
       },
       "momus": {
         "model": "zai-coding-plan/glm-5.3"
