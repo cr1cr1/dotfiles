@@ -112,4 +112,4 @@ bindkey '^e' edit-command-line
 setopt no_flowcontrol
 bindkey -s '^S' 'ggh^M'
 bindkey -s '^B' 'btop^M'
-bindkey -s '^H' 'herdr^M'
+bindkey -s '^[^H' 'herdr^M'
