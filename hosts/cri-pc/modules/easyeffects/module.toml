@@ -1,0 +1,2 @@
+[dotfiles]
+"~/.config/easyeffects/db/easyeffectsrc" = { source = "home/.config/easyeffects/db/easyeffectsrc", mode = "symlink" }
