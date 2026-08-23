@@ -1,1 +1,5 @@
-# Just a stub
+## https://github.com/thedataflows/dotdrift/blob/main/docs/product/profile-layout.md
+## Any SGR params, no escape wrapper
+[colors]
+#missing = "38;5;75"
+orphan  = "94"
