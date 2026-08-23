@@ -7,4 +7,4 @@ present = [
 ]
 
 [dotfiles]
-"/etc/udev/rules.d/99-moonlight-uinput.rules" = { source = "home/etc/udev/rules.d/99-moonlight-uinput.rules", mode = "copy" }
+"/etc/udev/rules.d/99-moonlight-uinput.rules" = { source = "etc/udev/rules.d/99-moonlight-uinput.rules", mode = "copy" }
