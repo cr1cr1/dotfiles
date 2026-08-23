@@ -6,7 +6,6 @@ present = [
   "aur/menulibre", # An advanced menu editor that provides modern features in a clean, easy-to-use interface
   "webkit2gtk-4.1", # Web content engine for GTK
   "wl-clipboard", # Command-line copy/paste utilities for Wayland
-  "cachyos-wallpapers", # Wallpapers for CachyOS
 ]
 
 [dotfiles]

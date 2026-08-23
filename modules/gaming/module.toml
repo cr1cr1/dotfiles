@@ -3,7 +3,6 @@ description = "Gaming stack with Steam, Proton, Gamescope, GameMode and OBS Vulk
 present = [
   "bottles", # Easily manage wine and proton prefix
   "gamescope", # SteamOS session compositing window manager
-  "aur/gamescope-nvidia", # SteamOS session compositing window manager (NVIDIA patch)
   "gamemode", # A daemon/lib combo that allows games to request a set of optimisations be temporarily applied to the host OS
   "lib32-gamemode", # A daemon/lib combo that allows games to request a set of optimisations be temporarily applied to the host OS
   "steam", # Valve's digital software delivery system
@@ -13,5 +12,5 @@ present = [
   "xone-dongle-firmware", # Xbox Wireless Controller Adapter firmware
   "obs-vkcapture", # OBS Linux Vulkan/OpenGL game capture
   "lib32-obs-vkcapture", # OBS Linux Vulkan/OpenGL game capture (32-bit)
-  "lact", # Linux GPU Configuration Tool
+  # "lact", # Linux GPU Configuration Tool
 ]

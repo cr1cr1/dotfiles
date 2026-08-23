@@ -1,8 +1,0 @@
-description = "Wayland screen locker with its configuration"
-[packages]
-present = [
-  "swaylock",
-]
-
-[dotfiles]
-"~/.config/swaylock" = { source = "home/.config/swaylock", mode = "symlink-each" }
