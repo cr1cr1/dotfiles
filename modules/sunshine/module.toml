@@ -1,0 +1,13 @@
+description = "Self-hosted game stream host for Moonlight"
+
+## Do not install if any apollo (sunshine fork) is already installed
+[when.not]
+packages = ["apollo.*"]
+
+[packages]
+present = [
+  "sunshine", # A self-hosted game stream host for Moonlight
+]
+
+[dotfiles]
+"~/.config/sunshine/sunshine.conf" = { source = "home/.config/sunshine/sunshine.conf", mode = "symlink" }
