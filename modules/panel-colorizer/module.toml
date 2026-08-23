@@ -1,4 +1,7 @@
 description = "Panel Colorizer GNOME Shell extension and its configuration"
+
+disabled = true
+
 [packages]
 present = [
   "aur/panel-colorizer",
