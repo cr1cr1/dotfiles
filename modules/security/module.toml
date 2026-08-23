@@ -8,7 +8,8 @@ present = [
   "pinentry", # Collection of simple PIN or passphrase entry dialogs which utilize the Assuan protocol
   "kleopatra", # Certificate Manager and Unified Crypto GUI
   "ksshaskpass", # ssh-add helper that uses kwallet and kpassworddialog
-  "kwalletmanager", # Wallet management tool
+  ## Uncheck if you use more KDE Plasma
+  # "kwalletmanager", # Wallet management tool
 ]
 
 [dotfiles]
