@@ -4,4 +4,4 @@
 
 [dotfiles]
 "~/.config/herdr/config.toml" = { source = "home/.config/herdr/config.toml", mode = "symlink" }
-"~/.config/herdr/plugins.json" = { source = "home/.config/herdr/plugins.json", mode = "symlink" }
+"~/.config/herdr/plugins.json" = { source = "home/.config/herdr/plugins.json", mode = "copy" }
