@@ -8,7 +8,7 @@
   "runUserMatugenTemplates": true,
   "matugenTargetMonitor": "",
   "popupTransparency": 1,
-  "dockTransparency": 0.9,
+  "dockTransparency": 1,
   "widgetBackgroundColor": "sch",
   "widgetBackgroundCustomColor": "#6750A4",
   "widgetBackgroundCustomStrength": 0.5,
@@ -446,8 +446,8 @@
   "dockIconSize": 40,
   "dockIndicatorStyle": "circle",
   "dockBorderEnabled": true,
-  "dockBorderColor": "surfaceText",
-  "dockBorderOpacity": 0.2,
+  "dockBorderColor": "primary",
+  "dockBorderOpacity": 1,
   "dockBorderThickness": 1,
   "dockIsolateDisplays": false,
   "dockLauncherEnabled": false,
@@ -645,18 +645,18 @@
       "spacing": 10,
       "innerPadding": 6,
       "bottomGap": 0,
-      "transparency": 1,
+      "transparency": 0,
       "widgetTransparency": 1,
       "squareCorners": false,
       "noBackground": false,
       "gothCornersEnabled": false,
       "gothCornerRadiusOverride": false,
       "gothCornerRadiusValue": 12,
-      "borderEnabled": true,
+      "borderEnabled": false,
       "borderColor": "surfaceText",
       "borderOpacity": 0.15,
-      "borderThickness": 1,
-      "widgetOutlineEnabled": false,
+      "borderThickness": 2,
+      "widgetOutlineEnabled": true,
       "widgetOutlineColor": "primary",
       "widgetOutlineOpacity": 1,
       "widgetOutlineThickness": 1,
@@ -752,6 +752,9 @@
   "builtInPluginSettings": {
     "dms_settings_search": {
       "trigger": "?"
+    },
+    "dms_clipboard_search": {
+      "trigger": "cb"
     }
   },
   "clipboardClickToPaste": false,
