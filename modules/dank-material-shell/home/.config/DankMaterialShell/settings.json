@@ -642,7 +642,7 @@
           "enabled": true
         }
       ],
-      "spacing": 10,
+      "spacing": 4,
       "innerPadding": 6,
       "bottomGap": 0,
       "transparency": 0,
@@ -653,9 +653,9 @@
       "gothCornerRadiusOverride": false,
       "gothCornerRadiusValue": 12,
       "borderEnabled": false,
-      "borderColor": "surfaceText",
-      "borderOpacity": 0.15,
-      "borderThickness": 2,
+      "borderColor": "primary",
+      "borderOpacity": 0.3,
+      "borderThickness": 1,
       "widgetOutlineEnabled": true,
       "widgetOutlineColor": "primary",
       "widgetOutlineOpacity": 1,
@@ -675,7 +675,11 @@
       "shadowIntensity": 0,
       "shadowOpacity": 60,
       "shadowColorMode": "text",
-      "shadowCustomColor": "#000000"
+      "shadowCustomColor": "#000000",
+      "barInsetPadding": 8,
+      "maximizeWidgetText": false,
+      "maximizeWidgetIcons": false,
+      "clickThrough": true
     }
   ],
   "desktopClockEnabled": false,
