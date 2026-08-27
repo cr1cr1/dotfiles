@@ -2,7 +2,7 @@ description = "System monitoring, hardware diagnostics, disk partitioning, and p
 [packages]
 present = [
   "zenith", # Terminal system monitor with histograms
-  "atop", # A system and process level monitor
+  "pcp-atop", # A system and process level monitor
   "iotop", # View I/O usage of processes
   "sysstat", # a collection of performance monitoring tools (iostat,isag,mpstat,pidstat,sadf,sar)
   "ctop", # Top-like interface for container metrics
