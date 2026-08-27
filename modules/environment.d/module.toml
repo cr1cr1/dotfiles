@@ -1,17 +1,19 @@
 description = "environment.d drop-ins for GPU, HDR, gaming and toolkit variables"
 [dotfiles]
-"~/.config/environment.d/default-gpu.conf" = { source = "home/.config/environment.d/default-gpu.conf", mode = "symlink" }
-"~/.config/environment.d/fsr4.conf.disabled" = { source = "home/.config/environment.d/fsr4.conf.disabled", mode = "symlink" }
-"~/.config/environment.d/hdr.conf" = { source = "home/.config/environment.d/hdr.conf", mode = "symlink" }
-"~/.config/environment.d/proton-cachyos.conf" = { source = "home/.config/environment.d/proton-cachyos.conf", mode = "symlink" }
-"~/.config/environment.d/chrome.conf" = { source = "home/.config/environment.d/chrome.conf", mode = "symlink" }
-"~/.config/environment.d/qt.conf" = { source = "home/.config/environment.d/qt.conf", mode = "symlink" }
-"~/.config/environment.d/radeon.conf.disabled" = { source = "home/.config/environment.d/radeon.conf.disabled", mode = "symlink" }
-"~/.config/environment.d/steam-hidpi.conf" = { source = "home/.config/environment.d/steam-hidpi.conf", mode = "symlink" }
-"~/.config/environment.d/webkit.conf" = { source = "home/.config/environment.d/webkit.conf", mode = "symlink" }
-"~/.config/environment.d/xcursor.conf" = { source = "home/.config/environment.d/xcursor.conf", mode = "symlink" }
+"~/.config/environment.d/" = { source = "home/.config/environment.d/", mode = "symlink-each" }
 
 [hooks]
 post = [
-  '''set -a; for f in "$HOME"/.config/environment.d/*.conf; do . "$f"; done; set +a; systemctl --user import-environment; dbus-update-activation-environment --all; if command -v niri >/dev/null 2>&1; then niri msg action load-config-file || true; fi''',
+  '''
+  set -a;
+  for f in "$HOME"/.config/environment.d/*.conf;
+    do . "$f";
+  done;
+  set +a;
+  systemctl --user import-environment;
+  dbus-update-activation-environment --all;
+  if command -v niri >/dev/null 2>&1;
+    then niri msg action load-config-file || true;
+  fi
+  ''',
 ]
