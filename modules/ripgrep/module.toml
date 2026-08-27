@@ -1,0 +1,25 @@
+description = "A search tool that combines the usability of ag with the raw speed of grep"
+
+[packages]
+present = [
+  "ripgrep",
+  "ripgrep-all", # rga: ripgrep, but also search in PDFs, E-Books, Office documents, zip, tar.gz, etc.  
+]
+
+[dotfiles]
+"~/.config/environment.d/ripgrep.conf" = { source = "home/.config/environment.d/ripgrep.conf", mode = "symlink" }
+"~/.config/ripgreprc" = { source = "home/.config/ripgreprc", mode = "symlink" }
+
+[hooks]
+post = [
+  '''
+  set -a;
+  . "$HOME/.config/environment.d/ripgrep.conf";
+  set +a;
+  systemctl --user import-environment;
+  dbus-update-activation-environment --all;
+  if command -v niri >/dev/null 2>&1;
+    then niri msg action load-config-file || true;
+  fi
+  ''',
+]
