@@ -10,7 +10,7 @@ visiblePage=pluginsPage
 visiblePlugin=rnnoise#0
 
 [StreamOutputs]
-outputDevice=alsa_output.usb-Generic_USB_Audio-00.HiFi__Speaker__sink
+outputDevice=alsa_output.usb-Fosi_Audio_Fosi_Audio_K7-00.iec958-stereo
 
 [Window]
 autostartOnLogin=true
