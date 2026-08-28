@@ -337,13 +337,29 @@
   "oaicopilot.baseUrl": "",
   "oaicopilot.models": [
     {
-      "id": "glm-5.2",
+      "id": "glm-5.3",
       "owned_by": "zai",
       "baseUrl": "https://api.z.ai/api/coding/paas/v4",
       "context_length": 1000000,
       "max_tokens": 32766,
       "vision": true,
       "apiMode": "openai",
+      "temperature": 1,
+      "top_p": 0.95,
+      "enable_thinking": true,
+      "thinking": {
+        "type": "enabled"
+      }
+    },
+    {
+      "id": "glm-5.3-flash",
+      "owned_by": "zai",
+      "baseUrl": "https://api.z.ai/api/coding/paas/v4",
+      "context_length": 1000000,
+      "max_tokens": 32766,
+      "vision": true,
+      "apiMode": "openai",
+      "temperature": 1,
       "top_p": 0.95,
       "enable_thinking": true,
       "thinking": {
@@ -357,12 +373,12 @@
       "apiMode": "openai"
     },
     {
-      "id": "kimi-for-coding/k2p7",
+      "id": "k3",
       "owned_by": "kimi",
       "displayName": "kimi-for-coding",
       "baseUrl": "https://api.kimi.com/coding/v1",
-      "context_length": 262144,
-      "max_tokens": 32768,
+      "context_length": 1048576,
+      "max_tokens": 131072,
       "vision": true,
       "apiMode": "openai",
       "reasoning_effort": "high",
