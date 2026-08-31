@@ -1,4 +1,6 @@
-description = "Multi-platform media player for video and audio"
+description = "[Deprecated] Multi-platform media player for video and audio"
+disabled = true
+
 [packages]
 present = [
   "vlc", # Multi-platform MPEG, VCD/DVD, and DivX player

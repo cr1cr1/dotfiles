@@ -1,10 +1,7 @@
-description = "Multimedia playback, streaming, and audio mixing tools (VLC, OBS Studio, ocenaudio, Wiremix)"
+description = "Multimedia playback, streaming, and audio mixing tools"
 [packages]
 present = [
   "gst-plugin-spotify", # Multimedia graph framework - spotify plugin
-  "vlc-plugin-x265", # Multi-platform MPEG, VCD/DVD, and DivX player - H265/HEVC encoding
-  "vlc-plugin-ffmpeg", # Multi-platform MPEG, VCD/DVD, and DivX player - FFMPEG plugins
-  "vlc-plugins-extra", # Free and open source cross-platform multimedia player and framework - extra plugins
   "obs-studio", # Free, open source software for live streaming and recording
   "gpu-screen-recorder", # A shadowplay-like screen recorder for Linux. The fastest screen recorder for Linux
   "gpu-screen-recorder-notification", # Notification in the style of ShadowPlay
