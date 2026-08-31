@@ -558,8 +558,8 @@
       "disabled": false
     },
     "DP-3": {
-      "vrrOnDemand": true,
-      "focusAtStartup": true
+      "focusAtStartup": true,
+      "vrrOnDemand": true
     }
   },
   "hyprlandOutputSettings": {},
