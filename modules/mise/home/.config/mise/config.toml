@@ -1,11 +1,14 @@
 redactions = ["SECRET_*", "*_TOKEN", "*PASSWORD*", "*_KEY", "*_SECRET", "*_CREDENTIALS"]
 
 [env]
-_.file = { path = "~/.env", redact = true }
+_.file = [
+  { path = "~/.env", redact = true },
+]
 
 [settings]
 experimental = true # enable experimental features
 prefer_offline = true
+env_file = ".env"
 
 [hooks]
 postinstall = "misecompsync --shell zsh"
