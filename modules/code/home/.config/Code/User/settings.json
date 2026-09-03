@@ -375,7 +375,6 @@
     {
       "id": "k3",
       "owned_by": "kimi",
-      "displayName": "kimi-for-coding",
       "baseUrl": "https://api.kimi.com/coding/v1",
       "context_length": 1048576,
       "max_tokens": 131072,
@@ -395,30 +394,14 @@
       "apiMode": "openai"
     },
     {
-      "id": "qwen3.6-27b",
-      "owned_by": "dgx-litellm",
-      "baseUrl": "http://10.3.67.61:8080",
-      "context_length": 230000,
-      "max_tokens": 32768,
-      "vision": true,
-      "apiMode": "openai",
-      "reasoning_effort": "low",
-      "enable_thinking": true,
-      "include_reasoning_in_request": true,
-      "thinking": {
-        "type": "enabled"
-      }
-    },
-    {
       "id": "__provider__dgx",
       "owned_by": "dgx",
       "baseUrl": "http://10.3.67.61:8000/v1",
       "apiMode": "openai"
     },
     {
-      "id": "unsloth/Qwen3.6-27B",
+      "id": "RadixArk/Qwen3.8-27B-NVFP4",
       "owned_by": "dgx",
-      "displayName": "Qwen3.6-27B",
       "baseUrl": "http://10.3.67.61:8000/v1",
       "context_length": 262144,
       "max_tokens": 32768,

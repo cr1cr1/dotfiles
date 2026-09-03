@@ -53,3 +53,6 @@ usage = "latest"
 "herdr" = "latest"
 
 "pnpm" = "latest"
+
+## https://github.com/podsteer/podsteer
+"github:podsteer/podsteer" = "latest"
