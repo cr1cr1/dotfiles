@@ -57,5 +57,8 @@ usage = "latest"
 
 "pnpm" = "latest"
 
-## https://github.com/podsteer/podsteer
+## https://github.com/podsteer/podsteer/releases
 "github:podsteer/podsteer" = "latest"
+
+## https://github.com/akiomik/vimeo-dl/releases
+"github:akiomik/vimeo-dl" = "latest"
