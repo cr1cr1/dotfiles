@@ -1,0 +1,53 @@
+ui-onboarding:
+  welcomeNoticeVersion: 2026-08-13.1
+llm-pi-ai:
+  providers:
+    kimi-coding:
+      models:
+        - id: k3
+          name: Kimi K3
+          contextWindow: 1048576
+          maxTokens: 131072
+        - id: k3-256k
+          name: Kimi K3-256K
+          contextWindow: 262144
+          maxTokens: 131072
+    zai:
+      models:
+        - id: glm-5.3
+          name: GLM-5.3
+          contextWindow: 1000000
+          maxTokens: 131072
+        - id: glm-5.3-flash
+          name: GLM-5.3 Flash
+          contextWindow: 1000000
+          maxTokens: 131072
+    dgx:
+      api: openai-completions
+      baseURL: http://10.3.67.61:8000/v1
+      models:
+        - id: RadixArk/Qwen3.8-27B-NVFP4
+          contextWindow: 262144
+      apiKeyEnv: DGX_API_KEY
+agent-default-model:
+  provider: zai
+  model: glm-5.3
+  reasoningEffort: high
+web-search-deepseek: {}
+llm-deepseek:
+  models: []
+free-search:
+  provider: bing
+  lang: en
+  platforms:
+    - github
+    - v2ex
+    - bilibili
+    - reddit
+    - hn
+    - stackoverflow
+    - wikipedia
+    - npm
+  cacheTtl: 5
+ui-theme:
+  preference: dark

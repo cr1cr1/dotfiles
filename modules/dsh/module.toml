@@ -1,0 +1,10 @@
+[dotfiles]
+"~/.dsh/settings.yaml" = { source = "home/.dsh/settings.yaml", mode = "symlink" }
+
+[tools]
+"bun" = "latest"
+
+[hooks]
+post = [
+  "bun install --global @deepseek-ai/dsh"
+]
