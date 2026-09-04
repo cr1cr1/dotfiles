@@ -197,7 +197,9 @@
   "scm.defaultViewMode": "tree",
   "tooltitude.shadowInspectionEnabled": true,
   "go.lintTool": "golangci-lint",
-  "go.lintFlags": ["--fast"],
+  "go.lintFlags": [
+    "--fast"
+  ],
   "go.inlayHints.assignVariableTypes": true,
   "go.inlayHints.compositeLiteralFields": true,
   "go.inlayHints.compositeLiteralTypes": true,
@@ -326,7 +328,9 @@
   "editor.aiStats.enabled": true,
   "chat.mcp.serverSampling": {
     "Global in Code: n8n-mcp": {
-      "allowedModels": ["copilot/claude-sonnet-4.5"],
+      "allowedModels": [
+        "copilot/claude-sonnet-4.5"
+      ],
     },
   },
   "chat.useNestedAgentsMdFiles": true,
@@ -431,7 +435,7 @@
   "workbench.secondarySideBar.defaultVisibility": "visible",
   "github.copilot.chat.virtualTools.threshold": 128,
   "chat.tools.urls.autoApprove": {
-      "https://github.com": {
+    "https://github.com": {
       "approveRequest": false,
       "approveResponse": true
     },
