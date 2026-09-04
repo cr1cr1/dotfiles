@@ -1,0 +1,123 @@
+{
+  "autoUpdateCheckSettings" : {
+    "checkInterval" : 14,
+    "enabled" : true,
+    "lastCheck" : "2026-08-24"
+  },
+  "automaticallyReload" : false,
+  "caCertsSettings" : {
+    "caCertificatesFile" : "/etc/ca-certificates/extracted/java-cacerts.jks",
+    "importCaReplyTrustCheckEnabled" : false,
+    "importTrustedCertTrustCheckEnabled" : false,
+    "useCaCertificates" : false,
+    "useWindowsTrustedRootCertificates" : false
+  },
+  "certificateFingerprintAlgorithm" : "SHA1",
+  "currentDirectory" : "/home/cri/work/DSNC/contracts/roweb/2026",
+  "defaultSubjectDN" : "CN=,OU=,O=,L=,ST=,C=",
+  "dialogSizes" : { },
+  "examineSslHosts" : [ "keycloak.172.21.0.3.nip.io", "v2202604159675454432.powersrv.de", "mail.thedataflows.com", "www.google.com", "www.amazon.com" ],
+  "examineSslPorts" : [ "8443", "50000", "19993", "443", "993" ],
+  "expiryWarnDays" : 0,
+  "keyGenerationDefaults" : {
+    "MLDSAParameterSet" : "MLDSA44",
+    "MLKEMParameterSet" : "MLKEM768",
+    "ecCurveName" : "",
+    "ecCurveSet" : "",
+    "keyPairSize" : 2048,
+    "keyPairType" : "RSA",
+    "passwordType" : "PBEWithHmacSHA256AndAES_128",
+    "secretKeySize" : 128,
+    "secretKeyType" : "AES",
+    "slhDsaParameterSet" : "SLHDSA_SHA2_128F"
+  },
+  "keyStoreTableColumns" : {
+    "enableAKI" : false,
+    "enableAlgorithm" : true,
+    "enableCertificateExpiry" : true,
+    "enableCertificateValidityStart" : false,
+    "enableCurve" : false,
+    "enableEntryName" : true,
+    "enableFingerprint" : false,
+    "enableIssuerCN" : false,
+    "enableIssuerDN" : false,
+    "enableIssuerO" : false,
+    "enableKeySize" : true,
+    "enableLastModified" : true,
+    "enableSKI" : false,
+    "enableSerialNumberDec" : false,
+    "enableSerialNumberHex" : false,
+    "enableSubjectCN" : false,
+    "enableSubjectDN" : false,
+    "enableSubjectO" : false,
+    "fingerprintAlg" : "SHA1"
+  },
+  "language" : "system",
+  "lookAndFeelClass" : "com.formdev.flatlaf.themes.FlatMacDarkLaf",
+  "lookAndFeelDecorated" : false,
+  "mainWindowSizeAndPosition" : {
+    "x" : 1207,
+    "y" : 371,
+    "width" : 1016,
+    "height" : 590
+  },
+  "nativeFileChooserEnabled" : false,
+  "nextTipIndex" : 1,
+  "openWithExistingInstance" : true,
+  "passwordGeneratorSettings" : {
+    "enabled" : true,
+    "includeDigits" : true,
+    "includeLowerCaseLetters" : true,
+    "includeSpecialCharacters" : true,
+    "includeUpperCaseLetters" : true,
+    "length" : 20
+  },
+  "passwordManagerSettings" : {
+    "iterations" : 600000,
+    "keyDerivationAlgorithm" : "PBKDF2",
+    "memLimitInMB" : 64
+  },
+  "passwordQualityConfig" : {
+    "enabled" : false,
+    "enforced" : false,
+    "minimumQuality" : 60
+  },
+  "pkcs11Libraries" : [ ],
+  "pkcs12EncryptionSetting" : "strong",
+  "properties" : {
+    "sun.java2d.d3d.onscreen" : "false"
+  },
+  "proxySettings" : {
+    "activeConfigurationType" : "SYSTEM",
+    "httpHost" : null,
+    "httpPort" : 0,
+    "httpsHost" : null,
+    "httpsPort" : 0,
+    "pacUrl" : "",
+    "socksHost" : null,
+    "socksPort" : 0
+  },
+  "publicKeyFingerprintAlgorithm" : "SKI_METHOD1",
+  "recentFiles" : [ "/home/cri/Downloads/15054e9f99a5b37a3d71b7c2fa0f53656138c728.p12", "/home/cri/Downloads/fd8dc1e285f731402347554b4068ec541c001129.p12" ],
+  "rngTypeSetting" : "strong",
+  "serialNumberLengthInBytes" : 20,
+  "showHiddenFilesEnabled" : true,
+  "showStatusBar" : true,
+  "showTipsOnStartUp" : false,
+  "showToolBar" : true,
+  "signatureTypes" : { },
+  "silentlyReload" : false,
+  "tabLayout" : 0,
+  "validityGenerateCert" : {
+    "periodType" : "YEARS",
+    "periodValue" : 1
+  },
+  "validitySignCrl" : {
+    "periodType" : "DAYS",
+    "periodValue" : 7
+  },
+  "validitySignCsr" : {
+    "periodType" : "YEARS",
+    "periodValue" : 1
+  }
+}

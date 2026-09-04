@@ -1,0 +1,10 @@
+description = "A free GUI replacement for the Java command-line utilities keytool, jarsigner and jadtool"
+
+[packages]
+present = [
+  "keystore-explorer-bin"
+]
+
+[dotfiles]
+"~/.config/environment.d/java-gui.conf" = { source = "home/.config/environment.d/java-gui.conf", mode = "symlink" }
+"~/.config/kse/config.json" = { source = "home/.config/kse/config.json", mode = "symlink" }
