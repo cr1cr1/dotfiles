@@ -1,5 +1,5 @@
 [dotfiles]
-"~/.dsh/settings.yaml" = { source = "home/.dsh/settings.yaml", mode = "symlink" }
+"~/.dsh/settings.yaml" = { source = "home/.dsh/settings.yaml", mode = "copy" }
 
 [tools]
 "bun" = "latest"
