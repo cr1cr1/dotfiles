@@ -38,7 +38,6 @@ present = [
   "plasma-disks", # Monitors S.M.A.R.T. capable devices for imminent failure
   "switcheroo-control", # D-Bus service to check the availability of dual-GPU
   "partitionmanager", # A KDE utility that allows you to manage disks, partitions, and file systems
-  "calf", # LV2 plug-in suite
   "inotify-tools", # inotify-tools is a C library and a set of command-line programs for Linux providing a simple interface to inotify.
 ]
 

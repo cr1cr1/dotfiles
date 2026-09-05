@@ -1,6 +1,9 @@
 description = "Multimedia playback, streaming, and audio mixing tools"
+
 [packages]
 present = [
+  "audacity4-bin", # Audacity 4, the next generation of the popular multi-track audio editor
+  "calf", # LV2 plug-in suite
   "gst-plugin-spotify", # Multimedia graph framework - spotify plugin
   "obs-studio", # Free, open source software for live streaming and recording
   "gpu-screen-recorder", # A shadowplay-like screen recorder for Linux. The fastest screen recorder for Linux
