@@ -53,13 +53,13 @@
     "fingerprintAlg" : "SHA1"
   },
   "language" : "system",
-  "lookAndFeelClass" : "com.formdev.flatlaf.themes.FlatMacDarkLaf",
-  "lookAndFeelDecorated" : false,
+  "lookAndFeelClass" : "com.formdev.flatlaf.FlatDarkLaf",
+  "lookAndFeelDecorated" : true,
   "mainWindowSizeAndPosition" : {
-    "x" : 1207,
-    "y" : 371,
+    "x" : 0,
+    "y" : 0,
     "width" : 1016,
-    "height" : 590
+    "height" : 625
   },
   "nativeFileChooserEnabled" : false,
   "nextTipIndex" : 1,
