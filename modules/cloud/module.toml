@@ -1,4 +1,8 @@
 description = "Kubernetes CLI tooling and cluster management (kubectl plugins, log tailing, Flux CD, k9s, buildpacks and a GUI IDE)"
+
+[tools]
+"github:nklmilojevic/sofka" = "latest"
+
 [packages]
 present = [
   "krew", # Find and install kubectl plugins
