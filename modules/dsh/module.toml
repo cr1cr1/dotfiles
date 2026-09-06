@@ -1,3 +1,5 @@
+description = "DeepSeek Harness"
+
 [dotfiles]
 "~/.dsh/settings.yaml" = { source = "home/.dsh/settings.yaml", mode = "copy" }
 

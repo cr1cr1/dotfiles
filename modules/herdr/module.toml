@@ -1,3 +1,5 @@
+description = "Supervise multiple coding agents in one terminal"
+
 [tools]
 ## configured in mise global config ~/.config/mise/config.toml
 #herdr = "latest"
