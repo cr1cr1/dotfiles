@@ -1,4 +1,5 @@
 description = "File management utilities (finders, disk usage analyzers, archivers, compressors and compare tools)"
+
 [packages]
 present = [
   "ark", # Archiving Tool
@@ -22,7 +23,6 @@ present = [
   "libunrar", # Library and header file for applications that use libunrar
   "xarchiver", # GTK+ frontend to various command line archivers
   "qdirstat-bin", # Qt-based directory statistics (KDirStat/K4DirStat without any KDE - from the original KDirStat author)
-  "dolphin-plugins", # Extra Dolphin plugins
   "kio-admin", # Manage files as administrator using the admin:// KIO protocol
   "filelight", # View disk usage information
   "bcompare", # Beyond Compare 5: Compare, sync, and merge files and folders
@@ -30,4 +30,5 @@ present = [
   "binwalk", # Tool for searching a given binary image for embedded files
   "hexyl", # Colored command-line hex viewe
   "ouch", # A command line utility for easily compressing and decompressing files and directories
+  "kdf", # View Disk Usage
 ]

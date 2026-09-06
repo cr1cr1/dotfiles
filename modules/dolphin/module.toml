@@ -1,7 +1,10 @@
 description = "KDE graphical file manager"
+
 [packages]
 present = [
-  "dolphin",
+  "dolphin", #KDE File Manager
+  "dolphin-plugins", # Extra Dolphin plugins
+  "kdenetwork-filesharing" # Properties dialog plugin to share a directory with the local network
 ]
 
 [dotfiles]
