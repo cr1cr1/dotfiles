@@ -59,7 +59,10 @@
     }
   ],
   "showWorkspaceIndex": true,
+  "showWorkspaceApps": true,
+  "workspaceFollowFocus": true,
   "showOccupiedWorkspacesOnly": true,
+  "workspaceActiveAppHighlightEnabled": true,
   "runningAppsCurrentWorkspace": false,
   "appIdSubstitutions": [],
   "appLauncherViewMode": "grid",
@@ -96,12 +99,14 @@
   "soundNewNotification": false,
   "acMonitorTimeout": 300,
   "acLockTimeout": 300,
+  "batteryNotifyLow": true,
   "matugenTemplateAlacritty": false,
   "matugenTemplateNeovim": true,
   "matugenTemplateWezterm": false,
   "showDock": true,
   "dockAutoHide": true,
   "dockGroupByApp": true,
+  "dockOpenOnOverview": true,
   "dockSpacing": 6,
   "dockMargin": 4,
   "dockBorderEnabled": true,
@@ -122,6 +127,11 @@
     "suspend"
   ],
   "powerMenuGridLayout": true,
+  "screenPreferences": {
+    "lockScreen": [
+      "all"
+    ]
+  },
   "barConfigs": [
     {
       "id": "default",
@@ -233,7 +243,9 @@
       "maximizeWidgetText": false,
       "maximizeWidgetIcons": false,
       "clickThrough": true,
-      "attachToScreenEdge": false
+      "attachToScreenEdge": false,
+      "island": false,
+      "useOverlayLayer": false
     }
   ],
   "desktopClockCustomColor": {
@@ -268,6 +280,12 @@
     },
     "dms_clipboard_search": {
       "trigger": "cb"
+    },
+    "dms_power": {
+      "trigger": "pw"
+    },
+    "dms_qr_generator": {
+      "trigger": "qrg"
     }
   },
   "configVersion": 18
