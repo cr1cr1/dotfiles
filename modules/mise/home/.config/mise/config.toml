@@ -62,3 +62,6 @@ usage = "latest"
 
 ## https://github.com/akiomik/vimeo-dl/releases
 "github:akiomik/vimeo-dl" = "latest"
+
+## https://github.com/F1bonacc1/process-compose/releases
+"github:F1bonacc1/process-compose" = "latest"
