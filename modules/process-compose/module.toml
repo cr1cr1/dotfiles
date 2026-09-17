@@ -1,0 +1,6 @@
+description = "Simple and flexible scheduler and orchestrator to manage non-containerized applications."
+
+## Installed as tool in global mise config.toml
+
+[dotfiles]
+"~/.config/process-compose" = { source = "home/.config/process-compose", mode = "symlink-each" }
