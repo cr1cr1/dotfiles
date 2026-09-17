@@ -7,7 +7,6 @@ present = [
   "skim", # Fuzzy Finder in Rust!
   "aur/rnr-bin", # A CLI tool to rename files and directories that supports regex. Compiled binary
   "chafa", # Image-to-text converter supporting a wide range of symbols and palettes, transparency, animations, etc.
-  "gdu", # Fast disk usage analyzer
   "duf", # Disk Usage/Free Utility
   "dust", # A more intuitive version of du in rust
   "lsof", # Lists open files for running Unix processes

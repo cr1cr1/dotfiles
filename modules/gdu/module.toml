@@ -1,0 +1,9 @@
+description = "Fast disk usage analyzer"
+
+[packages]
+present = [
+  "gdu"
+]
+
+[dotfiles]
+"~/.config/gdu" = { source = "home/.config/gdu", mode = "symlink-each" }
