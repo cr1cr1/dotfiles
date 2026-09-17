@@ -1,8 +1,5 @@
 description = "DeepSeek Harness"
 
-[dotfiles]
-"~/.dsh/settings.yaml" = { source = "home/.dsh/settings.yaml", mode = "copy" }
-
 [tools]
 "bun" = "latest"
 
@@ -10,3 +7,7 @@ description = "DeepSeek Harness"
 post = [
   "bun install --global @deepseek-ai/dsh"
 ]
+
+[dotfiles]
+"~/.dsh/catppuccin-state.json" = { source = "home/.dsh/catppuccin-state.json", mode = "symlink" }
+"~/.dsh/settings.yaml" = { source = "home/.dsh/settings.yaml", mode = "copy" }

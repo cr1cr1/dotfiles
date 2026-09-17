@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "flavor": "catppuccin-mocha",
+  "glass": {
+    "enabled": false,
+    "mode": "mica",
+    "blur": 2,
+    "frost": 20,
+    "brightness": 50
+  }
+}
