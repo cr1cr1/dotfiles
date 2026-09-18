@@ -4,6 +4,7 @@ alias b="bat --chop-long-lines --color=always --style='header,numbers,rule,snip'
 alias d="docker"
 alias delta="delta --side-by-side"
 alias f="__fzf_select --query"
+alias fd="fd -u"
 alias k="kubectl"
 alias ll="eza --long --all --git --modified --time-style long-iso --no-permissions --icons=always --sort=type"
 alias lt="eza --long --all --git --modified --time-style long-iso --no-permissions --icons=always --sort=type --tree"
