@@ -5,5 +5,5 @@ present = [
 ]
 
 [dotfiles]
-"~/.config/rsyncd.conf" = { source = "home/.config/rsyncd.conf", mode = "symlink" }
+"~/.config/rsyncd.conf" = { source = "home/.config/rsyncd.conf", mode = "copy" }
 "~/.config/rsyncd.sh" = { source = "home/.config/rsyncd.sh", mode = "symlink" }

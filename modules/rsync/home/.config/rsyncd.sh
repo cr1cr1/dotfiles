@@ -1,4 +1,4 @@
 #!/bin/env bash
 
 set -x
-sudo rsync --daemon --config ${0%/*}/rsyncd.conf --no-detach --verbose
+sudo rsync --daemon --config ${0%/*}/rsyncd.conf --no-detach --verbose --log-file=/dev/stderr
