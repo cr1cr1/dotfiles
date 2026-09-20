@@ -1,0 +1,7 @@
+[settings]
+experimental = true # enable experimental features
+prefer_offline = true
+env_file = ".env"
+
+[tools]
+"github:thedataflows/dotdrift" = "latest"

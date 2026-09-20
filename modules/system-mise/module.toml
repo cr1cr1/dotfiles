@@ -1,0 +1,6 @@
+description = "mise system config"
+
+scope = "system"
+
+[dotfiles]
+"/etc/mise/config.toml" = { source = "etc/mise/config.toml", mode = "copy" }
