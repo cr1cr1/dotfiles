@@ -6,4 +6,4 @@ Name=OpenRGB
 StartupNotify=true
 Terminal=false
 Type=Application
-Exec=/usr/bin/openrgb --startminimized --profile "Asus"
+Exec=/usr/bin/openrgb --startminimized

@@ -1,9 +1,12 @@
 description = "Open-source RGB lighting control with autostart entry and saved profiles"
+
 [packages]
 present = [
   "openrgb", # Open source RGB lighting control that doesn't depend on manufacturer software
 ]
 
 [dotfiles]
-"~/.config/OpenRGB" = { source = "home/.config/OpenRGB", mode = "symlink-each" }
+"~/.config/OpenRGB/OpenRGB.json" = { source = "home/.config/OpenRGB/OpenRGB.json", mode = "symlink" }
+"~/.config/OpenRGB/Configuration.json" = { source = "home/.config/OpenRGB/Configuration.json", mode = "symlink" }
+"~/.config/OpenRGB/profiles" = { source = "home/.config/OpenRGB/profiles", mode = "symlink-each" }
 "~/.config/autostart/OpenRGB.desktop" = { source = "home/.config/autostart/OpenRGB.desktop", mode = "symlink" }

@@ -12,7 +12,8 @@
         "setprofile": true,
         "setserver": false,
         "setserverhost": false,
-        "setserverport": false
+        "setserverport": false,
+        "start_minimized": true
     },
     "CorsairDominatorSettings": {
         "model": "CMT"
@@ -1953,27 +1954,27 @@
     "ProfileManager": {
         "exit_profile": {
             "enabled": false,
-            "name": ""
+            "name": "cri-pc"
         },
         "open_profile": {
-            "enabled": false,
-            "name": ""
+            "enabled": true,
+            "name": "cri-pc"
         },
         "resume_profile": {
             "enabled": false,
-            "name": ""
+            "name": "cri-pc"
         },
         "service_shutdown_profile": {
             "enabled": false,
-            "name": ""
+            "name": "cri-pc"
         },
         "service_startup_profile": {
-            "enabled": false,
-            "name": ""
+            "enabled": true,
+            "name": "cri-pc"
         },
         "suspend_profile": {
             "enabled": false,
-            "name": ""
+            "name": "cri-pc"
         }
     },
     "Server": {
@@ -1986,29 +1987,14 @@
         "theme": "Auto"
     },
     "UserInterface": {
-        "autoload_profiles": {
-            "exit_profile": {
-                "enabled": false,
-                "name": ""
-            },
-            "resume_profile": {
-                "enabled": false,
-                "name": ""
-            },
-            "suspend_profile": {
-                "enabled": false,
-                "name": ""
-            }
-        },
         "geometry": {
             "height": 1715,
             "load_geometry": true,
             "save_on_exit": true,
             "width": 2030,
-            "x": 2048,
+            "x": 0,
             "y": 0
         },
-        "greyscale_tray_icon": true,
         "language": "System Default",
         "minimize_on_close": true,
         "run_zone_checks": true
