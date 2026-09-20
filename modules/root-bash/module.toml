@@ -1,0 +1,12 @@
+description = "Bash shell config"
+
+scope = "system"
+
+[packages]
+present = [
+  "bash", # The GNU Bourne Again shell
+]
+
+[dotfiles]
+"/root/.profile" = { source = "home/.profile", mode = "copy" }
+"/root/.bashrc" = { source = "home/.bashrc", mode = "copy" }
