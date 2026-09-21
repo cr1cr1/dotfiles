@@ -1,0 +1,6 @@
+# overlay of system-samba (base): fields set here override it.
+# merged: packages, tools, dotfiles, hooks, mounts, smb
+# meta, scope, and when come from base
+
+[smb]
+users = ["cri"]

@@ -13,5 +13,4 @@ present = [
 
 [smb]
 group = "smb"
-users = ["cri"]
 avahi = true
