@@ -1,0 +1,99 @@
+# VoxType Configuration
+# Managed by voxtype-settings GUI
+
+engine = "whisper"
+state_file = "auto"
+
+[osd]
+enabled = true
+frontend = "native"
+style = "default"
+layout = "compact"
+position = "top-center"
+width_px = 400
+height_px = 48
+margin_px = 24
+top_margin = 0.85
+opacity = 0.95
+waveform_window_secs = 3.0
+peak_decay_db_per_sec = 6.0
+waveform_gain = 10.0
+
+[whisper]
+gpu_isolation = false
+on_demand_loading = false
+flash_attention = true
+eager_processing = false
+model = "large-v3"
+mode = "local"
+language = "en"
+translate = false
+threads = 8
+context_window_optimization = true
+eager_chunk_secs = 5.0
+eager_overlap_secs = 0.5
+gpu_device = 0
+
+[parakeet]
+streaming = false
+model = "parakeet-unified-en-0.6b"
+streaming_chunk_secs = 0.32
+streaming_left_context_secs = 5.6
+streaming_right_context_secs = 0.32
+
+[hotkey]
+key = "F13"
+mode = "toggle"
+enabled = true
+modifiers = []
+
+[audio]
+device = "default"
+max_duration_secs = 120
+pause_media = false
+duck_media = false
+duck_media_volume_percent = 34
+duck_media_fade_ms = 150
+sample_rate = 16000
+
+[audio.feedback]
+enabled = false
+theme = "default"
+volume = 0.69
+
+[output]
+mode = "type"
+fallback_to_clipboard = true
+auto_submit = false
+shift_enter_newlines = false
+pre_type_delay_ms = 0
+type_delay_ms = 0
+wait_for_modifier_release = true
+modifier_release_timeout_ms = 750
+
+[output.notification]
+on_recording_start = false
+on_recording_stop = false
+on_transcription = true
+show_engine_icon = false
+
+[text]
+spoken_punctuation = false
+smart_auto_submit = false
+
+[vad]
+enabled = false
+backend = "auto"
+threshold = 0.5
+
+[meeting]
+enabled = false
+
+[meeting.diarization]
+enabled = false
+
+[meeting.audio]
+source = "mic"
+
+[status]
+icon_theme = "nerd-font"

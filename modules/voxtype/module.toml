@@ -1,0 +1,15 @@
+description = "Push-to-talk voice-to-text for Linux"
+
+[hooks]
+post = [
+  "sudo usermod -aG input $(id -un)"
+]
+
+[packages]
+present = [
+  "aur/voxtype-bin",
+  "aur/voxtype-tray",
+]
+
+[dotfiles]
+"~/.config/voxtype/config.toml" = { source = "home/.config/voxtype/config.toml", mode = "copy" }
