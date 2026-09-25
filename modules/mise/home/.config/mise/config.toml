@@ -1,8 +1,6 @@
-redactions = ["SECRET_*", "*_TOKEN", "*PASSWORD*", "*_KEY", "*_SECRET", "*_CREDENTIALS"]
-
 [env]
 _.file = [
-  { path = "~/.env", redact = true },
+  { path = "~/.env", redact = false },
 ]
 
 [settings]
