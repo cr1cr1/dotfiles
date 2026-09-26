@@ -8,6 +8,9 @@ experimental = true # enable experimental features
 prefer_offline = true
 env_file = ".env"
 
+[settings.npm]
+package_manager = "bun"
+
 [hooks]
 postinstall = "misecompsync --shell zsh"
 
@@ -63,3 +66,6 @@ usage = "latest"
 
 ## https://github.com/F1bonacc1/process-compose/releases
 "github:F1bonacc1/process-compose" = "latest"
+
+## https://www.npmjs.com/package/@deepseek-ai/dsh?activeTab=versions
+"npm:@deepseek-ai/dsh" = "next"
