@@ -213,6 +213,7 @@ x-scheme-handler/snews=eu.betterbird.Betterbird.desktop;
 x-scheme-handler/teams=teams-nativefier.desktop
 x-scheme-handler/webcal=eu.betterbird.Betterbird.desktop;
 x-scheme-handler/webcals=eu.betterbird.Betterbird.desktop;
+x-scheme-handler/surrealdb-studio=surrealdb-studio.desktop;
 
 [Default Applications]
 application/epub+zip=calibre-ebook-viewer.desktop;
@@ -433,6 +434,7 @@ x-scheme-handler/teams=teams-nativefier.desktop
 x-scheme-handler/unknown=thorium-browser.desktop
 x-scheme-handler/webcal=eu.betterbird.Betterbird.desktop
 x-scheme-handler/webcals=eu.betterbird.Betterbird.desktop
+x-scheme-handler/surrealdb-studio=surrealdb-studio.desktop
 
 [Removed Associations]
 inode/directory=nemo.desktop;

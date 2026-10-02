@@ -94,6 +94,7 @@
   "fontFamily": "Roboto",
   "monoFontFamily": "JetBrainsMono Nerd Font Mono",
   "fontScale": 1.1,
+  "notepadFontSize": 12,
   "notepadShowLineNumbers": true,
   "useSystemSoundTheme": true,
   "soundNewNotification": false,
