@@ -68,4 +68,10 @@ usage = "latest"
 "github:F1bonacc1/process-compose" = "latest"
 
 ## https://www.npmjs.com/package/@deepseek-ai/dsh?activeTab=versions
-"npm:@deepseek-ai/dsh" = "next"
+#"npm:@deepseek-ai/dsh" = "next"
+
+## https://www.npmjs.com/package/@nanonets/graft?activeTab=versions
+#"npm:@nanonets/graft" = "latest"
+
+## https://github.com/Gaurav-Gosain/tuios/releases
+"github:Gaurav-Gosain/tuios" = "latest"
