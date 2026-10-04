@@ -11,4 +11,5 @@ present = [
   "uv", # An extremely fast Python package installer and resolver written in Rust
   "duckdb", # An analytical in-process SQL database management system
   "html2markdown-bin", # Convert HTML to Markdown. Even works with entire websites and can be extended through rules.
+  "ast-grep", # CLI tool for code structural search, lint and rewriting
 ]
