@@ -1,7 +1,9 @@
 description = "DankMaterialShell desktop shell built on Quickshell with search, monitoring, and KDE Connect integration"
+
 [packages]
 present = [
-  "dms-shell-niri", # DankMaterialShell - A feature-rich desktop shell built with Quickshell and Go (stable release)
+  "dms-shell", # A Quickshell-based desktop shell with Material 3 design principles
+  "aur/dankcalendar-bin", # Local, Google, Microsoft, and CalDAV calendars for the dank desktop (prebuilt binary)
   "quickshell", # The core framework for DMS (required)
   "dgop", # Stateless system and process monitoring tool with TUI, CLI, and REST API
   "aur/dsearch-bin", # Extremely fast indexed filesystem search service
@@ -12,3 +14,8 @@ present = [
 
 [dotfiles]
 "~/.config/DankMaterialShell" = { source = "home/.config/DankMaterialShell", mode = "symlink-each" }
+
+[hooks]
+post = [
+    "systemctl --user enable --now dcal"
+]

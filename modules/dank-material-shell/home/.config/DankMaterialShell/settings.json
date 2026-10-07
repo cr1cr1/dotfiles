@@ -159,6 +159,10 @@
           "enabled": true
         },
         {
+          "id": "dankCalendarAgenda",
+          "enabled": true
+        },
+        {
           "id": "weather",
           "enabled": true
         },
@@ -168,6 +172,10 @@
         },
         {
           "id": "dankKDEConnect",
+          "enabled": true
+        },
+        {
+          "id": "quickCapture",
           "enabled": true
         }
       ],
@@ -192,6 +200,10 @@
         },
         {
           "id": "battery",
+          "enabled": true
+        },
+        {
+          "id": "dockerManager",
           "enabled": true
         },
         {
