@@ -75,3 +75,9 @@ usage = "latest"
 
 ## https://github.com/Gaurav-Gosain/tuios/releases
 "github:Gaurav-Gosain/tuios" = "latest"
+
+## https://github.com/dgunzy/flux9s/releases
+"github:dgunzy/flux9s" = "latest"
+
+## github.com/storytold/photocraft/releases
+"github:storytold/photocraft" = "latest"
