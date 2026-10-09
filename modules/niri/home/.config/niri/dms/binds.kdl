@@ -29,14 +29,13 @@ binds {
 
     // Screenshot
     Print hotkey-overlay-title="Area Screenshot" {
-        //screenshot;
-        spawn "sh" "-c" "grim -g \"$(slurp)\" - | satty --filename - --copy-command wl-copy --initial-tool crop";
+        spawn "dms" "ipc" "call" "quickCapture" "screenshot" "region" "edit";
     }
     Mod+Print hotkey-overlay-title="Window Screenshot" {
-        screenshot-window;
+        spawn "dms" "ipc" "call" "quickCapture" "screenshot" "window" "edit";
     }
     Ctrl+Print hotkey-overlay-title="Screenshot" {
-        screenshot-screen show-pointer=false;
+        spawn "dms" "ipc" "call" "quickCapture" "screenshot" "full" "save";
     }
 
     // Application Launchers
