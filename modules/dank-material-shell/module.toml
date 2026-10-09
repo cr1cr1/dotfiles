@@ -12,10 +12,10 @@ present = [
   "kdeconnect", # Adds communication between KDE and your smartphone
 ]
 
-[dotfiles]
-"~/.config/DankMaterialShell" = { source = "home/.config/DankMaterialShell", mode = "symlink-each" }
-
 [hooks]
 post = [
     "systemctl --user enable --now dcal"
 ]
+
+[dotfiles]
+"~/.config/DankMaterialShell" = { source = "home/.config/DankMaterialShell", mode = "symlink-each" }

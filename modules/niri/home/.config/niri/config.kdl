@@ -3,23 +3,6 @@
 
 // Input configuration
 input {
-    keyboard {
-        xkb {
-            layout "us"
-        }
-    }
-    touchpad {
-        dwt
-        accel-speed 1
-        accel-profile "flat"
-        natural-scroll
-        scroll-factor 0.3
-        tap
-    }
-    mouse {
-        accel-speed 0.0
-    }
-
     focus-follows-mouse
 }
 
@@ -74,3 +57,4 @@ include "dms/outputs.kdl"
 include "dms/wpblur.kdl"
 include "dms/windowrules.kdl"
 include "dms/wpblur.kdl"
+include "dms/input.kdl"
