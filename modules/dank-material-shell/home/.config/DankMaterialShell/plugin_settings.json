@@ -6,7 +6,10 @@
   "quickCapture": {
     "enabled": true,
     "showToolbarBorder": true,
-    "show_shortcut_hints": true
+    "show_shortcut_hints": true,
+    "color_palette_preset": "catppuccin",
+    "usageGuideExpanded": false,
+    "catppuccin_variant": "mocha"
   },
   "dockerManager": {
     "enabled": true,
