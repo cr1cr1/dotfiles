@@ -155,11 +155,11 @@
           "mediaSize": 1
         },
         {
-          "id": "clock",
+          "id": "dankCalendarAgenda",
           "enabled": true
         },
         {
-          "id": "dankCalendarAgenda",
+          "id": "clock",
           "enabled": true
         },
         {
@@ -272,7 +272,8 @@
     "hslHue": -1,
     "hslSaturation": 0,
     "hslLightness": 1,
-    "valid": true
+    "valid": true,
+    "rgba": -1
   },
   "systemMonitorCustomColor": {
     "r": 1,
@@ -285,7 +286,8 @@
     "hslHue": -1,
     "hslSaturation": 0,
     "hslLightness": 1,
-    "valid": true
+    "valid": true,
+    "rgba": -1
   },
   "builtInPluginSettings": {
     "dms_settings_search": {

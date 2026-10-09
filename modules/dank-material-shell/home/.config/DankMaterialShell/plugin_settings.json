@@ -4,14 +4,18 @@
     "selectedDeviceId": "247b1e9ec9a64be48fc3f1cfe91bcfd3"
   },
   "quickCapture": {
-    "enabled": true
+    "enabled": true,
+    "showToolbarBorder": true,
+    "show_shortcut_hints": true
   },
   "dockerManager": {
     "enabled": true,
     "terminalApp": "kitty",
-    "shellPath": "/bin/zsh"
+    "shellPath": "/bin/zsh",
+    "groupByCompose": true
   },
   "dankCalendarAgenda": {
-    "enabled": true
+    "enabled": true,
+    "scrollTitle": true
   }
 }
