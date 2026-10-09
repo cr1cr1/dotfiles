@@ -62,7 +62,7 @@ usage = "latest"
 "github:podsteer/podsteer" = "latest"
 
 ## https://github.com/akiomik/vimeo-dl/releases
-"github:akiomik/vimeo-dl" = "latest"
+"go:github.com/akiomik/vimeo-dl" = "main"
 
 ## https://github.com/F1bonacc1/process-compose/releases
 "github:F1bonacc1/process-compose" = "latest"
@@ -81,3 +81,11 @@ usage = "latest"
 
 ## github.com/storytold/photocraft/releases
 "github:storytold/photocraft" = "latest"
+## github.com/storytold/pdfcraft/releases
+"github:storytold/pdfcraft" = "latest"
+## github.com/storytold/gridcraft/releases
+"github:storytold/gridcraft" = "latest"
+## github.com/storytold/wordcraft/releases
+"github:storytold/wordcraft" = "latest"
+## github.com/storytold/filmcraft/releases
+"github:storytold/filmcraft" = "latest"
