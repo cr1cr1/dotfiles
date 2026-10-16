@@ -35,6 +35,7 @@ present = [
   "ttyd", # Share your terminal over the web
   "impala", # TUI for managing wifi
   "aur/wlctl-bin", # TUI for managing WiFi using NetworkManager (a fork of impala)
+  "aur/sping-bin", # A modern, cross-platform ping with real-time diagnostics, network context, quality scoring, and multi-target monitoring
 ]
 
 [hooks]
