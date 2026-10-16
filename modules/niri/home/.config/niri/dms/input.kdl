@@ -13,7 +13,7 @@ input {
         accel-profile "flat"
         natural-scroll
         dwt
-        scroll-factor 1.3
+        scroll-factor 1.2
     }
 }
 

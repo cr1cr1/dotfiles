@@ -6,7 +6,7 @@
   "niriLayoutGapsOverride": 6,
   "touchpadAccelProfile": "flat",
   "touchpadAccelSpeed": 1,
-  "touchpadScrollFactor": 1.3,
+  "touchpadScrollFactor": 1.2,
   "firstDayOfWeek": 1,
   "clockFormat": "24h",
   "barElevationEnabled": false,

@@ -4,7 +4,7 @@ application/gzip=org.kde.ark.desktop;
 application/json=dev.zed.Zed.desktop;code.desktop;
 application/ms-tnef=eu.betterbird.Betterbird.desktop;
 application/octet-stream=mpv.desktop;userapp-zeditor-94MGS2.desktop;7zFM.desktop;
-application/pdf=okularApplication_pdf.desktop;org.gnome.Evince.desktop;
+application/pdf=okularApplication_pdf.desktop;pdfcraft.desktop;zen.desktop;org.chromium.Thorium.desktop;onlyoffice-desktopeditors.desktop;thorium-browser.desktop;com.github.flxzt.rnote.desktop;krita_pdf.desktop;
 application/rss+xml=eu.betterbird.Betterbird.desktop;
 application/vnd.comicbook+zip=okularApplication_comicbook.desktop;calibre-ebook-viewer.desktop;calibre-gui.desktop;org.kde.ark.desktop;xarchiver.desktop;mpv.desktop;
 application/vnd.comicbook-rar=okularApplication_comicbook.desktop;calibre-ebook-viewer.desktop;calibre-gui.desktop;org.kde.ark.desktop;xarchiver.desktop;mpv.desktop;
@@ -210,10 +210,10 @@ x-scheme-handler/pinokio=pinokio.desktop;Pinokio.desktop;
 x-scheme-handler/sgnl=signal-desktop.desktop;signal.desktop;
 x-scheme-handler/signalcaptcha=signal-desktop.desktop;signal.desktop;
 x-scheme-handler/snews=eu.betterbird.Betterbird.desktop;
+x-scheme-handler/surrealdb-studio=surrealdb-studio.desktop;
 x-scheme-handler/teams=teams-nativefier.desktop
 x-scheme-handler/webcal=eu.betterbird.Betterbird.desktop;
 x-scheme-handler/webcals=eu.betterbird.Betterbird.desktop;
-x-scheme-handler/surrealdb-studio=surrealdb-studio.desktop;
 
 [Default Applications]
 application/epub+zip=calibre-ebook-viewer.desktop;
@@ -420,7 +420,7 @@ x-scheme-handler/https=thorium-browser.desktop
 x-scheme-handler/io.element.desktop=Element.desktop
 x-scheme-handler/lens=OpenLens.desktop
 x-scheme-handler/lmstudio=lmstudio.desktop
-x-scheme-handler/mailto=eu.betterbird.Betterbird.desktop
+x-scheme-handler/mailto=matcha.desktop
 x-scheme-handler/mid=eu.betterbird.Betterbird.desktop
 x-scheme-handler/msteams=teams-for-linux.desktop
 x-scheme-handler/news=eu.betterbird.Betterbird.desktop
@@ -430,11 +430,13 @@ x-scheme-handler/pinokio=pinokio.desktop
 x-scheme-handler/sgnl=signal.desktop
 x-scheme-handler/signalcaptcha=signal.desktop
 x-scheme-handler/snews=eu.betterbird.Betterbird.desktop
+x-scheme-handler/surrealdb-studio=surrealdb-studio.desktop
 x-scheme-handler/teams=teams-nativefier.desktop
 x-scheme-handler/unknown=thorium-browser.desktop
 x-scheme-handler/webcal=eu.betterbird.Betterbird.desktop
 x-scheme-handler/webcals=eu.betterbird.Betterbird.desktop
-x-scheme-handler/surrealdb-studio=surrealdb-studio.desktop
+x-scheme-handler/matcha=matcha-protocol.desktop
 
 [Removed Associations]
+application/pdf=mpv.desktop;
 inode/directory=nemo.desktop;
