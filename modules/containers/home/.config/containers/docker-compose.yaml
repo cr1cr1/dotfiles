@@ -1,0 +1,29 @@
+name: containers
+
+services:
+  cli-proxy-api:
+    image: eceasy/cli-proxy-api:latest
+    container_name: cli-proxy-api
+    restart: unless-stopped
+    user: "${_UID}:${_GID}"
+    environment:
+      MANAGEMENT_PASSWORD: "${CLIPROXY_API_KEY}"
+      HOME: /CLIProxyAPI
+      TZ: Europe/Bucharest
+    volumes:
+      - ./cli-proxy-api/config.yaml:/CLIProxyAPI/config.yaml
+      - ./cli-proxy-api/.cli-proxy-api:/CLIProxyAPI/.cli-proxy-api
+      - ./cli-proxy-api/plugins:/CLIProxyAPI/plugins
+      - ./cli-proxy-api/static:/CLIProxyAPI/static
+    # ports:
+    #   - "127.0.0.1:8317:8317"
+    networks:
+      keycloak-network:
+        ipv4_address: 172.200.0.10
+
+networks:
+  keycloak-network:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.200.0.0/24

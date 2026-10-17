@@ -1,4 +1,5 @@
 description = "Container engines and tooling (Docker, Podman, Compose, BuildKit, Skopeo and TUIs)"
+
 [packages]
 present = [
   "docker", # Pack, ship and run any application as a lightweight container
@@ -8,4 +9,18 @@ present = [
   "skopeo", # A command line utility for various operations on container images and image repositories.
   "podman", # Tool and library for running OCI-based containers in pods
   "aur/podman-tui-bin", # Podman Terminal UI
+]
+
+[dotfiles]
+"~/.config/containers/docker-compose.yaml" = { source = "home/.config/containers/docker-compose.yaml", mode = "symlink" }
+"~/.config/systemd/user/containers.service" = { source = "home/.config/systemd/user/containers.service", mode = "copy" }
+
+"~/.config/containers/cli-proxy-api/plugins" = { source = "home/.config/containers/cli-proxy-api/plugins", mode = "symlink" }
+"~/.config/containers/cli-proxy-api/config.yaml" = { source = "home/.config/containers/cli-proxy-api/config.yaml", mode = "symlink" }
+
+[hooks]
+post = [
+  "systemctl --user daemon-reload",
+  "systemctl --user enable containers.service",
+  "systemctl --user restart containers.service",
 ]
