@@ -8,5 +8,5 @@ ConditionPathExists=/mnt/synology/syn02
 What=synology.home:/volume2/syn02
 Where=/mnt/synology/syn02
 Type=nfs
-Options=rw,hard,nfsvers=4.1,nconnect=4,rsize=1048576,wsize=1048576,noatime,nosuid,nodev,noacl,timeo=600,retrans=2
+Options=rw,soft,nfsvers=4.1,nconnect=4,rsize=1048576,wsize=1048576,noatime,nosuid,nodev,noacl,timeo=60,retrans=2
 TimeoutSec=15
