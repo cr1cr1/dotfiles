@@ -1,17 +1,96 @@
 name: containers
 
+configs:
+  cli-proxy-api-config:
+    content: |
+      config-version: 8
+      plugins:
+          enabled: true
+          dir: "plugins"
+          configs:
+              cpa-quota-api-extension:
+                  enabled: true
+              deepseek-harness-session:
+                  enabled: true
+      access:
+          api-keys:
+              - "${CLIPROXY_API_KEY}"
+      server:
+          host: ""
+          port: 8317
+          discovery:
+              service-type: _ai-gateway._tcp
+              subtypes:
+                  - _chat-completions
+                  - _responses
+                  - _messages
+                  - _generate-content
+                  - _interactions
+      credentials:
+          concurrency:
+              cpa-heartbeat-timeout: 3s
+              cpa-cancel-bound: 5s
+              reclaim-grace: 5s
+              cleanup-interval: 5s
+              release-flush-interval: 250ms
+              release-max-backoff: 2s
+              busy-retry-min: 250ms
+              busy-retry-max: 1s
+              max-limit: 1000000
+          in-flight:
+              snapshot-interval: 2s
+              stale-after: 10s
+              max-part-bytes: 262144
+              max-part-count: 64
+              max-revision-bytes: 16777216
+              max-aggregate-groups: 100000
+              max-details: 10000
+              max-string-bytes: 256
+              staging-retention: 1m
+      management:
+          allow-remote: true
+      oauth:
+          auth-dir: /CLIProxyAPI/.cli-proxy-api
+          providers:
+              aistudio:
+                  ws-auth: true
+      observability:
+          logs:
+              logging-to-file: false
+          usage:
+              redis-usage-queue-retention-seconds: 60
+      routing:
+          cooldown:
+              disable-cooling: false
+          retry:
+              request-retry: 0
+      api-keys:
+          openai-compatibility:
+              - name: zai
+                prefix: zai
+                base-url: "${ZAI_BASE_URL:-https://api.z.ai/api/paas/v4}"
+                keys:
+                  - api-key: "${ZAI_API_KEY}"
+              - name: kimi
+                prefix: kimi
+                base-url: https://api.kimi.com/coding/v1
+                keys:
+                  - api-key: "${KIMI_API_KEY}"
+
 services:
   cli-proxy-api:
     image: eceasy/cli-proxy-api:latest
     container_name: cli-proxy-api
     restart: unless-stopped
     user: "${_UID}:${_GID}"
+    configs:
+      - source: cli-proxy-api-config
+        target: /CLIProxyAPI/config.yaml
     environment:
       MANAGEMENT_PASSWORD: "${CLIPROXY_API_KEY}"
       HOME: /CLIProxyAPI
       TZ: Europe/Bucharest
     volumes:
-      - ./cli-proxy-api/config.yaml:/CLIProxyAPI/config.yaml
       - ./cli-proxy-api/.cli-proxy-api:/CLIProxyAPI/.cli-proxy-api
       - ./cli-proxy-api/plugins:/CLIProxyAPI/plugins
       - ./cli-proxy-api/static:/CLIProxyAPI/static

@@ -16,7 +16,7 @@ present = [
 "~/.config/systemd/user/containers.service" = { source = "home/.config/systemd/user/containers.service", mode = "copy" }
 
 "~/.config/containers/cli-proxy-api/plugins" = { source = "home/.config/containers/cli-proxy-api/plugins", mode = "symlink" }
-"~/.config/containers/cli-proxy-api/config.yaml" = { source = "home/.config/containers/cli-proxy-api/config.yaml", mode = "symlink" }
+#"~/.config/containers/cli-proxy-api/config.yaml" = { source = "home/.config/containers/cli-proxy-api/config.yaml", mode = "symlink" }
 
 [hooks]
 post = [
