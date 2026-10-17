@@ -1,14 +1,12 @@
 [Unit]
-Description=Local mount unit for synology-syn01
-After=network.target local-fs.target
+Description=NFS mount unit for synology-syn01
+Wants=network-online.target
+After=network-online.target remote-fs-pre.target
 ConditionPathExists=/mnt/synology/syn01
-ConditionPathIsMountPoint=!/mnt/synology/syn01
 
 [Mount]
 What=synology.home:/volume1/syn01
 Where=/mnt/synology/syn01
 Type=nfs
-Options=rw,nosuid,soft,nfsvers=4,noacl,async,nocto,nconnect=16,_netdev,timeo=3,retrans=2,bg
-
-[Install]
-WantedBy=multi-user.target
+Options=rw,hard,nfsvers=4.1,nconnect=4,rsize=1048576,wsize=1048576,noatime,nosuid,nodev,noacl,timeo=600,retrans=2
+TimeoutSec=15

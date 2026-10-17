@@ -89,3 +89,6 @@ usage = "latest"
 "github:storytold/wordcraft" = "latest"
 ## github.com/storytold/filmcraft/releases
 "github:storytold/filmcraft" = "latest"
+
+## github.com/herald-email/herald-mail-app
+"github:herald-email/herald-mail-app" = "v0.8.0-beta.1"
