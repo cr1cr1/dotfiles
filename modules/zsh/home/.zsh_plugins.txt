@@ -1,10 +1,6 @@
-rupa/z              # some bash plugins work too
-sindresorhus/pure   # enhance your prompt
-
-marlonrichert/zsh-autocomplete
-Aloxaf/fzf-tab
+sindresorhus/pure   # prompt (oh-my-posh init removed from .zshrc; Pure is the active prompt)
+Aloxaf/fzf-tab      # sole Tab completion engine; requires compinit before load (done in .zshrc)
 
 # external plugins — deferred for fast startup
 zsh-users/zsh-autosuggestions kind:defer
 zsh-users/zsh-syntax-highlighting kind:defer
-zsh-users/zsh-history-substring-search kind:defer

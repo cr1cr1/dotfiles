@@ -1,4 +1,4 @@
-export HISTSIZE=1000000000
+export HISTSIZE=1000000
 export SAVEHIST=$HISTSIZE
 
 ulimit -n unlimited
@@ -16,20 +16,31 @@ fpath=(${XDG_DATA_HOME:-$HOME/.local/share}/mise-completions/zsh $fpath)
 ## Allow root to connect to X
 xhost +si:localuser:root &>/dev/null
 
-## Oh-my-posh
-PARENT_PROCESS=$(ps -p $PPID -o comm=)
-## Space separated list of program names that should not load oh-my-posh
-PROCLIST=""
-[[ ! " $PROCLIST " =~ " $PARENT_PROCESS " ]] && \
-  eval "$(oh-my-posh init zsh --config ~/.config/oh-my-posh/catppuccin_mocha.omp.json)" &>/dev/null
-
 ## Fzf
 source ~/.fzf
 
 ## Mise-en-place
 eval "$(mise activate zsh)"
 
+## Completion (must run before antidote: fzf-tab requires compinit first)
+autoload -Uz compinit
+# Full compinit only when the dump is older than 24h; -C reuses the dump otherwise.
+if [[ -n ~/.zcompdump(#qN.mh+24) ]]; then
+  compinit
+else
+  compinit -C
+fi
+zstyle ':completion:*' use-cache on
+zstyle ':completion:*' cache-path "${XDG_CACHE_HOME:-$HOME/.cache}/zsh/zcompcache"
+zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}' 'r:|[._-]=* r:|=*' 'l:|=* r:|=*'
+zstyle ':completion:*' menu no
+zstyle ':completion:*:descriptions' format '[%d]'
+
 ## Antidote
+# Pure shows user@host only for SSH/container/root sessions, with no opt-in
+# style. PROMPT_PURE_SSH_CONNECTION is Pure's own SSH-detection variable
+# (it exports it for tmux propagation); setting it makes user@host always show.
+PROMPT_PURE_SSH_CONNECTION=local
 source '/usr/share/zsh-antidote/antidote.zsh'
 antidote load
 
