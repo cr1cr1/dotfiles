@@ -11,18 +11,14 @@ scope = "system"
 
 [hooks]
 post = [
-  # Retire legacy boot-time mounts and their daily-retry service/timer wrappers.
-  # Removing them from [dotfiles] does not delete already-deployed copies.
-  "sudo systemctl disable --now mnt-synology-syn01.timer mnt-synology-syn02.timer mnt-synology-shared.timer mnt-synology-syn01.service mnt-synology-syn02.service mnt-synology-shared.service mnt-synology-syn01.mount mnt-synology-syn02.mount mnt-synology-shared.mount || true",
-  "sudo rm -f /usr/local/lib/systemd/system/mnt-synology-syn01.service /usr/local/lib/systemd/system/mnt-synology-syn01.timer /usr/local/lib/systemd/system/mnt-synology-syn02.service /usr/local/lib/systemd/system/mnt-synology-syn02.timer /usr/local/lib/systemd/system/mnt-synology-shared.service /usr/local/lib/systemd/system/mnt-synology-shared.timer",
   "sudo systemctl daemon-reload",
 
   "sudo mkdir -p /mnt/synology/syn01",
-  "sudo systemctl enable --now mnt-synology-syn01.automount",
+  "sudo systemctl enable --now mnt-synology-syn01.automount || true",
 
   "sudo mkdir -p /mnt/synology/syn02",
-  "sudo systemctl enable --now mnt-synology-syn02.automount",
+  "sudo systemctl enable --now mnt-synology-syn02.automount || true",
 
   "sudo mkdir -p /mnt/synology/shared",
-  "sudo systemctl enable --now mnt-synology-shared.automount",
+  "sudo systemctl enable --now mnt-synology-shared.automount || true",
 ]

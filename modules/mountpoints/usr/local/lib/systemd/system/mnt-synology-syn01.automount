@@ -3,7 +3,7 @@ Description=Automount for syn01
 
 [Automount]
 Where=/mnt/synology/syn01
-TimeoutIdleSec=600
+TimeoutIdleSec=60
 
 [Install]
 WantedBy=multi-user.target
