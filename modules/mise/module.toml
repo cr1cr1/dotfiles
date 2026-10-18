@@ -5,4 +5,5 @@ present = [
 ]
 
 [dotfiles]
-"~/.config/mise" = { source = "home/.config/mise", mode = "symlink-each" }
+"~/.config/mise/config.toml" = { source = "home/.config/mise/config.toml", mode = "symlink" }
+"~/.config/mise/tasks" = { source = "home/.config/mise/tasks", mode = "symlink-each" }
