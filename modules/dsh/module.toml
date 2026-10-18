@@ -2,12 +2,16 @@ description = "DeepSeek Harness"
 
 [tools]
 "bun" = "latest"
-
-[hooks]
-post = [
-  "bun install --global @deepseek-ai/dsh"
-]
+"npm:@deepseek-ai/dsh" = "next"
 
 [dotfiles]
 "~/.dsh/catppuccin-state.json" = { source = "home/.dsh/catppuccin-state.json", mode = "symlink" }
-"~/.dsh/settings.yaml" = { source = "home/.dsh/settings.yaml", mode = "copy" }
+
+"~/.config/systemd/user/dsh.service" = { source = "home/.config/systemd/user/dsh.service", mode = "copy" }
+
+[hooks]
+post = [
+  "systemctl --user daemon-reload",
+  "systemctl --user enable dsh.service",
+  "systemctl --user restart dsh.service",
+]
