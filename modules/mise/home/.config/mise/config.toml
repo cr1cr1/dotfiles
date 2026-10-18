@@ -7,6 +7,7 @@ _.file = [
 experimental = true # enable experimental features
 prefer_offline = true
 env_file = ".env"
+auto_install = false
 
 [settings.npm]
 package_manager = "bun"
