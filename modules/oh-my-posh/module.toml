@@ -1,4 +1,6 @@
 description = "Prompt theme engine for any shell with custom themes"
+disabled = true
+
 [packages]
 present = [
   "aur/oh-my-posh-bin", # A prompt theme engine for any shell.
