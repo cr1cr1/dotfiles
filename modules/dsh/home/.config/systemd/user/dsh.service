@@ -9,7 +9,7 @@ WorkingDirectory=%h/.dsh/profiles/web
 
 EnvironmentFile=%h/.env
 
-ExecStart=mise exec -- dsh --profile web --no-open
+ExecStart=mise exec --no-deps -- dsh --profile web --no-open
 KillSignal=SIGINT
 TimeoutStartSec=2s
 
