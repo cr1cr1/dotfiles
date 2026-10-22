@@ -3,6 +3,7 @@ description = "Git version control with git-delta syntax-highlighting pager and 
 present = [
   "git", # the fast distributed version control system
   "git-delta", # Syntax-highlighting pager for git and diff output
+  "diffnav" # git diff pager based on delta but with a file tree, à la GitHub
 ]
 
 [dotfiles]
