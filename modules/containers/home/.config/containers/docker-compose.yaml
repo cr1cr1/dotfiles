@@ -80,6 +80,7 @@ configs:
 services:
   cli-proxy-api:
     image: eceasy/cli-proxy-api:latest
+    pull_policy: always
     container_name: cli-proxy-api
     restart: unless-stopped
     user: "${_UID}:${_GID}"
