@@ -1,0 +1,12 @@
+[Desktop Entry]
+Categories=Utility;AudioVideo;
+Comment=Premiere Clone
+Exec=mise x -- filmcraft %U
+Name=FilmCraft
+NoDisplay=false
+PrefersNonDefaultGPU=false
+StartupNotify=true
+StartupWMClass=filmcraft
+Type=Application
+MimeType=application/vnd.adobe.premiere;video/quicktime;video/mp4;video/x-matroska;video/x-msvideo;video/webm;video/mpeg;video/x-ms-wmv;video/3gpp;video/3gpp2;
+Icon=video-x-generic

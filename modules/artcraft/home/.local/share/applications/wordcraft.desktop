@@ -1,0 +1,13 @@
+[Desktop Entry]
+Categories=Utility;Office;
+Comment=Word Clone
+Exec=mise x -- wordcraft %U
+Name=WordCraft
+NoDisplay=false
+PrefersNonDefaultGPU=false
+StartupNotify=true
+StartupWMClass=wordcraft
+Type=Application
+MimeType=application/vnd.openxmlformats-officedocument.wordprocessingml.document;application/vnd.openxmlformats-officedocument.wordprocessingml.template;application/vnd.ms-word.document.macroEnabled.12;application/vnd.ms-word.template.macroEnabled.12;application/msword;application/rtf;text/rtf;application/vnd.oasis.opendocument.text;application/vnd.oasis.opendocument.text-template;application/vnd.oasis.opendocument.text-flat-xml;
+#Icon=x-office-document
+Icon=application-vnd.openxmlformats-officedocument.wordprocessingml.document

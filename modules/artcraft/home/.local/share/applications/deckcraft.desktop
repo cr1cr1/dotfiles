@@ -1,0 +1,12 @@
+[Desktop Entry]
+Categories=Utility;Office;
+Comment=PowerPoint Clone
+Exec=mise x -- deckcraft %U
+Name=DeckCraft
+NoDisplay=false
+PrefersNonDefaultGPU=false
+StartupNotify=true
+StartupWMClass=deckcraft
+Type=Application
+MimeType=application/vnd.openxmlformats-officedocument.presentationml.presentation;application/vnd.openxmlformats-officedocument.presentationml.template;application/vnd.openxmlformats-officedocument.presentationml.slideshow;application/vnd.ms-powerpoint;application/vnd.ms-powerpoint.presentation.macroEnabled.12;application/vnd.ms-powerpoint.template.macroEnabled.12;application/vnd.ms-powerpoint.slideshow.macroEnabled.12;application/vnd.oasis.opendocument.presentation;application/vnd.oasis.opendocument.presentation-template;application/vnd.oasis.opendocument.presentation-flat-xml;
+Icon=x-office-presentation

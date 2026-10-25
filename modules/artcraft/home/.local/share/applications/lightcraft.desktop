@@ -1,0 +1,12 @@
+[Desktop Entry]
+Categories=Utility;Graphics;
+Comment=Lightroom Clone
+Exec=mise x -- lightcraft %U
+Name=LightCraft
+NoDisplay=false
+PrefersNonDefaultGPU=false
+StartupNotify=true
+StartupWMClass=lightcraft
+Type=Application
+MimeType=image/x-adobe-dng;image/x-canon-cr2;image/x-canon-cr3;image/x-nikon-nef;image/x-sony-arw;image/x-fuji-raf;image/x-panasonic-rw2;image/x-olympus-orf;image/x-pentax-pef;image/x-sigma-x3f;image/x-minolta-mrw;image/x-kodak-dcr;image/jpeg;image/tiff;image/vnd.adobe.photoshop;
+Icon=camera-photo

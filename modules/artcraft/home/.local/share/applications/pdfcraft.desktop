@@ -1,0 +1,17 @@
+[Desktop Entry]
+Categories=Utility;Office;
+Comment=Acrobat Clone
+Exec=mise x -- pdfcraft %U
+Name=PDFCraft
+NoDisplay=false
+Path=
+PrefersNonDefaultGPU=false
+StartupNotify=true
+StartupWMClass=pdfcraft
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=
+MimeType=application/pdf;application/x-pdf;application/acrobat;image/pdf;application/x-gzpdf;application/x-bzpdf;application/x-wwf;
+Icon=application-pdf

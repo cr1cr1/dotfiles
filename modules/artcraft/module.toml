@@ -1,0 +1,34 @@
+description = "ArtCraft Suite"
+
+[tools]
+## github.com/storytold/photocraft/releases
+"github:storytold/photocraft" = "latest"
+## github.com/storytold/lightcraft/releases
+"github:storytold/lightcraft" = "latest"
+## github.com/storytold/pdfcraft/releases
+"github:storytold/pdfcraft" = "latest"
+## github.com/storytold/filmcraft/releases
+"github:storytold/filmcraft" = "latest"
+
+## github.com/storytold/gridcraft/releases
+"github:storytold/gridcraft" = "latest"
+## github.com/storytold/wordcraft/releases
+"github:storytold/wordcraft" = "latest"
+## github.com/storytold/deckcraft/releases
+"github:storytold/deckcraft" = "latest"
+
+[dotfiles]
+"~/.local/share/applications/photocraft.desktop" = { source = "home/.local/share/applications/photocraft.desktop", mode = "symlink" }
+"~/.local/share/applications/lightcraft.desktop" = { source = "home/.local/share/applications/lightcraft.desktop", mode = "symlink" }
+"~/.local/share/applications/pdfcraft.desktop" = { source = "home/.local/share/applications/pdfcraft.desktop", mode = "symlink" }
+"~/.local/share/applications/filmcraft.desktop" = { source = "home/.local/share/applications/filmcraft.desktop", mode = "symlink" }
+"~/.local/share/applications/gridcraft.desktop" = { source = "home/.local/share/applications/gridcraft.desktop", mode = "symlink" }
+"~/.local/share/applications/wordcraft.desktop" = { source = "home/.local/share/applications/wordcraft.desktop", mode = "symlink" }
+"~/.local/share/applications/deckcraft.desktop" = { source = "home/.local/share/applications/deckcraft.desktop", mode = "symlink" }
+
+[hooks]
+post = [
+  ## rebuild the mime->application cache and KDE's sycoca so new MimeType entries take effect
+  "update-desktop-database $HOME/.local/share/applications",
+  "kbuildsycoca6 || true",
+]

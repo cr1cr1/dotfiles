@@ -1,0 +1,12 @@
+[Desktop Entry]
+Categories=Utility;Office;
+Comment=Excel Clone
+Exec=mise x -- gridcraft %U
+Name=GridCraft
+NoDisplay=false
+PrefersNonDefaultGPU=false
+StartupNotify=true
+StartupWMClass=gridcraft
+Type=Application
+MimeType=application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;application/vnd.openxmlformats-officedocument.spreadsheetml.template;application/vnd.ms-excel;application/vnd.ms-excel.sheet.macroEnabled.12;application/vnd.ms-excel.sheet.binary.macroEnabled.12;application/vnd.ms-excel.template.macroEnabled.12;application/vnd.oasis.opendocument.spreadsheet;application/vnd.oasis.opendocument.spreadsheet-template;application/vnd.oasis.opendocument.spreadsheet-flat-xml;text/csv;
+Icon=application-vnd.openxmlformats-officedocument.spreadsheetml.sheet

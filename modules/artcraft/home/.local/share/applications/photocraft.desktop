@@ -1,0 +1,12 @@
+[Desktop Entry]
+Categories=Utility;Graphics;
+Comment=Photoshop Clone
+Exec=mise x -- photocraft %U
+Name=PhotoCraft
+NoDisplay=false
+PrefersNonDefaultGPU=false
+StartupNotify=true
+StartupWMClass=photocraft
+Type=Application
+MimeType=image/vnd.adobe.photoshop;image/x-psd;image/png;image/jpeg;image/gif;image/bmp;image/tiff;image/webp;
+Icon=image-x-psd

@@ -80,17 +80,6 @@ usage = "latest"
 ## https://github.com/dgunzy/flux9s/releases
 "github:dgunzy/flux9s" = "latest"
 
-## github.com/storytold/photocraft/releases
-"github:storytold/photocraft" = "latest"
-## github.com/storytold/pdfcraft/releases
-"github:storytold/pdfcraft" = "latest"
-## github.com/storytold/gridcraft/releases
-"github:storytold/gridcraft" = "latest"
-## github.com/storytold/wordcraft/releases
-"github:storytold/wordcraft" = "latest"
-## github.com/storytold/filmcraft/releases
-"github:storytold/filmcraft" = "latest"
-
 ## github.com/herald-email/herald-mail-app
 "github:herald-email/herald-mail-app" = "v0.8.0-beta.1"
 
