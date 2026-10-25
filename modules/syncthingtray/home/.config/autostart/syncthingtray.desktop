@@ -1,3 +1,23 @@
+[Desktop Entry]
+Actions=ShowTrayMenu;ShowSyncthing;RescanAll;PauseAllDevs;ResumeAllDevs;Restart
+Categories=Network;FileTransfer
+Comment[en_US]=Tray application for Syncthing
+Comment=Tray application for Syncthing
+Exec=syncthingtray
+GenericName[en_US]=Syncthing Tray
+GenericName=Syncthing Tray
+Icon=syncthingtray-qt6
+MimeType=
+Name[en_US]=Syncthing Tray
+Name=Syncthing Tray
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=
+
 [Desktop Action PauseAllDevs]
 Exec=syncthingctl-qt6 pause --all-devs
 Name=Pause all devices (of local Syncthing instance)
@@ -21,14 +41,3 @@ Name=Show Syncthing (currently selected instance)
 [Desktop Action ShowTrayMenu]
 Exec=syncthingtray-qt6 qt-widgets-gui --trigger
 Name=Show tray menu
-
-[Desktop Entry]
-Actions=ShowTrayMenu;ShowSyncthing;RescanAll;PauseAllDevs;ResumeAllDevs;Restart
-Categories=Network;FileTransfer
-Comment=Tray application for Syncthing
-Exec=syncthingtray-qt6
-GenericName=Syncthing Tray
-Icon=syncthingtray-qt6
-Name=Syncthing Tray
-Terminal=false
-Type=Application

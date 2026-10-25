@@ -1,8 +1,8 @@
-description = "System tray application for Syncthing (Qt 6) with autostart"
+description = "Tray application for Syncthing"
 [packages]
 present = [
-  "aur/syncthingtray-qt6", # Tray application for Syncthing (using Qt 6)
+  "syncthingtray", # Tray application for Syncthing
 ]
 
 [dotfiles]
-"~/.config/autostart/syncthingtray-qt6.desktop" = { source = "home/.config/autostart/syncthingtray-qt6.desktop", mode = "symlink" }
+"~/.config/autostart/syncthingtray.desktop" = { source = "home/.config/autostart/syncthingtray.desktop", mode = "symlink" }
