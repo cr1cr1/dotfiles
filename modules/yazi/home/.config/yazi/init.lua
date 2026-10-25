@@ -1,7 +1,7 @@
 -- https://github.com/yazi-rs/plugins/tree/main/full-border.yazi
 require("full-border"):setup {
-	-- Available values: ui.Border.PLAIN, ui.Border.ROUNDED
-	type = ui.Border.ROUNDED,
+	-- Available values: "rounded", "plain"
+	set = "rounded",
 }
 
 -- https://github.com/yazi-rs/plugins/tree/main/git.yazi

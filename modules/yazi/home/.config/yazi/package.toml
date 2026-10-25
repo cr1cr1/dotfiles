@@ -1,22 +1,22 @@
 [[plugin.deps]]
 use = "yazi-rs/plugins:chmod"
-rev = "72f9e3c"
+rev = "e0bbd20"
 hash = "87472b05a8c420100f6a2b9cde1e7746"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:jump-to-char"
-rev = "72f9e3c"
+rev = "e0bbd20"
 hash = "7a4b4237223aaa94e589d1c01a23542a"
 
 [[plugin.deps]]
 use = "Ape/open-with-cmd"
-rev = "eba191d"
-hash = "722a60eca1b338c9c24bb508d2d48578"
+rev = "56705e2"
+hash = "7c84fff414a652c86c44523dbb08026f"
 
 [[plugin.deps]]
 use = "orhnk/system-clipboard"
-rev = "75a5330"
-hash = "2eca70f99d25c661e0a92000843d001e"
+rev = "ed946c3"
+hash = "43fff18b85896a499105f621de458ea1"
 
 [[plugin.deps]]
 use = "lpnh/fr"
@@ -25,28 +25,28 @@ hash = "8b0e87c3176e0d44f79a8656f79f0fa"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:smart-filter"
-rev = "72f9e3c"
+rev = "e0bbd20"
 hash = "d6f7351ea25a43c9b5f4315fa1e23935"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:full-border"
-rev = "72f9e3c"
-hash = "f281261ff04ad7ec867c3f802a50835f"
+rev = "e0bbd20"
+hash = "17ebde15c4349f90aedbc45984b98db2"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:git"
-rev = "72f9e3c"
-hash = "5bb0bfab901d3601c370eafdd66edd31"
+rev = "e0bbd20"
+hash = "347cc6b190eb0c2fd60513cc7ae37412"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:toggle-pane"
-rev = "72f9e3c"
+rev = "e0bbd20"
 hash = "5b2fbef7d1513ce38ff72623a071a5e"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:piper"
-rev = "72f9e3c"
-hash = "45a533508a9840cc5a10cf6129f63e6a"
+rev = "e0bbd20"
+hash = "d1e0499cae5f3aeb628c267616d4b682"
 
 [[plugin.deps]]
 use = "wylie102/duckdb"
@@ -55,8 +55,8 @@ hash = "87b9233a74325e95011670ed20bbd0d4"
 
 [[plugin.deps]]
 use = "ndtoan96/ouch"
-rev = "cfe4f50"
-hash = "eff5702573b6cfba61e4ac8b1969629a"
+rev = "596b666"
+hash = "c2f4f4aca257dcceafa9e3b828dbf1c9"
 
 [flavor]
 deps = []
