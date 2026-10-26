@@ -20,5 +20,8 @@
   "dankCalendarAgenda": {
     "enabled": true,
     "scrollTitle": true
+  },
+  "screenCaptureToolbar": {
+    "enabled": false
   }
 }
