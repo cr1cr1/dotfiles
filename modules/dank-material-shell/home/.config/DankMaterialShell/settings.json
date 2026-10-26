@@ -279,7 +279,7 @@
       "borderThickness": 1,
       "widgetOutlineEnabled": true,
       "widgetOutlineColor": "primary",
-      "widgetOutlineOpacity": 0.3,
+      "widgetOutlineOpacity": 0.4,
       "widgetOutlineThickness": 2,
       "fontScale": 1,
       "autoHide": true,
@@ -307,7 +307,8 @@
       "followInterfaceStyle": false,
       "widgetFollowInterfaceStyle": true,
       "barLengthPadding": 4,
-      "widgetPadding": 8
+      "widgetPadding": 6,
+      "widgetStyle": "pills"
     }
   ],
   "builtInPluginSettings": {
@@ -360,7 +361,7 @@
       "indicatorStyle": "circle",
       "borderEnabled": true,
       "borderColor": "primary",
-      "borderOpacity": 0.3,
+      "borderOpacity": 0.4,
       "borderThickness": 2,
       "launcherEnabled": false,
       "launcherLogoMode": "apps",
