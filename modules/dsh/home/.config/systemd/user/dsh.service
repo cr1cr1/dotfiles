@@ -6,7 +6,7 @@ Wants=network-online.target
 [Service]
 Type=simple
 WorkingDirectory=%h/.dsh/profiles/web
-
+Environment=SSH_AUTH_SOCK=%t/ssh-agent.socket
 EnvironmentFile=%h/.env
 
 ExecStart=mise exec --no-deps -- dsh --profile web --no-open
