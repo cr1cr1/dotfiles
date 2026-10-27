@@ -2,11 +2,11 @@ description = "DeepSeek Harness"
 
 [tools]
 "bun" = "latest"
-"npm:@deepseek-ai/dsh" = "next"
+"npm:@deepseek-ai/dsh" = "0.2.1-rc.4"
+"github:xiangbo3/dsh-cli" = "latest"
 
 [dotfiles]
 "~/.dsh/catppuccin-state.json" = { source = "home/.dsh/catppuccin-state.json", mode = "symlink" }
-
 "~/.config/systemd/user/dsh.service" = { source = "home/.config/systemd/user/dsh.service", mode = "copy" }
 
 [hooks]
