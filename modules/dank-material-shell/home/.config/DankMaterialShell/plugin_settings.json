@@ -22,6 +22,9 @@
     "scrollTitle": true
   },
   "screenCaptureToolbar": {
-    "enabled": false
+    "enabled": true
+  },
+  "dmsScreenshot": {
+    "enabled": true
   }
 }
