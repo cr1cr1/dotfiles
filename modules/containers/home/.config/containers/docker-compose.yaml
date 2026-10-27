@@ -92,6 +92,19 @@ services:
       keycloak-network:
         ipv4_address: 172.200.0.10
 
+  scrapling:
+    image: pyd4vinci/scrapling:latest
+    pull_policy: always
+    container_name: scrapling
+    restart: unless-stopped
+    # image is root-only by design: no HOME for other uids (uv -> /.cache/uv), Chromium under /root (0700), /app root-owned
+    command: mcp --http --host 0.0.0.0 --no-auth
+    # ports:
+    #   - "127.0.0.1:8000:8000"
+    networks:
+      keycloak-network:
+        ipv4_address: 172.200.0.11
+
 networks:
   keycloak-network:
     driver: bridge
