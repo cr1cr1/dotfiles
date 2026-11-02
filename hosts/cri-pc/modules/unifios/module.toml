@@ -1,0 +1,14 @@
+description = "UniFi OS Server (UniFi Network controller) in a dedicated Docker Compose project"
+
+# Docker and Compose come from the containers module
+
+[dotfiles]
+"~/.config/unifios/docker-compose.yaml" = { source = "home/.config/unifios/docker-compose.yaml", mode = "symlink" }
+"~/.config/systemd/user/unifios.service" = { source = "home/.config/systemd/user/unifios.service", mode = "copy" }
+
+[hooks]
+post = [
+  "systemctl --user daemon-reload",
+  # "systemctl --user enable unifios.service",
+  # "systemctl --user restart unifios.service",
+]
