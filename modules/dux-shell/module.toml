@@ -1,0 +1,23 @@
+description = "Dux desktop shell built on Quickshell with search, monitoring, and KDE Connect integration"
+
+[packages]
+present = [
+  "i2c-tools", # Tools for accessing I2C devices (for DMS monitor backlight control)
+  "kdeconnect", # Adds communication between KDE and your smartphone
+  "dux-shell", # A Quickshell-based desktop shell with Material 3 design principles
+  "dux-gop", # System monitoring CLI + REST API
+  "aur/dux-calendar-bin", # Local, Google, Microsoft, and CalDAV calendars for the dank desktop (prebuilt binary)
+  "aur/dux-search-bin", # Extremely fast indexed filesystem search service
+  "aur/dux-files-bin", # File manager for Wayland from Dux Labs
+]
+
+[hooks]
+post = [
+    "dms plugins install dankKDEConnect || dms plugins update dankKDEConnect",
+    "dms plugins install quickCapture || dms plugins update quickCapture",
+    "dms plugins install dankCalendarAgenda || dms plugins update dankCalendarAgenda",
+    "systemctl --user enable --now dcal"
+]
+
+[dotfiles]
+"~/.config/dms" = { source = "home/.config/dms", mode = "symlink-each" }
