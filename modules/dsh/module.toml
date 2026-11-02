@@ -2,7 +2,7 @@ description = "DeepSeek Harness"
 
 [tools]
 "bun" = "latest"
-"npm:@deepseek-ai/dsh" = "0.2.1-rc.4"
+"npm:@deepseek-ai/dsh" = "0.2.1-rc.5"
 "github:xiangbo3/dsh-cli" = "latest"
 
 [dotfiles]
