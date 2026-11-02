@@ -1,0 +1,8 @@
+[Desktop Entry]
+Terminal=false
+Type=Application
+Name=DeepSeek Harness
+Exec=/opt/thorium-browser/thorium --profile-directory=Default --app-id=hgiemfgfjhalibdoboikeiepnnjapnpc
+Icon=deepseek
+StartupWMClass=thorium-hgiemfgfjhalibdoboikeiepnnjapnpc-Default
+Categories=Network;

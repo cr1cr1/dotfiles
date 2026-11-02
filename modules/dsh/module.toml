@@ -6,11 +6,13 @@ description = "DeepSeek Harness"
 "github:xiangbo3/dsh-cli" = "latest"
 
 [dotfiles]
-"~/.dsh/catppuccin-state.json" = { source = "home/.dsh/catppuccin-state.json", mode = "symlink" }
 "~/.config/systemd/user/dsh.service" = { source = "home/.config/systemd/user/dsh.service", mode = "copy" }
+"~/.dsh/catppuccin-state.json" = { source = "home/.dsh/catppuccin-state.json", mode = "symlink" }
+"~/.local/share/applications/deepseek-harness.desktop" = { source = "home/.local/share/applications/deepseek-harness.desktop", mode = "symlink" }
 
 [hooks]
 post = [
+  "update-desktop-database $HOME/.local/share/applications",
   "systemctl --user daemon-reload",
   "systemctl --user enable dsh.service",
   "systemctl --user restart dsh.service",
