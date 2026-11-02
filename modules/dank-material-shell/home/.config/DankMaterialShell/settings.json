@@ -190,8 +190,7 @@
           "workspaceFollowFocus": true,
           "showOccupiedWorkspacesOnly": true,
           "workspaceActiveAppHighlightEnabled": true
-        },
-        "focusedWindow"
+        }
       ],
       "centerWidgets": [
         {
@@ -380,7 +379,21 @@
       "magnificationScale": 130,
       "magnificationProfile": "parabolic",
       "magnificationExpand": false,
-      "order": [],
+      "order": [
+        "dock_launcher",
+        "dock_1793634052562",
+        "pin:kitty",
+        "pin:chrome-hgiemfgfjhalibdoboikeiepnnjapnpc-Default",
+        "pin:Freelens",
+        "pin:zen",
+        "pin:eu.betterbird.Betterbird",
+        "pin:thorium-browser",
+        "pin:teams-for-linux",
+        "pin:signal",
+        "pin:chrome-hnpfjngllnobngcgfapefoaidbinmjnm-Default",
+        "dock_apps",
+        "dock_trash"
+      ],
       "widgets": [
         {
           "id": "dock_launcher",
@@ -395,6 +408,11 @@
         {
           "id": "dock_trash",
           "widgetId": "dockTrash",
+          "enabled": true
+        },
+        {
+          "id": "dock_1793634052562",
+          "widgetId": "focusedWindow",
           "enabled": true
         }
       ]
