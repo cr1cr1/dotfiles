@@ -1,10 +1,11 @@
 description = "Thorium Chromium browser with autostart entries and environment flags"
 [packages]
 present = [
-  "aur/thorium-browser-updated-bin", # Chromium fork focused on high performance and security
+  "aur/thorium-browser-beta-avx2-bin", # Chromium fork focused on high performance and security
 ]
 
 [dotfiles]
 "~/.config/autostart/thorium-browser.desktop" = { source = "home/.config/autostart/thorium-browser.desktop", mode = "symlink" }
 "~/.config/autostart/thorium-hnpfjngllnobngcgfapefoaidbinmjnm-Default.desktop" = { source = "home/.config/autostart/thorium-hnpfjngllnobngcgfapefoaidbinmjnm-Default.desktop", mode = "symlink" }
 "~/.config/environment.d/thorium-flags.conf" = { source = "home/.config/environment.d/thorium-flags.conf", mode = "symlink" }
+"~/.local/share/applications/whatsapp.desktop" = { source = "home/.local/share/applications/whatsapp.desktop", mode = "symlink" }
