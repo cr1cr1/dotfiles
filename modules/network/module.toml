@@ -27,7 +27,7 @@ present = [
   "aur/neoss", # Unix tool with terminal UI for visualizing socket statistics
   "aur/wuzz-bin", # Interactive CLI tool for HTTP inspection
   "aria2", # Download utility that supports HTTP(S), FTP, BitTorrent, and Metalink
-  "aur/wush", # lets you easily transfer files and open shells over a peer-to-peer WireGuard connection
+  "aur/wush-bin", # lets you easily transfer files and open shells over a peer-to-peer WireGuard connection
   "sshs", # Terminal user interface for SSH (Binary)
   "dog", # Command-line DNS client like dig
   "aur/ssh-ggh-bin", # Recall your SSH sessions (also search your SSH config file)
@@ -35,7 +35,7 @@ present = [
   "ttyd", # Share your terminal over the web
   "impala", # TUI for managing wifi
   "aur/wlctl-bin", # TUI for managing WiFi using NetworkManager (a fork of impala)
-  "aur/sping-bin", # A modern, cross-platform ping with real-time diagnostics, network context, quality scoring, and multi-target monitoring
+  "aur/sping-rs-bin", # A modern, cross-platform ping with real-time diagnostics, network context, quality scoring, and multi-target monitoring
 ]
 
 [hooks]
