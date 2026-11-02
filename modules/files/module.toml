@@ -21,7 +21,6 @@ present = [
   "caligula", # A user-friendly, lightweight TUI for disk imaging
   "libunrar", # Library and header file for applications that use libunrar
   "xarchiver", # GTK+ frontend to various command line archivers
-  "qdirstat-bin", # Qt-based directory statistics (KDirStat/K4DirStat without any KDE - from the original KDirStat author)
   "kio-admin", # Manage files as administrator using the admin:// KIO protocol
   "filelight", # View disk usage information
   "bcompare", # Beyond Compare 5: Compare, sync, and merge files and folders
