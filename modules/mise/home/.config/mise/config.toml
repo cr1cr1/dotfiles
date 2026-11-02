@@ -85,3 +85,6 @@ usage = "latest"
 
 ## https://github.com/tresortui/tresor/releases
 "github:tresortui/tresor" = "latest"
+
+## https://github.com/xangelix/edirstat/releases
+"github:xangelix/edirstat" = "latest"
