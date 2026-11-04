@@ -1,7 +1,7 @@
 {
   "currentThemeName": "custom",
   "currentThemeCategory": "custom",
-  "customThemeFile": ".config/DankMaterialShell/catppuccin-theme.json",
+  "customThemeFile": "/home/cri/.config/dms/catppuccin-theme.json",
   "niriLayoutGapsOverride": 6,
   "touchpadAccelProfile": "flat",
   "touchpadAccelSpeed": 1,
@@ -190,6 +190,10 @@
           "workspaceFollowFocus": true,
           "showOccupiedWorkspacesOnly": true,
           "workspaceActiveAppHighlightEnabled": true
+        },
+        {
+          "id": "focusedWindow",
+          "enabled": true
         }
       ],
       "centerWidgets": [
@@ -408,11 +412,6 @@
         {
           "id": "dock_trash",
           "widgetId": "dockTrash",
-          "enabled": true
-        },
-        {
-          "id": "dock_1793634052562",
-          "widgetId": "focusedWindow",
           "enabled": true
         }
       ]
