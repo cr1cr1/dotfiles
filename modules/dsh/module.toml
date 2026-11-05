@@ -1,8 +1,13 @@
 description = "DeepSeek Harness"
 
+[packages]
+present = [
+  "imagemagick"
+]
+
 [tools]
 "bun" = "latest"
-"npm:@deepseek-ai/dsh" = "0.2.1-rc.5"
+"npm:@deepseek-ai/dsh" = "0.2.2-rc.1"
 "github:xiangbo3/dsh-cli" = "latest"
 
 [dotfiles]
@@ -12,6 +17,7 @@ description = "DeepSeek Harness"
 
 [hooks]
 post = [
+  "modules/dsh/src/generate-icons.sh modules/dsh/src/deepseek.png",
   "update-desktop-database $HOME/.local/share/applications",
   "systemctl --user daemon-reload",
   "systemctl --user enable dsh.service",
