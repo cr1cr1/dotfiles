@@ -1,9 +1,9 @@
 <?xml version='1.0'?>
-<!DOCTYPE gui SYSTEM 'kpartgui.dtd'>
+<!DOCTYPE gui>
 <gui name="okular_part" version="56">
  <MenuBar>
   <Menu name="file">
-   <text>&amp;File</text>
+   <text translationDomain="okular">&amp;File</text>
    <Action group="file_open" name="get_new_stuff"/>
    <Action group="file_open" name="import_ps"/>
    <Action group="file_save" name="file_save"/>
@@ -18,7 +18,7 @@
    <Action group="file_print" name="file_share"/>
   </Menu>
   <Menu name="edit">
-   <text>&amp;Edit</text>
+   <text translationDomain="okular">&amp;Edit</text>
    <Action name="edit_undo"/>
    <Action name="edit_redo"/>
    <Separator/>
@@ -34,7 +34,7 @@
    <Action name="edit_find_prev"/>
   </Menu>
   <Menu name="view">
-   <text>&amp;View</text>
+   <text translationDomain="okular">&amp;View</text>
    <Action name="presentation"/>
    <Separator/>
    <Action name="view_zoom_out"/>
@@ -47,7 +47,7 @@
    <Action name="view_render_mode"/>
    <Separator/>
    <Menu name="view_orientation">
-    <text>&amp;Orientation</text>
+    <text translationDomain="okular">&amp;Orientation</text>
     <Action name="view_orientation_rotate_ccw"/>
     <Action name="view_orientation_rotate_cw"/>
     <Action name="view_orientation_original"/>
@@ -57,7 +57,7 @@
    <Action name="view_toggle_forms"/>
   </Menu>
   <Menu name="go">
-   <text>&amp;Go</text>
+   <text translationDomain="okular">&amp;Go</text>
    <Action name="go_previous"/>
    <Action name="go_next"/>
    <Separator/>
@@ -70,7 +70,7 @@
    <Action name="go_goto_page"/>
   </Menu>
   <Menu name="bookmarks">
-   <text>&amp;Bookmarks</text>
+   <text translationDomain="okular">&amp;Bookmarks</text>
    <Action name="bookmark_add"/>
    <Action name="rename_bookmark"/>
    <Action name="previous_bookmark"/>
@@ -79,7 +79,7 @@
    <ActionList name="bookmarks_currentdocument"/>
   </Menu>
   <Menu name="tools">
-   <text>&amp;Tools</text>
+   <text translationDomain="okular">&amp;Tools</text>
    <Action name="mouse_drag"/>
    <Action name="mouse_zoom"/>
    <Action name="mouse_select"/>
@@ -98,7 +98,7 @@
    <Action name="speak_pause_resume"/>
   </Menu>
   <Menu name="settings">
-   <text>&amp;Settings</text>
+   <text translationDomain="okular">&amp;Settings</text>
    <Action group="show_merge" name="colorscheme_menu"/>
    <Action group="show_merge" name="show_leftpanel"/>
    <Action group="show_merge" name="show_bottombar"/>
@@ -106,11 +106,11 @@
    <Action group="configure_merge" name="options_configure"/>
   </Menu>
   <Menu name="help">
-   <text>&amp;Help</text>
+   <text translationDomain="okular">&amp;Help</text>
    <Action group="about_merge" name="help_about_backend"/>
   </Menu>
  </MenuBar>
- <ToolBar hidden="true" iconSize="32" iconText="icononly" name="quickAnnotationToolBar" newline="true" position="right">
+ <ToolBar hidden="true" iconSize="32" iconText="icononly" name="quickAnnotationToolBar" newline="true" noMerge="1" position="right">
   <text translationDomain="okular">Quick Annotation Toolbar</text>
   <Action name="quick_annotation_action_bar"/>
  </ToolBar>
@@ -149,6 +149,7 @@
   <Action name="zoom_to"/>
   <Action name="view_render_mode"/>
   <Action name="color_mode_inverted"/>
+  <Action name="view_trim_margins"/>
   <Spacer name="spacer_0"/>
   <Action name="page_number"/>
   <Spacer name="spacer_1"/>

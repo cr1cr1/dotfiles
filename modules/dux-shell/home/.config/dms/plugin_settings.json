@@ -19,7 +19,8 @@
   },
   "dankCalendarAgenda": {
     "enabled": true,
-    "scrollTitle": true
+    "scrollTitle": true,
+    "refreshInterval": 120
   },
   "screenCaptureToolbar": {
     "enabled": true
