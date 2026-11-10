@@ -1,6 +1,6 @@
 [Unit]
-Description=Dank Material Shell
-Documentation=https://github.com/AvengeMedia/DankMaterialShell
+Description=Dux Shell
+Documentation=https://github.com/duxlabs-dev/dux-shell
 # Wait for Niri to provide the display/socket
 After=niri.service graphical-session-pre.target
 

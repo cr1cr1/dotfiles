@@ -6,7 +6,7 @@ present = [
   "kdeconnect", # Adds communication between KDE and your smartphone
   "dux-shell", # A Quickshell-based desktop shell with Material 3 design principles
   "dux-gop", # System monitoring CLI + REST API
-  "aur/dux-calendar-bin", # Local, Google, Microsoft, and CalDAV calendars for the dank desktop (prebuilt binary)
+  "aur/dux-calendar-bin", # Local, Google, Microsoft, and CalDAV calendars for the Dux desktop (prebuilt binary)
   "aur/dux-search-bin", # Extremely fast indexed filesystem search service
   "aur/dux-files-bin", # File manager for Wayland from Dux Labs
 ]

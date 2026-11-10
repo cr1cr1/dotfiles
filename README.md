@@ -4,11 +4,11 @@ CachyOS setup profile managed by [dotdrift](https://github.com/thedataflows/dotd
 
 This collection of packages, tools and configuration is created to fit my needs and wants, and could be a good starting point for anyone looking for something more than barebones CachyOS.
 
-## Desktop experience: Scrollable-tiling WM with Niri + Dank Material Shell (DMS)
+## Desktop experience: Scrollable-tiling WM with Niri + Dux Shell
 
-An alternative scrollable-tiling desktop environment available at login (via Plasma Login Manager), alongside the default KDE Plasma. It is fully functional and can be used as a daily driver for me, yet. KDE Plasma is amazing, and the memory footprint is as similar as Niri+DMS.
+An alternative scrollable-tiling desktop environment available at login (via Plasma Login Manager), alongside the default KDE Plasma. It is fully functional and can be used as a daily driver for me, yet. KDE Plasma is amazing, and the memory footprint is as similar as Niri+Dux.
 
-**Niri** is a scrollable-tiling Wayland compositor that provides a unique workflow where windows are arranged in a scrollable column layout. Combined with **Dank Material Shell (DMS)**, it offers a fairly complete desktop experience with integrated widgets, launcher, notifications, and system monitoring.
+**Niri** is a scrollable-tiling Wayland compositor that provides a unique workflow where windows are arranged in a scrollable column layout. Combined with **Dux Shell**, it offers a fairly complete desktop experience with integrated widgets, launcher, notifications, and system monitoring.
 
 Use `Niri` session at login to use it. I have fixed most quirks and issues, and it is now my daily driver to see how it feels.
 
@@ -16,7 +16,7 @@ Use `Niri` session at login to use it. I have fixed most quirks and issues, and 
 
 - Text seems sharper compared to KDE Plasma!
 - Scrollable-tiling layout as default, fast and buttery smooth.
-- DMS provides: top widget panel and bottom docking panel
+- Dux provides: top widget panel and bottom docking panel
   - Application launcher <kbd>Super+Space</kbd>
   - Power menu <kbd>Ctrl+Alt+Del</kbd>
   - Task manager/dgop <kbd>Super+Esc</kbd>/<kbd>Super+Shift+Esc</kbd>
@@ -28,8 +28,8 @@ Use `Niri` session at login to use it. I have fixed most quirks and issues, and 
 - Using KDE portal for integration, using the same KDE file dialogs and Gnome portal for screen sharing. Also uses KDE polkit agent for step-up authentication dialogs.
 - Fully integratable with dsearch (filesystem search) and dgop (system monitoring) - I don't use them though, prefer DMS/KDE Launchers and `btop`.
 
-![Niri + DMS](niri-dms-01.png)
-![Niri + DMS - Overview Mode](niri-dms-02.png)
+![Niri + Dux](niri-dux-01.png)
+![Niri + Dux - Overview Mode](niri-dux-02.png)
 
 ## Layout
 
