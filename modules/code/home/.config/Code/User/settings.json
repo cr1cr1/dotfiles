@@ -34,7 +34,7 @@
   "editor.lineHeight": 1.4,
   "editor.fontSize": 12,
   "editor.fontWeight": "300",
-  "editor.inlayHints.enabled": "offUnlessPressed",
+  "editor.inlayHints.enabled": "off",
   "editor.inlayHints.maximumLength": 0,
   "editor.inlayHints.padding": true,
   "debug.console.fontSize": 10,
@@ -68,11 +68,11 @@
   "security.workspace.trust.untrustedFiles": "open",
   "workbench.colorCustomizations": {
     "editor.lineHighlightBackground": "#1073cf2d",
-    "editor.lineHighlightBorder": "#63687f50",
+    "editor.lineHighlightBorder": "#9fced11f",
     "menu.border": "#63687F",
     "widget.border": "#63687F",
     "sideBarSectionHeader.border": "#63687F",
-    "notificationToast.border": "#63687F",
+    "notificationToast.border": "#63687F"
   },
   "git.confirmSync": false,
   "vs-kubernetes": {
@@ -524,4 +524,14 @@
   "D2.updateOnSave": true,
   "scm.graph.badges": "all",
   "chat.viewSessions.orientation": "stacked",
+  "terminal.integrated.commandsToSkipShell": [
+    "kilo-code.new.agentManagerOpen",
+    "kilo-code.new.agentManager.showTerminal",
+    "kilo-code.new.agentManager.previousTerminal",
+    "kilo-code.new.agentManager.nextTerminal"
+  ],
+  "editor.wordWrap": "off",
+  "diffEditor.wordWrap": "off",
+  "editor.guides.bracketPairs": false,
+  "kilo-code.new.agentWorkStyle": "unset",
 }
