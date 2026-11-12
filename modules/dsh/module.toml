@@ -7,7 +7,7 @@ present = [
 
 [tools]
 "bun" = "latest"
-"npm:@deepseek-ai/dsh" = "0.2.2-rc.1"
+"npm:@deepseek-ai/dsh" = "0.2.2-rc.2"
 "github:xiangbo3/dsh-cli" = "latest"
 
 [dotfiles]
