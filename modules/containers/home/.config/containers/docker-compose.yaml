@@ -14,6 +14,12 @@ configs:
                   enabled: true
               cpa-auth-zai:
                   enabled: true
+              antigravity-prompt-filter:
+                  enabled: true
+                  mode: rewrite
+                  use_default_keywords: true
+                  custom_mappings:
+                    DeepSeek Harness: Antigravity
       access:
           api-keys:
               - "${CLIPROXY_API_KEY}"
