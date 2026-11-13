@@ -1,7 +1,8 @@
 {
   "dankKDEConnect": {
     "enabled": true,
-    "selectedDeviceId": "247b1e9ec9a64be48fc3f1cfe91bcfd3"
+    "selectedDeviceId": "247b1e9ec9a64be48fc3f1cfe91bcfd3",
+    "showDevicePlaceholder": true
   },
   "quickCapture": {
     "enabled": true,
@@ -9,7 +10,17 @@
     "show_shortcut_hints": true,
     "color_palette_preset": "catppuccin",
     "usageGuideExpanded": false,
-    "catppuccin_variant": "mocha"
+    "catppuccin_variant": "mocha",
+    "ocrLanguage": "afr",
+    "defaultPenColor": "#e91e63",
+    "defaultLineColor": "#e91e63",
+    "defaultArrowColor": "#e91e63",
+    "defaultRectColor": "#e91e63",
+    "defaultEllipseColor": "#e91e63",
+    "defaultHighlighterColor": "#e91e63",
+    "defaultTextColor": "#e91e63",
+    "defaultStampColor": "#e91e63",
+    "backgroundDefaultSolidColor": "slot_2"
   },
   "dockerManager": {
     "enabled": true,
@@ -20,7 +31,11 @@
   "dankCalendarAgenda": {
     "enabled": true,
     "scrollTitle": true,
-    "refreshInterval": 120
+    "refreshInterval": 120,
+    "dynamicWidth": false,
+    "pillDisplayMode": "full",
+    "agendaPastDays": 1,
+    "lookAheadDays": 1
   },
   "screenCaptureToolbar": {
     "enabled": true
