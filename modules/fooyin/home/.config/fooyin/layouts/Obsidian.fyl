@@ -3,19 +3,20 @@
     "Options": {
         "ApplyWindowSize": true
     },
-    "ToolbarState": "AAAA/wAAAAH9AAAAAAAAB+4AAAZrAAAABAAAAAQAAAAIAAAACPwAAAACAAAAAgAAAAEAAAAWAE0AZQBuAHUAVABvAG8AbABiAGEAcgAAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAABmAEYAbwBvAHkAaQBuAC4AVABvAG8AbABiAGEAcgAuAGYAOABlADQAOQBlADYAYgAtAGMAYwBmADkALQA0ADcAMABlAC0AOQAzADEAZAAtAGIAZgBlAGUAMQAzAGQAYwAzAGMAMwBlAQAAAAD/////AAAAAAAAAAA=",
+    "ToolbarState": "AAAA/wAAAAH9AAAAAAAAB+4AAAZrAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAE0AZQBuAHUAVABvAG8AbABiAGEAcgAAAAAA/////wAAAAAAAAAAAAAAZgBGAG8AbwB5AGkAbgAuAFQAbwBvAGwAYgBhAHIALgA3ADUAOQBkADkANgBiADkALQA5ADcAYQBjAC0ANABiAGEANAAtADgAYgAyAGIALQBhADMAYQAwADEAMwAyAGEAYwBlADQAMwEAAAAA/////wAAAAAAAAAA",
     "Toolbars": [
         {
             "Area": 4,
-            "ID": "Fooyin.Toolbar.f8e49e6b-ccf9-470e-931d-bfee13dc3c3e",
+            "ID": "Fooyin.Toolbar.759d96b9-97ac-4ba4-8b2b-a3a0132ace43",
             "Items": [
                 {
                     "Widget": {
                         "SearchBar": {
                             "AutoSearch": true,
-                            "ID": "ac57def0aec24f84be0d4f1c794ed225",
+                            "ID": "a9aa029bb2544a8cb4e82bb91de6d123",
                             "SearchMode": 0,
-                            "ShowAll": true
+                            "ShowAll": true,
+                            "Widgets": "69b148e027cd4544bcedc1be3b4e0c47"
                         }
                     }
                 }
@@ -164,7 +165,7 @@
                                                                 "ShowHeader": false,
                                                                 "ShowHorizontalScrollbar": false,
                                                                 "ShowVerticalScrollbar": true,
-                                                                "State": "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkEAAAACAAAAAAAAAAAAAAAAAAAAAGT/////AAAAhAAAAAAAAAACAAAAlQAAAAEAAAAAAAABrAAAAAEAAAACAAAD6AAAAAAAAAAAAAAAAAAAAAAAAAAAAQ==",
+                                                                "State": "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJUAAAACAAAAAAAAAAAAAAAAAAAAAGT/////AAAAhAAAAAAAAAACAAAAlQAAAAEAAAAAAAAAAAAAAAEAAAACAAAD6AAAAAAAAAAAAAAAAAAAAAAAAAAAAQ==",
                                                                 "TrackPreference": 0
                                                             }
                                                         }
@@ -195,7 +196,7 @@
                                         "ShowPlay": false,
                                         "ShowPlayPause": true,
                                         "ShowPrevious": true,
-                                        "ShowRandomTrack": false,
+                                        "ShowRandomTrack": true,
                                         "ShowStop": true
                                     }
                                 },
@@ -224,7 +225,8 @@
                                         "DownmixMode": 0,
                                         "ShowZeroLine": false,
                                         "UpdateFps": 30,
-                                        "UseCustomColours": false,
+                                        "UseCustomColours": true,
+                                        "WaveformColour": "#ffffaa00",
                                         "ZoomPercent": 100
                                     }
                                 },
