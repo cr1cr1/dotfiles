@@ -1,0 +1,192 @@
+{
+    "Name": "Radio",
+    "Options": {
+        "ApplyWindowSize": true
+    },
+    "ToolbarState": "AAAA/wAAAAH9AAAAAAAAB+4AAAaXAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAE0AZQBuAHUAVABvAG8AbABiAGEAcgAAAAAA/////wAAAAAAAAAA",
+    "Toolbars": [
+    ],
+    "Version": 1,
+    "Widgets": [
+        {
+            "SplitterVertical": {
+                "Locked": [
+                    false,
+                    true
+                ],
+                "State": "AAAA/wAAAAEAAAACAAAFFgAAABYA/////wEAAAACAA==",
+                "Widgets": [
+                    {
+                        "SplitterHorizontal": {
+                            "Locked": [
+                                true,
+                                false
+                            ],
+                            "State": "AAAA/wAAAAEAAAACAAAA1gAABRoA/////wEAAAABAA==",
+                            "Widgets": [
+                                {
+                                    "SplitterVertical": {
+                                        "Locked": [
+                                            false,
+                                            true,
+                                            true,
+                                            true,
+                                            true
+                                        ],
+                                        "State": "AAAA/wAAAAEAAAAFAAABpwAAANgAAABvAAAAHQAAABwA/////wEAAAACAA==",
+                                        "Widgets": [
+                                            {
+                                                "RadioGuide": {
+                                                    "CollapsedSections": [
+                                                        "Countries",
+                                                        "Eras",
+                                                        "Genres",
+                                                        "More Genres",
+                                                        "Talk"
+                                                    ],
+                                                    "ShowScrollbar": true
+                                                }
+                                            },
+                                            {
+                                                "ArtworkPanel": {
+                                                    "ArtworkScaling": 0,
+                                                    "CoverAlignment": 132,
+                                                    "CoverType": 0,
+                                                    "DoubleClickAction": 1,
+                                                    "FadeCoverChanges": false,
+                                                    "FadeDurationMs": 1000,
+                                                    "MiddleClickAction": 3,
+                                                    "TrackPreference": 0
+                                                }
+                                            },
+                                            {
+                                                "ScriptDisplay": {
+                                                    "BackgroundBlur": 0,
+                                                    "BackgroundColour": "",
+                                                    "BackgroundCoverType": 0,
+                                                    "BackgroundCustomImage": "",
+                                                    "BackgroundFadeDuration": 0,
+                                                    "BackgroundImageMode": 0,
+                                                    "BackgroundMaxSize": 0,
+                                                    "BackgroundOpacity": 40,
+                                                    "BackgroundPosition": 4,
+                                                    "BackgroundScaling": 0,
+                                                    "BackgroundTrackPreference": 0,
+                                                    "Font": "",
+                                                    "ForegroundColour": "",
+                                                    "HorizontalAlignment": 4,
+                                                    "LinkColour": "",
+                                                    "Script": "$if(%isstopped%,\n<b>Playback stopped</b>,\n<sized=1><b>$if2(%station%,$if(%streamtitle%,,%title%))</b></sized>\n$crlf()\n$if2(%streamtitle%,[$join( - ,%artist%,%title%)])\n)",
+                                                    "ShowScrollbar": true,
+                                                    "TrackPreference": 0,
+                                                    "VerticalAlignment": 128
+                                                }
+                                            },
+                                            {
+                                                "PlayerControls": {
+                                                    "ShowNext": false,
+                                                    "ShowPause": false,
+                                                    "ShowPlay": false,
+                                                    "ShowPlayPause": true,
+                                                    "ShowPrevious": false,
+                                                    "ShowRandomTrack": false,
+                                                    "ShowStop": true
+                                                }
+                                            },
+                                            {
+                                                "VolumeControls": {
+                                                    "Curve": 4,
+                                                    "Mode": 3
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "SplitterVertical": {
+                                        "Locked": [
+                                            true,
+                                            false
+                                        ],
+                                        "State": "AAAA/wAAAAEAAAACAAAAHAAABOIA/////wEAAAACAA==",
+                                        "Widgets": [
+                                            {
+                                                "RadioSearch": {
+                                                    "BitrateFilterPinned": false,
+                                                    "CodecFilterPinned": false,
+                                                    "CountryFilterPinned": false,
+                                                    "GenreFilterPinned": false,
+                                                    "LanguageFilterPinned": false,
+                                                    "ShowFilterText": true,
+                                                    "TagFilterPinned": false
+                                                }
+                                            },
+                                            {
+                                                "RadioBrowser": {
+                                                    "AlternatingRows": true,
+                                                    "AutoFitArtwork": false,
+                                                    "Background": {
+                                                        "BackgroundBlur": 0,
+                                                        "BackgroundCoverType": 0,
+                                                        "BackgroundCustomImage": "",
+                                                        "BackgroundFadeDuration": 0,
+                                                        "BackgroundImageMode": 0,
+                                                        "BackgroundMaxSize": 0,
+                                                        "BackgroundOpacity": 40,
+                                                        "BackgroundPosition": 4,
+                                                        "BackgroundScaling": 0,
+                                                        "BackgroundTrackPreference": 0
+                                                    },
+                                                    "Captions": 2,
+                                                    "Display": 0,
+                                                    "DoubleClickAction": 5,
+                                                    "HideBroken": true,
+                                                    "ID": "4a369664108d49beaf20a97c15729d94",
+                                                    "IconCornerRadius": 20,
+                                                    "IconHorizontalGap": -1,
+                                                    "IconMargins": {
+                                                        "Bottom": 8,
+                                                        "Left": 8,
+                                                        "Right": 8,
+                                                        "Top": 8
+                                                    },
+                                                    "IconSize": 36,
+                                                    "IconVerticalGap": 8,
+                                                    "MiddleClickAction": 0,
+                                                    "PlaybackOnSend": true,
+                                                    "PlayingRowColour": "",
+                                                    "RowHeight": 0,
+                                                    "SavedCaptions": 2,
+                                                    "SavedDisplay": 0,
+                                                    "SavedState": "",
+                                                    "SeparateSavedView": false,
+                                                    "ShowFilterBar": true,
+                                                    "ShowHeader": true,
+                                                    "ShowIcons": true,
+                                                    "ShowSavedIcons": true,
+                                                    "ShowScrollbar": true,
+                                                    "ShowToolTips": true,
+                                                    "State": "AAAAlXjaY2Bg4GBgYF7CwMBYz4AA34D4NhKfA0ozAjETEDMDMQsQswIxGxCzg9TYP9jLfWEv90X70xN3Sk/cKWO/b0fg61a5HfZHYsVdL5bE2h8ECUtPtN/f+EMeiOzXK80wj/ykYb9hclj/8hm3GaEWsAEAugcizw==",
+                                                    "UniformIcons": true,
+                                                    "UseIconGapsForSideCaptions": false
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "StatusBar": {
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "WindowSize": {
+        "Height": 1715,
+        "Width": 2030
+    }
+}

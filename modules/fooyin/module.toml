@@ -1,0 +1,8 @@
+description = "fooyin customizable music player"
+[packages]
+present = [
+  "fooyin", # A customisable music player
+]
+
+[dotfiles]
+"~/.config/fooyin" = { source = "home/.config/fooyin", mode = "symlink-each" }
