@@ -80,6 +80,7 @@ window-rule {
 window-rule {
     match app-id="Thorium-browser" title="WhatsApp Web"
     match app-id="thorium-hnpfjngllnobngcgfapefoaidbinmjnm-Default"
+    match app-id="org.fooyin.fooyin"
     open-on-workspace "3"
     default-column-width { proportion 0.333; }
 }

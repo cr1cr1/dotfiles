@@ -3,7 +3,7 @@
     "Options": {
         "ApplyWindowSize": true
     },
-    "ToolbarState": "AAAA/wAAAAH9AAAAAAAAB+4AAAZrAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAE0AZQBuAHUAVABvAG8AbABiAGEAcgAAAAAA/////wAAAAAAAAAAAAAAZgBGAG8AbwB5AGkAbgAuAFQAbwBvAGwAYgBhAHIALgA3ADUAOQBkADkANgBiADkALQA5ADcAYQBjAC0ANABiAGEANAAtADgAYgAyAGIALQBhADMAYQAwADEAMwAyAGEAYwBlADQAMwEAAAAA/////wAAAAAAAAAA",
+    "ToolbarState": "AAAA/wAAAAH9AAAAAAAABUYAAAZrAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAE0AZQBuAHUAVABvAG8AbABiAGEAcgAAAAAA/////wAAAAAAAAAAAAAAZgBGAG8AbwB5AGkAbgAuAFQAbwBvAGwAYgBhAHIALgA3ADUAOQBkADkANgBiADkALQA5ADcAYQBjAC0ANABiAGEANAAtADgAYgAyAGIALQBhADMAYQAwADEAMwAyAGEAYwBlADQAMwEAAAAA/////wAAAAAAAAAA",
     "Toolbars": [
         {
             "Area": 4,
@@ -118,7 +118,7 @@
                                             },
                                             {
                                                 "TabStack": {
-                                                    "LastTab": 0,
+                                                    "LastTab": 1,
                                                     "Position": "North",
                                                     "RememberLastTab": true,
                                                     "State": "Lyrics\u001fFile Info",
@@ -165,7 +165,7 @@
                                                                 "ShowHeader": false,
                                                                 "ShowHorizontalScrollbar": false,
                                                                 "ShowVerticalScrollbar": true,
-                                                                "State": "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJUAAAACAAAAAAAAAAAAAAAAAAAAAGT/////AAAAhAAAAAAAAAACAAAAlQAAAAEAAAAAAAAAAAAAAAEAAAACAAAD6AAAAAAAAAAAAAAAAAAAAAAAAAAAAQ==",
+                                                                "State": "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkEAAAACAAAAAAAAAAAAAAAAAAAAAGT/////AAAAhAAAAAAAAAACAAAAlQAAAAEAAAAAAAABrAAAAAEAAAACAAAD6AAAAAAAAAAAAAAAAAAAAAAAAAAAAQ==",
                                                                 "TrackPreference": 0
                                                             }
                                                         }
@@ -181,32 +181,14 @@
                     {
                         "SplitterHorizontal": {
                             "Locked": [
-                                true,
                                 false,
+                                true,
                                 false,
                                 false,
                                 false
                             ],
-                            "State": "AAAA/wAAAAEAAAAFAAAAggAABIIAAAI7AAAAOAAAAGcA/////wEAAAABAA==",
+                            "State": "AAAA/wAAAAEAAAAFAAAAyQAAAJ8AAAXFAAAAPgAAAHMA/////wEAAAABAA==",
                             "Widgets": [
-                                {
-                                    "PlayerControls": {
-                                        "ShowNext": true,
-                                        "ShowPause": false,
-                                        "ShowPlay": false,
-                                        "ShowPlayPause": true,
-                                        "ShowPrevious": true,
-                                        "ShowRandomTrack": true,
-                                        "ShowStop": true
-                                    }
-                                },
-                                {
-                                    "SeekBar": {
-                                        "ShowLabels": true,
-                                        "ShowPlayedThreshold": true,
-                                        "ShowRemainingTime": true
-                                    }
-                                },
                                 {
                                     "Oscilloscope": {
                                         "Background": {
@@ -221,13 +203,31 @@
                                             "BackgroundScaling": 0,
                                             "BackgroundTrackPreference": 0
                                         },
-                                        "CurveDurationMs": 150,
-                                        "DownmixMode": 0,
-                                        "ShowZeroLine": false,
+                                        "CurveDurationMs": 400,
+                                        "DownmixMode": 1,
+                                        "ShowZeroLine": true,
                                         "UpdateFps": 30,
                                         "UseCustomColours": true,
                                         "WaveformColour": "#ffffaa00",
-                                        "ZoomPercent": 100
+                                        "ZoomPercent": 200
+                                    }
+                                },
+                                {
+                                    "PlayerControls": {
+                                        "ShowNext": true,
+                                        "ShowPause": false,
+                                        "ShowPlay": false,
+                                        "ShowPlayPause": true,
+                                        "ShowPrevious": true,
+                                        "ShowRandomTrack": true,
+                                        "ShowStop": true
+                                    }
+                                },
+                                {
+                                    "SeekBar": {
+                                        "ShowLabels": true,
+                                        "ShowPlayedThreshold": false,
+                                        "ShowRemainingTime": true
                                     }
                                 },
                                 {
@@ -249,6 +249,6 @@
     ],
     "WindowSize": {
         "Height": 1715,
-        "Width": 2030
+        "Width": 1350
     }
 }
