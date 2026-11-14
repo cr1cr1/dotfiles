@@ -194,6 +194,13 @@
         {
           "id": "focusedWindow",
           "enabled": true
+        },
+        {
+          "id": "appsDock",
+          "enabled": true,
+          "appsDockHideIndicators": true,
+          "appsDockColorizeActive": false,
+          "appsDockActiveColorMode": "primary"
         }
       ],
       "centerWidgets": [
@@ -380,7 +387,7 @@
       "showTrash": false,
       "trashFileManager": "default",
       "trashCustomCommand": "",
-      "magnification": false,
+      "magnification": true,
       "magnificationScale": 130,
       "magnificationProfile": "parabolic",
       "magnificationExpand": false,
@@ -408,7 +415,9 @@
         {
           "id": "dock_apps",
           "widgetId": "appsDock",
-          "enabled": true
+          "enabled": true,
+          "appsDockColorizeActive": false,
+          "appsDockActiveColorMode": "primary"
         },
         {
           "id": "dock_trash",
