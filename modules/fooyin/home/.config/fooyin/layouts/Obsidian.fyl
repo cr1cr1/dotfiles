@@ -118,7 +118,7 @@
                                             },
                                             {
                                                 "TabStack": {
-                                                    "LastTab": 1,
+                                                    "LastTab": 0,
                                                     "Position": "North",
                                                     "RememberLastTab": true,
                                                     "State": "Lyrics\u001fFile Info",
@@ -203,7 +203,7 @@
                                             "BackgroundScaling": 0,
                                             "BackgroundTrackPreference": 0
                                         },
-                                        "CurveDurationMs": 400,
+                                        "CurveDurationMs": 300,
                                         "DownmixMode": 1,
                                         "ShowZeroLine": true,
                                         "UpdateFps": 30,
