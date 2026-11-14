@@ -1,0 +1,12 @@
+description = "WireGuard-based mesh network"
+
+[packages]
+present = [
+  "netbird-bin", # WireGuard-based overlay network: client
+  "netbird-networkmanager-plugin" # NetworkManager VPN plugin for NetBird
+]
+
+[hooks]
+post = [
+    "sudo systemctl enable --now netbird@main.service || true"
+]
