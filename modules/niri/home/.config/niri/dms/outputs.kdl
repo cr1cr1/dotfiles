@@ -15,6 +15,7 @@ output "DP-3" {
 }
 
 output "HDMI-A-1" {
+    off
     mode "2560x1440@59.951"
     scale 1.25
     position x=4096 y=0

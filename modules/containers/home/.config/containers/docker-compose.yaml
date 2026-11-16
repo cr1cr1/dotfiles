@@ -62,12 +62,16 @@ configs:
           providers:
               aistudio:
                   ws-auth: true
+              antigravity:
+                sensitive-words-replace:
+                  "The browser provides no implicit DOM, route, or screenshot context.": ""
       observability:
           logs:
               logging-to-file: false
               debug: true
           usage:
               redis-usage-queue-retention-seconds: 60
+              usage-statistics-enabled: true
       routing:
           cooldown:
               disable-cooling: false
