@@ -9,4 +9,4 @@ present = [
 
 [dotfiles]
 "/root/.profile" = { source = "home/.profile", mode = "copy" }
-"/root/.bashrc" = { source = "home/.bashrc", mode = "copy" }
+"/root/.bashrc" = { source = "/root/.profile", mode = "symlink" }
