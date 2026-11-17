@@ -19,6 +19,8 @@ present = [
 
 [hooks]
 post = [
+  "systemctl --user daemon-reload",
+  "systemctl --user restart dsh.service",
   "modules/dsh/src/generate-icons.sh modules/dsh/src/deepseek.png",
   "update-desktop-database $HOME/.local/share/applications",
 ]

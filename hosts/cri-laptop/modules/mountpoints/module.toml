@@ -11,5 +11,7 @@ scope = "system"
 [hooks]
 post = [
   "sudo mkdir -p /mnt/win/c",
+  "sudo systemctl restart mnt-win-c.mount",
   "sudo mkdir -p /mnt/linux2",
+  "sudo systemctl restart mnt-linux2.mount",
 ]
