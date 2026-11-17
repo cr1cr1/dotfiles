@@ -16,7 +16,7 @@ post = [
     "dms plugins install dankKDEConnect || dms plugins update dankKDEConnect",
     "dms plugins install quickCapture || dms plugins update quickCapture",
     "dms plugins install dankCalendarAgenda || dms plugins update dankCalendarAgenda",
-    "systemctl --user enable --now dcal"
+    "systemctl --user enable --now dcal || true"
 ]
 
 [dotfiles]
