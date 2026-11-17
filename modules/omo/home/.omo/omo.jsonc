@@ -45,9 +45,6 @@
       "ultrabrain": {
         "model": "zai-coding-plan/glm-5.3"
       },
-      "deep": {
-        "model": "zai-coding-plan/glm-5.3"
-      },
       "artistry": {
         "model": "kimi-for-coding/k3"
       },
@@ -62,10 +59,14 @@
       },
       "writing": {
         "model": "kimi-for-coding/k3"
+      },
+      "deep-low": {
+        "model": "zai-coding-plan/glm-5.3"
       }
     }
   },
   "_migrations": [
-    "2026-08-reasoning-unification"
+    "2026-08-reasoning-unification",
+    "2026-09-category-deep-split"
   ]
 }
