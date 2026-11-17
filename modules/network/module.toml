@@ -30,7 +30,6 @@ present = [
   "aur/wush-bin", # lets you easily transfer files and open shells over a peer-to-peer WireGuard connection
   "sshs", # Terminal user interface for SSH (Binary)
   "dog", # Command-line DNS client like dig
-  "aur/ssh-ggh-bin", # Recall your SSH sessions (also search your SSH config file)
   "nm-connection-editor", # NetworkManager GUI connection editor and widgets
   "ttyd", # Share your terminal over the web
   "impala", # TUI for managing wifi
