@@ -9,7 +9,6 @@ present = [
   "strace", # A diagnostic, debugging and instructional userspace tracer
   "watchexec", # Executes commands in response to file modifications
   "procs", # A modern replacement for ps written in Rust
-  "aur/mprocs-bin", # Run multiple commands in parallel
   "systemctl-tui", # A fast, simple TUI for interacting with systemd services and their logs
   "dmidecode", # Desktop Management Interface table related utilities
   "lm_sensors", # Collection of user space tools for general SMBus access and hardware monitoring
