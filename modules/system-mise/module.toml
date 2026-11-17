@@ -4,8 +4,3 @@ scope = "system"
 
 [dotfiles]
 "/etc/mise/config.toml" = { source = "etc/mise/config.toml", mode = "copy" }
-
-[hooks]
-pre = [
-    "sudo mkdir /etc/mise"
-]
