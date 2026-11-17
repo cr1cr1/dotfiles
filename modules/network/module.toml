@@ -37,8 +37,10 @@ present = [
   "aur/sping-rs-bin", # A modern, cross-platform ping with real-time diagnostics, network context, quality scoring, and multi-target monitoring
 ]
 
+[services.sshd]
+scope = "system"
+
 [hooks]
 post = [
-  "sudo systemctl enable sshd",
   "sudo systemctl restart sshd",
 ]

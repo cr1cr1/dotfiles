@@ -8,25 +8,24 @@ scope = "system"
 "/usr/local/lib/systemd/system/mnt-linux4.mount" = { source = "usr/local/lib/systemd/system/mnt-linux4.mount", mode = "copy" }
 "/usr/local/lib/systemd/system/mnt-ventoy.mount" = { source = "usr/local/lib/systemd/system/mnt-ventoy.mount", mode = "copy" }
 
+[services."mnt-win-c.mount"]
+
+[services."mnt-linux1.mount"]
+
+[services."mnt-linux2.mount"]
+
+[services."mnt-linux3.mount"]
+
+[services."mnt-linux4.mount"]
+
+[services."mnt-ventoy.mount"]
+
 [hooks]
 post = [
-  "sudo systemctl daemon-reload",
-
   "sudo mkdir -p /mnt/win/c",
-  "sudo systemctl enable --now mnt-win-c.mount",
-
   "sudo mkdir -p /mnt/linux1",
-  "sudo systemctl enable --now mnt-linux1.mount",
-
   "sudo mkdir -p /mnt/linux2",
-  "sudo systemctl enable --now mnt-linux2.mount",
-
   "sudo mkdir -p /mnt/linux3",
-  "sudo systemctl enable --now mnt-linux3.mount",
-
   "sudo mkdir -p /mnt/linux4",
-  "sudo systemctl enable --now mnt-linux4.mount",
-
   "sudo mkdir -p /mnt/ventoy",
-  "sudo systemctl enable --now mnt-ventoy.mount",
 ]

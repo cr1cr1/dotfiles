@@ -10,10 +10,13 @@ present = [
 "/etc/snapper/configs/home" = { source = "home/etc/snapper/configs/home", mode = "copy" }
 "/etc/snapper/configs/root" = { source = "home/etc/snapper/configs/root", mode = "copy" }
 
+[services."snapper-timeline.timer"]
+
+[services."snapper-cleanup.timer"]
+
+[services."snapper-boot.timer"]
+
 [hooks]
 post = [
   "sudo systemctl restart snapperd",
-  "sudo systemctl enable --now snapper-timeline.timer",
-  "sudo systemctl enable --now snapper-cleanup.timer",
-  "sudo systemctl enable --now snapper-boot.timer",
 ]

@@ -4,5 +4,5 @@ scope = "system"
 [dotfiles]
 "/etc/plasmalogin.conf" = { source = "home/etc/plasmalogin.conf", mode = "copy" }
 
-[hooks]
-post = ["sudo systemctl enable --now plasmalogin"]
+[services.plasmalogin]
+

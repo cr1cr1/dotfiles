@@ -40,11 +40,23 @@ present = [
   "inotify-tools", # inotify-tools is a C library and a set of command-line programs for Linux providing a simple interface to inotify.
 ]
 
-[hooks]
-post = [
-  "sudo systemctl enable --now power-profiles-daemon",
-  "sudo systemctl enable --now switcheroo-control",
-  { command = "sudo systemctl disable --now ananicy-cpp", optional = true },
-  { command = "sudo systemctl disable --now plocate-updatedb.timer", optional = true },
-  { command = "sudo systemctl disable --now plocate-updatedb.service", optional = true },
-]
+[services.power-profiles-daemon]
+scope = "system"
+
+[services.switcheroo-control]
+scope = "system"
+
+[services.ananicy-cpp]
+scope = "system"
+state = "stopped"
+enabled = false
+
+[services."plocate-updatedb.timer"]
+scope = "system"
+state = "stopped"
+enabled = false
+
+[services."plocate-updatedb.service"]
+scope = "system"
+state = "stopped"
+enabled = false

@@ -6,7 +6,5 @@ present = [
   "netbird-networkmanager-plugin" # NetworkManager VPN plugin for NetBird
 ]
 
-[hooks]
-post = [
-    "sudo systemctl enable --now netbird@main.service || true"
-]
+[services."netbird@main"]
+scope = "system"

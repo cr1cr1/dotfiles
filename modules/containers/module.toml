@@ -18,9 +18,4 @@ present = [
 "~/.config/containers/cli-proxy-api/plugins" = { source = "home/.config/containers/cli-proxy-api/plugins", mode = "symlink" }
 #"~/.config/containers/cli-proxy-api/config.yaml" = { source = "home/.config/containers/cli-proxy-api/config.yaml", mode = "symlink" }
 
-[hooks]
-post = [
-  "systemctl --user daemon-reload",
-  "systemctl --user enable containers.service",
-  "systemctl --user restart containers.service",
-]
+[services.containers]

@@ -15,11 +15,10 @@ present = [
 "~/.dsh/catppuccin-state.json" = { source = "home/.dsh/catppuccin-state.json", mode = "symlink" }
 "~/.local/share/applications/deepseek-harness.desktop" = { source = "home/.local/share/applications/deepseek-harness.desktop", mode = "symlink" }
 
+[services.dsh]
+
 [hooks]
 post = [
   "modules/dsh/src/generate-icons.sh modules/dsh/src/deepseek.png",
   "update-desktop-database $HOME/.local/share/applications",
-  "systemctl --user daemon-reload",
-  "systemctl --user enable dsh.service",
-  "systemctl --user restart dsh.service",
 ]

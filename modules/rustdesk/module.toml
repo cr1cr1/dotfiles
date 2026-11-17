@@ -7,5 +7,7 @@ present = [
 [dotfiles]
 "~/.config/rustdesk" = { source = "home/.config/rustdesk", mode = "symlink-each" }
 
-[hooks]
-post = ["sudo systemctl disable --now rustdesk"]
+[services.rustdesk]
+scope = "system"
+state = "stopped"
+enabled = false

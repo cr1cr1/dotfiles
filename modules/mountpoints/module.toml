@@ -9,16 +9,15 @@ scope = "system"
 "/usr/local/lib/systemd/system/mnt-synology-shared.mount" = { source = "usr/local/lib/systemd/system/mnt-synology-shared.mount", mode = "copy" }
 "/usr/local/lib/systemd/system/mnt-synology-shared.automount" = { source = "usr/local/lib/systemd/system/mnt-synology-shared.automount", mode = "copy" }
 
+[services."mnt-synology-syn01.automount"]
+
+[services."mnt-synology-syn02.automount"]
+
+[services."mnt-synology-shared.automount"]
+
 [hooks]
 post = [
-  "sudo systemctl daemon-reload",
-
   "sudo mkdir -p /mnt/synology/syn01",
-  "sudo systemctl enable --now mnt-synology-syn01.automount || true",
-
   "sudo mkdir -p /mnt/synology/syn02",
-  "sudo systemctl enable --now mnt-synology-syn02.automount || true",
-
   "sudo mkdir -p /mnt/synology/shared",
-  "sudo systemctl enable --now mnt-synology-shared.automount || true",
 ]

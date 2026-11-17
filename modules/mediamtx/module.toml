@@ -9,7 +9,4 @@ present = [
 "~/.config/systemd/user/mediamtx.service" = { source = "home/.config/systemd/user/mediamtx.service", mode = "copy" }
 "~/.config/mediamtx.yml" = { source = "home/.config/mediamtx.yml", mode = "symlink" }
 
-[hooks]
-post = [
-  "systemctl --user daemon-reload",
-]
+[services.mediamtx]

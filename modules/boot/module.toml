@@ -19,12 +19,13 @@ absent = [
 "/etc/boot/hooks/post.d/91-catppuccin-mocha-theme" = { source = "etc/boot/hooks/post.d/91-catppuccin-mocha-theme", mode = "copy" }
 "/etc/default/limine/esp-path" = { line = 'ESP_PATH="/boot"' }
 
+[services.limine-snapper-sync]
+
 [hooks]
 post = [
   "sudo chmod +x /etc/boot/hooks/post.d/91-catppuccin-mocha-theme",
   "sudo /etc/boot/hooks/post.d/91-catppuccin-mocha-theme",
   "sudo limine-install",
   "sudo limine-mkinitcpio",
-  "sudo systemctl enable --now limine-snapper-sync.service",
   "sudo limine-snapper-sync",
 ]
