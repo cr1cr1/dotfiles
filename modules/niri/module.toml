@@ -2,8 +2,6 @@ description = "Scrollable-tiling Wayland compositor with companion tooling (clip
 
 [packages]
 present = [
-  "aur/qt5ct-kde", # Qt 5 Configuration Utility, patched to work correctly with KDE applications
-  "aur/qt6ct-kde", # Qt 6 Configuration Utility, patched to work correctly with KDE applications
   "cliphist", # Wayland clipboard history manager
   "niri", # A scrollable-tiling Wayland compositor
   "playerctl", # mpris media player controller and lib for spotify, vlc, audacious, bmp, xmms2, and others.
