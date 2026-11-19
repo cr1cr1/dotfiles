@@ -19,6 +19,7 @@ present = [
 
 [hooks]
 post = [
+  "p=$(command -v dsh) && rm -vfr \"$(dirname \"$p\")/../node_modules/@deepseek-ai/dsh-harness-dev-context\"",
   "systemctl --user daemon-reload",
   "systemctl --user restart dsh.service",
   "modules/dsh/src/generate-icons.sh modules/dsh/src/deepseek.png",
